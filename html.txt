@@ -1,0 +1,8733 @@
+8-903-750-39-60
+tania_pimoshenko@mail.ru
+Кубышина Татьяна
+Интернет программирование 48 часов 12 занятий
+Сетевые базы данных MySQL 24 часа 6 занятий
+Программирование С/С++ 24 часа, 6 занятий не читаем
+
+Язык гипертекстовой разметки
+HyperText Markup Language - HTML
+w3.org Спецификация HTML 5.х
+
+htmlbook.ru
+mysql.com
+php.net
+в первой строке стоит ссылка на офиц. версию
+имя.html или имя.htm
+<!DOCTYPE html>
+<html что-то еще>
+    <head>
+      <title>Заголовок окна</title>
+         <meta.........>
+         <meta.........>
+         <meta.........>
+  скрипты
+   </head>
+ скрипты
+  <body>
+ отображаемое содержимое
+  </body>
+</html>
+
+
+index.html
+http://w3.org
+
+<HTML атрибут="значение" атрибут1="значение1"....>
+DIR = "LTR"|"RTL"
+LANG
+ru
+TITLE
+STYLE
+CLASS
+ID
+события (onClick="script", onMouseOver..)
+
+HEAD
+Артибуты те, что у всех.
+TITLE
+<title>Заголовок окна</title>
+Артибуты те, что у всех.
+
+BODY
+ALINK="#rrggbb" (000000-ffffff)
+LINK="red" (#ff0000)
+VLINK="white" (#ffffff)
+BACKGROUND="image/file.jpg"
+BGCOLOR="#rrggbb"
+BGPROPERTIES="fixed"
+BOTTOMMARGIN="число", "число%"
+TOPMARGIN
+LEFTMARGIN
+RIGHTMARGIN
+SCROLL="Yes"|"No"
+TEXT="#rrggbb"|"black"
+
+Абзац
+P
+<p align=”center”>Отображаемый текст абзаца</p>
+<p>Еще абзац
+align="center"|"left"|"right"
+<center>ggggg</center>
+
+<p>hhh<b>gjhjh</p>
+<p>hkkjkj</b>
+
+b - bold(жирный)
+i - italic (курсив)
+u - underline (подчеркнутый)
+s - stike (перечеркнутый)
+strong - усиленный
+<b><i>Жирный</i></b> <i>курсив</i>
+&nbsp;&nbsp;&nbsp;
+&laquo;&raquo;
+<br> перенос строки
+clear = "all"|"left"|"right"|"none"
+
+H1,H2....H6
+<h1>Заголовок</h1>
+align = "center"|"right"|"left"
+
+FONT
+color ="#rrggbb"|"red"
+face="Arial"
+face=”Times New Roman”
+point-size="число"
+size="число" 1....7
+size="+1"
+size="-2"
+weight="0....9"
+<font size="7" color="red" face="Arial" weight=”9”>Крупный красный текст</font>
+
+big, small
+<big>текст стал покрупнее</big> <small>текст стал помельче</small>
+sub, sup - нижний и верхний индекс
+x<sup>2</sup>   x2
+H<sub>2</sub>O   H2O
+
+HR горизонтальная линия
+<hr>
+color="#rrggbb"|"red"
+width="число"|"число%" длина линии
+size="число" толщина в пикселях
+NOSHADE - одинарная линия
+notepad++
+В текстовом редакторе создать текстовый документ, назвать его имя.html, в нем тренируемся
+Заголовки для каждого упражнения
+Упражнения: 
+1. текст, у которого используется жирный шрифт, курсив....
+2. текст, у которого используется разный шрифт по цвету, по наименованию шрифта, размеру
+3. текст, у которого используется верхний и нижний индекс.
+Еще можно нарисовать линии горизонтальные
+<html>...
+<body>
+<h1> Заголовок первого упражнения</h1>
+<p>текст текст текст <b>жирный текст</b>...
+.
+<hr size=...>
+<h1><font color=...>Заголовок второго упражнения</font></h1>
+.
+.
+</body><html>
+
+htmlbook.ru
+
+Метки и гиперссылки
+anchor
+Элемент A 
+name
+href
+
+<a name="n1"> </a>
+<a name="N1"> </a>
+<a href="#n1">ссылка на метку</a>
+<a href="index.html#n1">ссылка на метку в другом файле</a>
+
+<a href="http://www.yandex.ru">ссылка на Яндекс</a>
+
+http://
+ftp://
+mailto:
+<a href="mailto:vasia@mail.ru">Vasia Pupkin</a>
+<a href="/dir/index.html" accesskey="c">cсылка на главную (нажать alt+C)</a>
+<a href="index.html" accesskey="c"><font ...>C</font>сылка на главную</a>
+<a href="/">ссылка на главную</a>
+"/index.html"
+"/file.html"
+"image/file.jpg"
+"../image/file.html"
+
+accesskey="буква"
+accesskey="c"
+target="имя окна"|"_parent"|"_blank"|"_top"|"_self"
+
+
+Оглавление
+Глава 1
+Глава 2
+Глава 3
+
+Глава 1
+
+много текста
+
+
+Глава 2
+
+много текста
+
+Глава 3
+
+много текста
+
+<a name="a1"> </a>
+<a name="a0"><h1>Оглавление</h1></a>
+<a href="#a1">Глава 1</a><br>
+<a href="#a2">Глава 2</a><br>
+<a href="#a3">Глава 3</a><br>
+
+<a name="a1"><h2>Глава 1</h2></a>
+
+много текста
+<a href="#a0">назад</a>
+<a name="a2"><h2>Глава 2</h2></a>
+
+много текста
+
+<a name="a3"><h2>Глава 3</h2></a>
+много текста
+
+
+
+
+Списки
+Неупорядоченные списки
+Упорядоченные списки
+Списки определений
+
+элемент UL
+UNORDERED LIST
+LI LIST ITEM
+<ul>
+<li>пункт 1
+<li> пункт 2</li>
+<li> пункт 3</li>
+</ul>
+
+
+Пункт 1
+Пункт 2
+Пункт 3 
+
+<ul type=”disc”>
+<li><ul>другой список</ul></li>
+<li> пункт 2</li>
+<li> пункт 3</li>
+</ul>
+
+List item
+
+UL
+type “disc”|”circle”|”square”
+compact
+
+ORDERED LIST
+OL
+
+<ol type="i">
+<li> пункт 1
+<li> пункт 2</li>
+<li> пункт 3</li>
+<li> пункт 4</li>
+</ol>
+
+i. Пункт 1
+ii. Пункт 2
+iii. Пункт 3 
+iv. Пункт 4 
+List item
+OL
+type “1”|”a”|”A”|”i”|”I”
+compact
+a. Пункт 1
+b. Пункт 2
+c. Пункт 3 
+
+A. Пункт 1
+B. Пункт 2
+C. Пункт 3 
+
+i. Пункт 1
+ii. Пункт 2
+iii. Пункт 3 
+iv. Пункт 4
+
+I. Пункт 1
+II. Пункт 2
+III. Пункт 3 
+IV. Пункт 4
+
+start =”число” – с чего начинать список
+
+li
+value=”число”
+
+<ol type=”a”>
+<li>пункт 1</li>
+<li value=”4”> пункт 2</li>
+<li> пункт 3</li>
+<li> пункт 4</li>
+</ol>
+
+a. Пункт1
+d. Пункт 2
+e. Пункт 3 
+f.  Пункт 4
+Списки определений
+Definition list, definition title, definition determinate
+<dl>
+<dt>Наименование термина</dt>
+<dd>Описание термина</dd>
+<dt>Наименование термина 2</dt>
+<dd>Описание термина 2</dd>
+<dt>Наименование термина 3</dt>
+<dd>Описание термина 3</dd>
+</dl>
+Наименование термина 
+	Описание термина
+Наименование термина  2
+	Описание термина 2
+Наименование термина  3
+	Описание термина 3
+
+<dl>
+<dt>Урок математики
+<dd>На уроке рассматриваются квадратные уравнения</dd>
+<dt>Урок физики</dt>
+<dd>На уроке рассматривается закон Ньютона</dd>
+</dl>
+<!--комментарий-->
+Ингредиенты
+100 г муки
+   10 г сахара
+   1 стакан воды
+   2 яйца
+   Соль, перец
+Процедура
+1.Тщательно смешать сухие ингредиенты
+2.Влить жидкие
+3.Смешивать 10 минут
+4.Выпекать в течение часа при температуре 300 градусов
+Примечания
+	Можно добавить изюм
+
+
+notepad++
+Формы
+<form
+ action=”script.php”
+ method=”POST”
+ enctype=”application/x-www-form-urlencoded”
+ target=”_blank”
+ name=”имя формы”>   
+<p> Введите фамилию<br>
+<input type=”text” name=”familia”>
+<input type=”submit”>
+</form>
+method=”POST”|”GET”
+http://www.domain.ru/script.php?familia=asdfg&name=qwer&data=11111
+enctype=”application/x-www-form-urlencoded” default
+enctype=”multipart/form-data” для передачи файлов
+
+Управляющие элементы
+input
+type = “checkbox”|”file”|”hidden”|”image”|”password”|
+
+”radio”|”reset”|”submit”|”text”|”button”
+
+name=”имя переменной”
+value=”Значение переменной”
+On
+name="nn"
+nn_x nn_y
+<input type="image" name="nn" src=”image/file.jpg”>
+
+checked
+<input type="checkbox" name="ch" checked>
+
+<input type="radio" name="r1" checked value="1">
+<input type="radio" name="r1" value="2">
+
+disabled
+readonly
+
+size=”число”
+maxlenght=”число”
+src=”file.jpg”
+alt=”текст вместо картинки”
+tabindex=”число”
+accesskey=”буква”
+
+<tr><td><input tabindex="1" name="n1"><td><input tabindex="10" name="n10"></tr>
+index.html
+<form action=”script.php” method=”POST”>
+<p>Введите имя:
+<input type=”text” name=”ima”>
+<p>Введите ваш пол: <br>
+<input type=”radio” name=”pol” value=”M”>M<br>
+<input type=”radio” name=”pol” value=”F” checked>Ж<br>
+<input type=”submit” value=”отправить”>
+</form>
+
+select
+<select name=”sel1”>
+<option value=”0”>ничего не выбрано</option>
+<option value=”1”>пункт 1</option>
+<option value=”2”>пункт 2</option>
+<option value=”3”>пункт 3</option>
+<option value=”4”>пункт 4</option>
+</select>
+
+<select name=”sel2” multiple>
+<option>выберите пункт</option>
+<option value=”1”   label=”П1”>пункт 1</option>
+<option value=”2” selected>пункт 2</option>
+<option value=”3”>пункт 3</option>
+<option value=”4”>пункт 4</option>
+</select>
+
+name=”имя переменной”
+size=”число”
+multiple
+disabled
+readonly
+tabindex
+
+option
+
+value=”значение переменной”
+disabled
+readonly
+label=”Метка”
+selected
+
+optgroup
+
+
+<select name=”sel1”>
+<optgroup label=”группа 1”>
+<option value=”1” label=”П1”>пункт 1</option>
+<option value=”2”>пункт 2</option>
+</optgroup>
+<optgroup label=”группа 2”>
+<option value=”3”>параграф 1</option>
+<option value=”4”>параграф 2</option>
+</optgroup>
+</select>
+
+<!-- комментарий -->
+<!-- комментарий  может занимать
+несколько строк -->
+
+
+textarea
+
+<textarea rows=”10” cols=”20” name=”text1”>
+Предварительный      текст
+Вторая строка
+</textarea>
+disabled
+readonly
+tabindex
+accesskey
+
+Задание:
+Сделать форму приема нового товара.
+Прием товара
+Наименование товара: (текстовое поле)
+Количество товара:(текстовое поле)
+Цена товара:(текстовое поле)
+Единица измерения:(селект)
+Отдел:(селект)
+Описание товара:(текстовое поле textarea)
+
+
+Сорт товара:(радиокнопки)
+1
+2
+3
+Товар поступил впервые: (чекбокс) очистить   принять (кнопки)
+
+
+
+
+
+
+
+
+img
+изображение на странице.
+<img src="image/file.jpg">
+RGB
+не в CMYK
+width="число"
+height="число%"
+border="число"
+alt="надпись вместо картинки"
+title="название элемента"
+align="right"|"left"|"none"
+
+skv2003@yandex.ru прислать Светлане.
+
+Фреймы
+<frameset cols="20%,80%" rows="30%,70%">
+<frame src="1.html">
+<frame src="2.html">
+<frame src="3.html">
+<frame src="4.html">
+</frameset>
+
+cols="100,200"
+cols="1*,250,3*"
+
+<frameset cols="20%,80%">
+<frame src="1.html" name="f1">
+<frameset rows="30%,70%">
+<frame src="2.html" name="f2">
+<frame src="3.html" name="f3">
+</frameset>
+<noframes>
+<p>На этой странице фреймы:
+<ul>
+<li><a href="1.html">первый</a>
+<li><a href="2.html">второй</a>
+<li><a href="3.html">третий</a>
+</ul>
+</noframes>
+</frameset>
+
+1.html:
+<h1>Меню</h1>
+<a href="tovar.html" target="f3">Прием товара</a><br>
+<a href="client.html" target="f3">Новый клиент</a><br>
+<a href="sale.html" target="f3">Продажа товара</a><br>
+<a href="catalog.html" target="f3">Каталог товаров</a><br>
+
+<a href="catalog.html" target="_top">убрать фреймы</a>
+
+catalog.html:
+<h1>Каталого товаров</h1>
+<p>Раздел в разработке
+
+атрибуты frameset
+border="число"
+bordercolor="#ffffff"
+frameborder="yes"|"no"|"1"|"0"
+
+атрибуты frame:
+bordercolor="#ffffff"
+frameborder="yes"|"no"|"1"|"0"
+marginheight="число"
+marginwidth="число"
+scrolling="auto"|"yes"|"no"
+noresize
+
+<center>dhfdkdgj</center>
+
+Таблицы
+Ячейка 1
+Ячейка 2
+Ячейка 3
+Ячейка 4
+
+<table border=”1”>
+<tr><td>ячейка 1</td>
+<td>ячейка 2</td></tr>
+<tr><td>ячейка 3</td>
+<td>ячейка 4</td></tr>
+</table>
+tablе
+width=”число”|”число%”
+border=”число”
+frame=”void”|”above”|”below”|”hsides”|”vsides”|
+“lhs”|”rhs”|”box”|”border”
+rules=”none”|”groups”|”rows”|”cols”|”all”
+cellpadding=”число”
+cellspacing=”число”
+align=”center”|”left”|”right”
+bgcolor=”#xxxxxx”
+background=”file.jpg”
+bordercolor=”#ffffff”
+valign=”top”|”bottom”|”middle”
+
+tr
+bgcolor=”#xxxxxx”
+align=”center”|”right”|”left”|”justify”
+nowrap
+height=”число”|”число%”
+
+td
+width=”число”|”число%”
+height=”число”|”число%”
+align=”center”|”left”|”right”|”justify”
+bgcolor=”#xxxxxx”
+background=”file.jpg”
+valign=”top”|”bottom”|”middle”
+nowrap
+colspan=”число”
+rowspan=”число”
+
+th (table header)
+
+Ячейка1
+Ячейка 2
+Ячейка3
+Ячейка4
+Ячейка5
+Ячейка6
+Ячейка7
+
+
+8
+9
+10
+<table border=”1” width=”400”>
+<tr><th colspan=”2” width=”200”>ячейка1</th>
+<th width=”100”> ячейка2</th>
+<th width=”100”> ячейка3</th></tr>
+<tr><td width=”100”> ячейка4</td>
+<td colspan=”2” rowspan=”2” width=”200”> ячейка5</td>
+<td rowspan=”2”> ячейка6</td></tr>
+<tr><td width=”100”>ячейка7</td></tr>
+<tr height=”1”><td width=”100”> </td><td width=”100”> </td>
+<td width=”100”> </td><td width=”100”> </td></tr>
+</table>
+
+<table border=”1”>
+<caption align=”top”>Заголовок</caption>
+<tr><th colspan=”2” width=”150”>ячейка1</th>
+<th width=”50”> ячейка2</th>
+<th> ячейка3</th></tr>
+<tr><td width=”50”> ячейка4</td>
+<td colspan=”2” rowspan=”2” width=”150”> ячейка5</td>
+<td rowspan=”2”> ячейка6</td></tr>
+<tr><td width=”50”>ячейка7</td></tr></table>
+
+caption
+align=”top”|”bottom”|”left”|”right”
+
+&nbsp;
+
+Группы строк
+<thead>….</thead>
+<tfoot>….</tfoot>
+<tbody>….</tbody>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table  rules=”groups” border=”0”>
+<caption>Заголовок</caption>
+<thead><tr><td>ячейка 1</td>
+<td>ячейка 2</td></tr></thead>
+<tfoot><tr><td>ячейка 7</td>
+<td>ячейка 8</td></tr></tfoot>
+<tbody>
+<tr><td>ячейка 3</td>
+<td>ячейка 4</td></tr>
+<tr><td>ячейка 5</td>
+<td>ячейка 6</td></tr>
+</tbody></table>
+
+
+
+<table  rules=”groups”>
+<caption>Заголовок</caption>
+<colgroup>
+<col span=”1” width=”140”>
+<col span=”1” width=”100”>
+</colgroup>
+<thead><tr><td>ячейка 1</td>
+<td>ячейка 2</td></tr></thead>
+<tfoot><tr><td>ячейка 7</td>
+<td>ячейка 8</td></tr></tfoot>
+<tbody>
+<tr><td>ячейка 3</td>
+<td>ячейка 4</td></tr>
+<tr><td>ячейка 5</td>
+<td>ячейка 6</td></tr></tbody></table>
+
+<colgroup span=”число” width=”число”></colgroup>
+
+<colgroup span=”3” width=”100”></colgroup>
+<colgroup span=”2” width=”50”></colgroup>
+<tr>......
+
+<colgroup>
+<col span=”2” width=”140”>
+<col span=”1” width=”180”>
+</colgroup>
+<colgroup span=”2” width=”50”></colgroup>
+<tr>...
+
+
+
+
+
+
+
+dfdfdg
+dgfdg
+dfgfdg
+
+
+fdg
+fdg
+
+fdgdfg
+fdgfdg
+fg
+dfg
+
+dsfdsfdsf
+
+fdg
+fg
+
+
+
+fgfdggfdgdfg
+dgdfg
+dfgdfg
+
+
+dsgdsg
+
+dfgdfgfdg
+fgfdgfdg
+dfgdfg
+fdgfdg
+
+
+dg
+fdgdfg
+dfgdsg
+
+
+fdgdfgd
+fdgdfg
+dfgdfg
+
+
+dfgdfg
+dfgdf
+dsfdsfdsfsdf
+fdgdfgd
+dfsgsdg
+dsfdsfdsf
+
+
+dfgdg
+fdgdfg
+
+
+
+
+CSS Cascading Style Sheets
+Таблицы каскадных стилей
+w3.org 
+спецификация CSS2
+CSS3 пока можно не рассматривать, по желанию.
+
+Селектор
+Селектор {свойство1:значение1;свойство2:значение2; свойство3:значение3;}
+H1{color:red;font-size:20pt;font-weight:bold;}
+
+В HTML:
+<H1>Это жирный красный заголовок</H1>
+
+Классовый селектор
+
+Атрибут Class элементов HTML
+Селектор.класс{ свойство1:значение1; свойство2:значение2;}
+H1.blue{color:blue;}
+
+<h1 class=”blue”>Это синий заголовок</h1>
+
+.класс{ свойство1:значение1; свойство2:значение2;}
+.nonbold {font-weight:normal;}
+p {font-weight:bold;}
+<h1 class=”nonbold”>Это не жирный заголовок</h1>
+<p class=”nonbold”>Это нежирный текст</p>
+
+ID-селекторы
+ID атрибут HTML
+
+#id{ свойство1:значение1; свойство2:значение2;}
+#boldunderline{font-weight:bold;text-decoration:underline;}
+Body{свойство:значение;…..}
+<p id=”boldunderline” class=”blue”>Это жирный подчеркнутый абзац</p>
+
+Контекстуальные селекторы -
+Зависящие от контекста
+
+td p{свойство:значение;………} 
+td p{color:red;margin-top:20px;}
+th p{color:black;margin-top:20px;font-weight:bold;}
+
+<table><tr><td><p>Это абзац внутри ячейки – он красный</td>
+</tr></table>
+<p>А этот не красный – он не в ячейке</p>
+
+div.big p{font-size:18pt;}
+div.big p.small{font-size:8pt;}
+.big p.small{font-size:18pt;}
+.big .small{font-size:18pt;} 
+tfoot td{font-weight:bold;}
+
+h1,h2,h3,p.big{color:blue;font-size:18pt;}
+h1{color:red;}
+h1{font-size:10pt;}
+
+
+Псевдоклассы и псевдоэлементы
+
+Селектор:псевдокласс{}
+Селектор.класс:псевдокласс{}
+Селектор:псевдоэлемент{}
+Селектор.класс:псевдоэлемент{}
+
+<a href=”….>
+link
+active
+visited
+hover
+
+a:link,a:visited{color:red;font-weight:bold;text-decoration:none;}
+a:hover,a:active{text-decoration:underline;}
+
+first-line
+first-letter
+p:first-line{color:red;font-size:20pt;}
+h1:first-letter{font-size:32pt;}
+
+Внедрение таблиц стилей в документ
+
+Внутренние
+Глобальные
+Связанные
+
+Внутренние
+style – атрибут HTML
+
+<font color=”blue” size=”3” face=”Arial”>Это пример HTML</font><br>
+<font style=”color:blue;font-size:12pt;font-family:Arial;”>Это пример CSS</font><br>
+
+<font style=”color:blue;font-size:12pt;font-family:Arial;border-top:1px dotted red;”>Это пример CSS</font><br>
+
+Глобальные
+<html>
+<head><title>Пример глобальных стилей</title>
+</head>
+<style type="text/css">
+H1{color:red;font-size:20pt;}
+.blue {color:blue}
+#boldunderline{font-weight:bold;text-decoration:underline;}
+</style>
+<body>
+<!--Это комментарий он может много строк занимать-->
+<h1>Это заголовок большой и красный</h1>
+Это слово <font class="blue">синее</font>, а это <font id="boldunderline">жирное-подчеркнутое</font>
+</body>
+</html>
+
+
+Связанные
+Файл.css
+styles.css Имя файла нашего, 
+А это его содержимое:
+
+<style type=”text/css”>
+H1{color:red;font-size:20pt;}
+H1{color:red;font-size:20pt;}
+.blue {color:blue}
+#boldunderline{font-weight:bold;text-decoration:underline;}
+</style>
+_____________________
+А это содержимое файла index.html:
+<html>
+<head><title>Пример связанных таблиц</title></head>
+<link rel=”stylesheet” type=”text/css” href=”styles.css”>
+<body><h1>Это заголовок большой и красный</h1>
+Это слово <font class=”blue”>синее</font>, а это <font id=”boldunderline”>жирное-подчеркнутое</font>
+</body></html>
+
+Свойства Font
+font-family:имя шрифта
+
+font-family:Arial Black URL('file.ttf');
+
+@font-face {font-family: 'PT Sans Narrow';
+	src: url('/ptn57f_w.eot');
+	src: local('PT Sans Narrow'), url('/PTN57F_W.woff') format('woff'),url('/PTN57F_W.ttf') format('truetype'), url('/PTN57F_W.svg#PTSans-Narrow') format('svg');}
+
+@font-face{
+font-family: PT DIN Condensed;
+src: url('/DINConC.ttf') format('truetype');
+
+}
+
+font-style:normal|italic
+
+font-style:italic;
+<i>текст</i>
+
+font-variant:normal|small-caps
+
+font-weight:normal | bold | bolder | lighter | число от 100 до 900
+
+font-size: размер | xx-small | x-small | small | medium | large 
+                 x-large | xx-large | smaller | larger
+
+font-size:12pt;
+
+font: italic bold Arial 12pt;
+
+текст
+
+word-spacing:размер | normal
+text-decoration: none | underline | overline | line-through | blink
+
+letter-spacing: размер | normal
+
+vertical-align: baseline | sub | super | top-text | top | middle |
+                       bottom | bottom-text | процент (число%)
+
+vertical-align:50%
+
+text-transform: none | Capitalize | UPPERCASE | lowercase
+
+td { text-transform: Capitalize; }
+
+text-align: left | right | center | justify
+
+line-height:normal | число% | размер
+
+line-height:2.2em;
+
+Color&Background
+
+color: цвет | #xxxxxx;
+backgroung-color:цвет|#xxxxxx;
+background-image:none | URL('image/file.jpg')
+
+background-image:URL('file.jpg');
+
+background-repeat: repeat | repeat-x | repeat-y | no-repeat
+background-attachment:fixed | scroll
+background-position: процент_ширины процент_высоты |
+                                   Top | middle | bottom
+                                    Left | right |center
+Расстояние_от_левого_края Расстояние_от_верхнего_края														
+background-position: top left;
+background-position:50% 50%;
+background-position:100px 200px;
+
+background: #c235aa URL(‘dd.gif’) fixed 50% 50% no-repeat;
+
+Margin&Padding
+
+margin-top:размер | процент% | auto
+margin-bottom:
+margin-left:
+margin-right:
+
+margin:10px;
+margin:10px 20px;
+margin:10px 20px 5px 0px;
+
+padding-top:размер | процент% | auto
+padding-bottom:
+padding-left:
+padding-right:
+
+padding: 10px;
+padding: 10px 20px;
+padding: 10px 20px 30px 40px;
+
+Рамки
+
+border
+border-top-width:число| thin| thick |medium
+border-bottom-width:
+border-left-width:
+border-right-width:
+border-width: 1px 2px 1px 3px;
+border-color:цвет;
+border-top-color:...
+border-style:dotted|dashed|solid|double|groove|ridge|inset|outset
+
+border-top:1px solid black;
+border:2px dashed red;
+
+widht: число|процент%
+height: число|процент%
+
+float:left|right|none
+
+img{float:right;}
+
+<img src="file.jpg"> Текст, который там обтекает картинку
+
+Меры длины
+
+px пиксели
+in дюймы
+cm сатниметр
+mm миллиметр
+pt поинт - точка 1pt=1/72in
+pc пики - picas (1pc=12pt)
+
+число%
+
+Цвета
+red
+orange
+#rrggbb  - #00cc00
+rgb(x,x,x) -  rgb(0,200,0) 
+#rgb  -  #0c0
+rgb(x% x%x%) - rgb(0%80%0%)
+
+input{width:200px;}
+
+
+td.red {color:#ffffff;background-color:#ff0000;}   CSS
+
+<td class="red">ячейка 1</td>  HTML
+
+Реляционные базы данных
+Кодд автор реляционной модели
+Реляционная модель:
+Информация должна быть представлена в виде таблиц
+Поддерживать логическую структуру независимо от физического представления
+Поддерживать язык SQL
+Поддерживать основные реляционные операции (выбор, проектирование, обьединение)
+Поддерживать виртуальные таблицы
+Различать NULL
+Обеспечивать механизм поддержания целостности, авторизации и восстановления.
+
+Проектирование базы данных
+Выбор: 
+1. таблиц, 
+2. столбцов в таблице
+3.  взаимосвязей.
+ Нормальные формы
+1.Первая нормальная форма
+2. Вторая нормальная форма
+Неключевой столбец должен зависеть от полного первичного ключа.
+3.Третья нормальная форма.
+Любой неключевой столбец не может зависеть от другого неключевого столбца.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Синтаксис языка SQL
+
+DDL
+DML
+CREATE DATABASE
+INSERT
+CREATE TABLE
+DELETE
+DROP DATABASE
+UPDATE
+DROP TABLE
+SELECT
+ALTER TABLE…….
+
+Data Definition Language		Data Manipulation Language
+
+CREATE DATABASE имя_базы [ [DEFAULT] CHARACTER SET имя_кодировки | [DEFAULT] COLLATE имя_collation];
+utf8
+utf8_general_ci
+
+mysql -u root -p
+
+
+сreate database shop;
+
+………../data/shop/db.opt
+
+show databases;
+
+
+DROP DATABASE имя_базы;
+drop database shop1;
+
+shop.tovar
+
+use имя_базы;
+use имя_базы
+use shop;
+
+CREATE TABLE имя_таблицы
+ (имя_поля1 тип_поля1 параметры,
+имя_поля2 тип_поля2 параметры,
+имя_поля3 тип_поля3 параметры,……) дополнительные опции таблицы;
+
+ТИПЫ ДАННЫХ
+
+Числовые типы
+Целые числа
+
+BIT[(M)] битовый тип (возможно хранить 1 бит)
+BIT == BIT(1) 
+BIT
+BIT(2)
+BIT(64) максимальное значение
+
+TINYINT[(M)] крошечное целое, 1 байт,  -128…127
+TINYINT[(M)] UNSIGNED 				0….255
+TINYINT(2) -99....99
+TINYINT(1) -9....9
+
+BOOL, BOOLEAN булевый тип – синоним типа TINYINT(1)
+
+0 – false
+1,2,3…. – true
+
+SMALLINT [(M)] маленькое целое, 2 байта, -32768…32767
+SMALLINT [(M)] UNSIGNED 				0….65535
+
+MEDIUMINT [(M)] среднее целое, 3 байта, -8388608..8388607
+MEDIUMINT [(M)] UNSIGNED 				0….16777215
+
+INT [(M)] целое, 4 байта, 
+INT [(M)] UNSIGNED 				0….4294967295
+INTEGER[(M)] синоним INT
+
+int(5) 99999 3 байт
+smallint(5) 32767 2 байт
+
+BIGINT [(M)] большое целое, 8 байт, 
+BIGINT [(M)] UNSIGNED 		0….18446744073709551615
+SERIAL псевдоним для:
+BIGINT UNSIGNED NOT NULL AUTO_INCREMENT UNIQUE
+
+INT(5) ZEROFILL 
+7     00007
+  12	   00012
+
+Числа с плавающей точкой
+
+FLOAT[(M,D)] [UNSIGNED] [ZEROFILL] 4байта,
+-3.402823466Е+38…-1.175494351Е-38
+1.175494351Е-38…3.402823466Е+38 точность примерно 7 десятичных знаков
+
+DOUBLE[(M,D)] [UNSIGNED] [ZEROFILL] 8 байта,
+Точность 15 десятичных знаков.
+DOUBLE PRECISION[(M,D)]
+REAL[(M,D)]
+
+Числа с фиксированной точкой
+
+DECIMAL[(M [,D])] «точное» число с фиксированной точкой.
+12349.33312345
+M если не задано, то 30
+D если не задано, то 10
+DEC, NUMERIC, FIXED псевдонимы
+9 цифр = 4 байта
+1 - 1 байт
+2 - 1 байт
+3 - 2 байта
+4 - 2 байта
+5 - 3 байта
+6 - 3 байта
+7 - 4 байта
+8 - 4 байта
+
+56 символов занимают 6X4+1=25байт
+
+Время и дата
+date, datetime, timestamp, time, year
+
+DATE ‘1000-01-01’ … ‘9999-12-31’  выводит ‘YYYY-MM-DD’
+ Вводить ‘YYYYMMDD’ ‘YYMMDD’ ‘YYYY-MM-DD’
+3 байта
+
+DATETIME ‘1000-01-01 00:00:00’ ‘9999-12-31 23-59-59’
+Выводится ‘YYYY-MM-DD HH:MM:SS’
+Вводить ‘YYYY-MM-DD HH:MM:SS’
+‘YYYYMMDDHHMMSS’
+‘YYMMDDHHMMSS’
+‘YY.MM.DD HH/MM/SS’ разделитель любой 
+‘YYYY\MM\DD HH-MM-SS’ разделитель любой 
+8байт
+00-69  - 2000-2069 
+70-99 - 1970-1999
+
+TIMESTAMP ‘YYYY-MM-DD HH:MM:SS’
+'1970-01-01 00:00:01' - 'около 2038'
+
+..Имя_поля TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+DEFAULT NOW()
+..Имя_поля TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
+4 байт
+
+ 
+TIME  ‘-838:59:59’ … ‘838:59:59’
+
+‘HH:MM:SS’
+‘D HH:MM:SS’
+‘HH:MM’
+‘D HH:MM’
+‘SS’
+‘HHMMSS’
+3 байта
+
+YEAR
+‘YYYY’
+‘YY’
+‘1901’ … ‘2155’
+‘00’ … ‘69’  - ‘2000’ … ‘2069’
+‘70’… ‘99’ – ‘1970’…’1999’
+1 байт
+
+Строки
+
+CHAR(M)  занимает М байт , от 1 до 255 
+CHAR(1) символ либо число 0 до 255 или -128...127
+CHAR(6) занимает 6 байт
+
+VARCHAR(M) поле переменной длины  до 65535 символов (с 5.0.3)
+значение
+CHAR(4)
+обьем
+varchar(4)
+обьем
+''
+'    '
+4байта
+''
+1байт
+'ab'
+'ab  '
+4байта
+'ab'
+3байта
+'abcd'
+'abcd'
+4байта
+'abcd'
+5байта
+'abcdefg'
+'abcd'
+4байта
+'abcd'
+5байта
+
+
+BINARY(M)
+VARBINARY(M)
+
+TINYTEXT 0… 255 СИМВОЛОВ
+TINYBLOB 0…255 символов
+
+TEXT[(M)] … 65535 символов 
+BLOB[(M)] …65535 символов
+
+MEDIUMBLOB 224-1
+MEDIUMTEXT 224-1 для хранения число символов плюс 3
+
+LONGBLOB 232-1
+LONGTEXT 232-1 для хранения требуется "число символов" плюс 4
+
+ENUM('ONE','TWO','THREE')
+ENUM('1','2','3')
+ENUM('Yes','No')
+До 255 штук – 1 байт
+Более 255 штук до 65535 – 2 байта
+
+Значение
+Индекс
+NULL
+NULL
+''
+0
+'ONE'
+1
+'TWO'
+2
+'THREE'
+3
+
+SET('ONE','TWO','THREE')
+64 штуки элементов в наборе
+1,2,3,4,8 байт
+SET('a','b','c','d')
+
+Create table t (pole_set set(‘a’,’b’,’c’,’d’));
+Insert into t values (‘a,b,c,d’); //‘a,b,c,d’
+Insert into t values (‘b,a,d,c’); //‘a,b,c,d’
+Insert into t values (‘a,a,a,a’); //’a’
+Insert into t values (‘a,b,a,b’);// ‘a,b’
+
+Элемент набора
+Двоичное представление
+‘a’
+0001
+‘b’
+0010
+‘c’
+0100
+‘d’
+1000
+‘a,b’
+0011
+‘a,b,c,d’
+1111
+
+\\kraft.mipk.ru
+
+mysql -u root -p
+
+show databases;
+
+
+create database shop;
+
+create table база.таблица...
+use имя_базы;
+create table таблица...
+use shop;
+
+Дополнительные параметры полей
+NULL | NOT NULL
+
+Create table t (name_t varchar(20) null);
+
+DEFAULT 'значение по умолчанию'
+DEFAULT NULL
+DEFAULT 'abcd'
+
+AUTO_INCREMENT
+
+Create table t (id_t int(3) auto_increment, name_t varchar(20) null);
+Insert into t values (null,’hdfkjhdkj’);//1, hdfkjhdkj
+Insert into t values (null,’hdfkjhdkj’);//2, hdfkjhdkj
+Insert into t values (5,’hdfkjhdkj’);//5, hdfkjhdkj
+Insert into t values (null,’hdfkjhdkj’);//6, hdfkjhdkj
+Delete from t where id_t=6;
+Insert into t values (null,’hdfkjhdkj’);//7, hdfkjhdkj
+
+PRIMARY KEY первичный ключ
+
+Create table t (id_t int(3) auto_increment primary key, name_t varchar(20) null)опции таблицы;
+
+Опции таблицы
+
+ENGINE MyISAM
+AUTO_INCREMENT=число
+DATA DIRECTORY [=] 'абсолютный путь к папке с данными'
+MAX_ROWS [=] число
+COLLATE имя_collation
+
+Create table tovar (id_tovar int(5) not null primary key auto_increment,
+name_tovar varchar(200) not null,
+price_tovar float(9.2),
+kol_tovar int(10),
+ed_izm varchar(20),
+id_otdel int(2) NOT NULL,
+sort varchar(15),
+desc_tovar varchar(500));
+
+\u shop
+use shop
+use shop;
+describe имя_таблицы;
+desc имя_таблицы;
+desc tovar;
+show tables; //список таблиц в базе
+show databases; //список баз на сервере
+drop table имя_таблицы;
+alter
+
+DML – data manipulation language
+
+insert
+delete
+update
+select
+
+
+
+insert [into] имя_таблицы [(имя_поля1, имя_поля2, имя_поля3,....)] values (значение1,значени2,значение3,...)[,(1,2,3...),...];
+
+insert [into] имя_таблицы set имя_поля1=значение1, имя_поля2=значение2, имя_поля3=значение3,......;
+
+insert into tovar values(null,'яблоко',50.00,50,'кг',1,'высший','очень вкусные яблоки');
+
+select  *  from tovar;
+
+set names utf8;
+
+delete from  имя_таблицы [where условия] 
+[order by ...]
+[limit число_строк];
+
+delete from tovar;
+delete from имя_таблицы; //очищает таблицу
+
+order by поле [ASC|DESC] [,поле2 ASC|DESC, поле3 ASC|DESC....]
+
+order by name_tovar  DESC
+
+ASC ascended восходящий поиск
+DESC descended нисходящий поиск
+
+delete from tovar order by price_tovar DESC limit 1;
+
+delete from tovar;
+
+Конструкция where
+
+where первичный_ключ=значение
+delete from tovar where id_tovar=2;
+delete from tovar where price_tovar>100.00;
+>,<,>=,<=,=,!= или <>
+
++,-,*,/
+
+AND или &&, OR или || , NOT или !,  XOR
+
+where id_tovar>10 AND price_tovar>100.00
+where id_tovar>10 AND price_tovar*1.1>100.00
+where (id_tovar>10 OR id_tovar<100) AND price_tovar*1.1>100.00
+
+LIKE
+% - любое число любых символов
+_ - 1 любой символ
+delete from tovar where name_tovar  LIKE 'a%'
+
+Id_tovar
+наименование
+цена
+1
+apple
+100.00
+2
+orange
+150.00
+3
+banana
+40.00
+результат:
+Id_tovar
+наименование
+цена
+2
+orange
+150.00
+3
+banana
+40.00
+
+NOT LIKE
+BETWEEN ..... AND ....
+where price_tovar BETWEEN 100.00 AND 200.00
+
+IN (значение1, значение2,......)
+where name_tovar IN ('apple','orange','peach')
+NOT IN (перечисление)
+
+IS NULL
+name_tovar=NULL нельзя так написать
+... where name_tovar IS NULL
+NOT IS NULL
+ISNULL()
+where ISNULL(price_tovar)
+where price_tovar IS NULL
+
+UPDATE
+
+update имя_таблицы SET имя_поля=значение [, имя_поля2=значение2,....]
+[where условия]
+[order by...]
+[limit число_строк]
+
+update tovar set price_tovar=price_tovar*1.2 where price_tovar>100.00;
+
+update tovar set price_tovar=price_tovar*1.2;
+
+update tovar set id_tovar=id_tovar-1 where id_tovar>5;
+
+id_tovar
+наименование
+цена
+1
+apple
+100.00
+2
+banana
+40.00
+3
+orange
+150.00
+4
+apple
+75.00
+6
+orange
+120.00
+7
+banana
+50.00
+8
+lemon
+140.00
+
+SELECT
+
+select [ALL|DISTINCT]
+что_выбирать [AS псевдоним]
+[from откуда_выбирать] 
+[where условия]
+[group by поле_для_группировки [ASC|DESC],поле2 [ASC|DESC,...]
+[having условия]]
+[order by ...]
+[limit {[отступ,] число_строк | число_строк OFFSET отступ}]
+
+что выбирать:
+1.* (select * from tovar;)
+2.поле1,поле2,поле3 (имена полей одной таблицы или нескольких таблиц, если эти имена не совпали)
+3.таблица.поле1, таблица.поле2, .....
+база.таблица.поле1, база.таблица.поле2, .....
+4.функция(поле), ...
+5.калькулятор (select 25*13;)
+select 1+1, поле1 from ...;
+from dummy
+select cos(1);
+select 1 xor 1;
+select 1 xor 0;
+select 1 xor 1 xor 0;
+
+откуда выбирать:
+1.таблица (from tovar)
+2.таблица1,таблица2,...(from tovar, client)
+3.база.таблица1,база.таблица2,....
+4. from dummy
+
+
+
+
+select all name_tovar from tovar;
+apple
+banana
+orange
+apple
+peach
+apple
+banana
+
+select distinct name_tovar from tovar;
+apple
+banana
+orange
+peach
+
+select tovar.name_tovar AS nazvanie from tovar;
+
+use shop;
+create table client1 (id_client int(4) not null primary key auto_increment,
+first_name varchar(100),
+last_name varchar(100),
+phone varchar(20),
+email varchar(255));
+
+insert into client1 values (null,'Ivan','Petrov','1212121212','petrov@mail.ru');
+select * from client;
+
+select concat(first_name," ",last_name) AS full_name from client1;
+select concat(first_name," ",last_name) from client1;
+
+
+select name_tovar, price_tovar from tovar;
+select name_tovar AS nazvanie, price_tovar AS cena  from tovar;
+
+
+FROM база.таблица1 [,база.таблица2......]
+
+create table otdel (id_otdel int not null primary key auto_increment,
+name_otdel varchar(100),
+desc_otdel varchar(250));
+
+insert into otdel values (null,'ovoshi','ovoshi i frukty');
+
+select tovar.name_tovar,otdel.name_otdel,tovar.price_tovar from tovar,otdel where otdel.id_otdel=tovar.id_otdel;
+
+group by поле_для_группировки [ASC|DESC] [, поле для группировки2 [ASC|DESC],....]
+group by date(created)
+
+select name_tovar, price_tovar from tovar group by name_tovar;
+apple 
+75.00
+apple
+80.00
+banana
+35.00
+banana
+25.00
+orange
+40.00
+peach
+100.00
+
+select name_tovar, avg(price_tovar) from tovar group by name_tovar;
+apple 
+77.50
+banana
+30.00
+orange
+40.00
+peach
+100.00
+
+
+max() - максимальное значение в группе
+min() - минимальное значение в группе
+count() - общее количество строк в группе
+avg() - среднее значение по группе
+group_concat() - склеенные в строку значения из группы
+sum() - сумма значений в группе
+
+having 
+
+select name_tovar, avg(price_tovar) from tovar group by name_tovar having avg(price_tovar)>50.00;
+
+apple 
+77.50
+peach
+100.00
+select name_tovar, avg(price_tovar) from tovar group by name_tovar having name_tovar like 'a%';
+
+apple 
+77.50
+
+
+LIMIT 10
+
+LIMIT [OFFSET,] число
+LIMIT 5, 10
+LIMIT число [OFFSET отступ]
+LIMIT 10
+LIMIT 10 OFFSET 5
+$sel="select * from tovar limit 10 offset ".$_GET['st'];
+
+Утилиты администрирования
+cmd
+mysqladmin [опции] команда [аргументы команды] [команда [аргументы команды]........]
+-u пользователь
+-p ввести пароль
+команды
+mysqladmin  -u root -p extended-status
+
+mysqladmin -u root -p create shop2
+
+mysqladmin  -u root -p drop shop2
+
+
+create имя_базы
+debug – писать отладочную информацию в errorlog
+drop имя_базы
+extended-status
+flush-logs
+flush-privileges (= reload)
+flush-status
+flush-tables
+flush-threads
+kill id_процесса[,id_процесса2....]
+processlist
+mysqladmin -u root -p processlist
+mysqladmin -u root -p kill 2
+password "новый_пароль"
+mysqladmin -u root -p password "123456"
+ping
+mysqladmin -u root -p ping
+shutdown
+status
+mysqladmin -u root -p status
+version версия сервера
+mysqladmin -u root -p version
+
+Опции
+mysqladmin --help
+mysqladmin -?
+mysqladmin
+
+--help   или -?  вывод страницы справки
+--character-sets-dir=папка_с_чарсетами
+--default-character-set=имя_чарсета
+--host=имя_хоста  или -h имя_хоста
+(--host=localhost  или  -h localhost
+ --host=192.168.5.10 или --host=vasia.com)
+--port=номер порта или -P номер порта (--port=3306 -P 3306)
+--user=имя_пользователя или -u имя_пользователя
+--password=пароль или -p[пароль]
+
+Утилита mysqlshow
+mysqlshow [опции] [имя_базы [имя_таблицы [имя_поля]]]
+mysqlshow -u root -p     - список баз
+mysqlshow -u root -p  shop    - список таблиц в конкретной базе
+mysqlshow -u root -p  shop tovar       - список полей указанной таблицы
+mysqlshow -u root -p  shop tovar name_tovar     - описание указанного поля
+
+--help   или -?  вывод страницы справки
+--default-character-set=имя_чарсета
+--host=имя_хоста  или –h имя_хоста
+--port=номер порта или –P номер порта
+--user=имя_пользователя или –u имя_пользователя
+--password=пароль или –p[пароль]
+--count показывает число строк в таблице
+--keys, -k показывает индексы имеющиеся
+--status, -i показывает дополнительную информацию о таблице
+mysqlshow -u root -p --status shop tovar
+--show-table-type, -t показывает тип таблицы  
+mysqlshow -u root -p -t shop tovar
+
+
+perror число
+perror 13
+
+mysqldump самая полезная
+1.mysqldump [опции] имя_базы [таблица1 таблица2...]
+2.mysqldump [опции] --databases имя_базы1 [имя_базы2....]
+3.mysqldump [опции] --all-databases
+
+mysqldump [опции] имя_базы
+mysqldump -u root -p shop
+mysqldump -u root -p shop >shop.sql
+
+ 
+--add-drop-database перед CREATE DATABASE
+добавляет DROP DATABASE
+
+--add-drop-table перед CREATE TABLE
+добавляет DROP TABLE
+
+--add-locks  LOCK TABLES и UNLOCK TABLES
+
+--all-databases  или -A
+
+--allow-keywords  `table`
+
+--character-sets-dir=путь
+mysqldump --character-sets-dir="c:/program files/mysql...." 
+--default-character-set=utf8 -u root -p shop>shop.sql
+
+--comments или -i сохранять комментарии к таблицам (чтобы убрать --skip-comments)
+--complete-insert или -c  
+
+--default-character-set=имя_чарсета
+--host
+--ignore-table=база.таблица
+--ignore-table=база.таблица1
+
+--no-create-db или -n  Отключает CREATE DATABASE в варианте запуска, который читает несколько баз
+
+--no-data или -d  создает только структуру, без INSERT-ов
+--no-create-info или -t  структуру не создает. только INSERT-ы
+
+--opt  вкючено по умолчанию. включает --add-drop-table --add-locks --disable-keys --extended-insert --quick --set-charset 
+--skip-opt чтобы отключить установки по умолчанию
+--skip-add-drop-table чтобы пропустить опцию
+--order-by-primary 
+--where='условия выборки', -w 'условия выборки'
+--where="условия выборки", -w "условия выборки"
+--where="tovar.price_tovar>100.00"
+--where="name_tovar='яблоко'"
+
+set names=utf8;
+
+shop.sql
+
+C:\document....>mysql -u root -p имя_базы < shop.sql
+mysql -u root -p shop < shop.sql
+
+mysql>use shop;
+\. c:\shop.sql
+
+
+------------------------
+
+
+Система привилегий Mysql
+use mysql;
+show tables;
+user
+db
+host
+tables_priv
+columns_priv
+
+desc user;
+
+файл 1.sql содержит:
+--------
+select * from user;
+--------
+cmd
+mysql -u root -p -E mysql<1.sql>1.txt
+mysql -u root -p mysql<1.sql>11.txt
+
+mysql -u root -p -E -e "use mysql;select * from user">1.txt
+
+desc user;
+% _
+'имя_хоста'
+'localhost'
+'%.domain.ru'
+vasia.domain.ru, petia.domain.ru....
+'vasia.%.ru'
+vasia.ddd.ru, vasia.gg.ru
+'%'
+'192.168.1.12'
+
+desc db;
+
+
+desc host;
+desc tables_priv;
+desc columns_priv;
+
+select name_tovar from shop.tovar;
+
+
+[client]
+user=root
+host=localhost
+password=12345
+
+password('123456')
+
+Создание пользователя mysql
+
+1.CREATE USER Имя_пользователя [IDENTIFIED BY [PASSWORD] 'пароль'];
+'php'@'localhost'
+
+create user 'php1'@'localhost' IDENTIFIED BY '123123';
+
+create user 'php1'@'localhost' IDENTIFIED BY PASSWORD '*1232b748347c2384e72384876a4d82f23445455a';
+
+2.INSERT INTO USER VALUES ('localhost','php2',password('123123'),
+'N', 'N', 'N', 'N', 'N', 'N', 'N', 'N', 'N', 'N', 'N', 'N', 'N', 'N', 'N', 'N', 'N', 'N', 'N', 'N', 'N', 'N', 'N', 'N', 'N', 'N', 'N', 'N','','','','',0,0,0,0);
+
+1.GRANT [сюда поля] Тип_привилегий[,тип_привилегий2,...]|ALL ON
+{имя_базы | * | *.* | база.таблица|,база.*}
+TO пользователь [IDENTIFIED BY [PASSWORD] 'пароль'];
+
+GRANT SELECT,INSERT,DELETE,UPDATE,CREATE,
+DROP ON shop.* TO 'php1'@'localhost';
+
+2.INSERT INTO db VALUES ('localhost','shop','php2','Y',
+'Y', 'Y', 'Y', 'Y', 'Y',
+'N', 'N', 'N', 'N', 'N', 'N', 'N', 'N', 'N', 'N', 'N', 'N', 'N'); 
+
+
+1.mysql -u php1 -p
+2.mysql -u php2 -p
+Обоим дать эту команду:
+show databases;
+
+mysqladmin -u root -p reload
+mysqladmin -u root -p flush-privileges
+
+RENAME USER старое_имя TO новое_имя;
+
+REVOKE  Тип_привилегий[,тип_привилегий2,...] ON
+{имя_таблицы | * | *.* | база.таблица}
+FROM пользователь;
+
+update db set select_priv='N' where user='php1' and host='localhost';
+
+1.DROP USER имя_пользователя;
+2.DELETE FROM USER where user='пользователь' 
+AND host='Хост';
+
+Установить пароль пользователю.
+
+SET PASSWORD [FOR пользователь] = password('123');
+
+ALTER TABLE команда DDL
+
+ALTER TABLE tbl_name
+    alter_specification [, alter_specification] ...
+alter_specification:
+   table_option ...
+  | ADD [COLUMN] column_definition [FIRST | AFTER col_name ]
+  | ADD [COLUMN] (column_definition,...)
+  | ALTER [COLUMN] col_name {SET DEFAULT literal | DROP DEFAULT}
+  | CHANGE [COLUMN] old_col_name column_definition
+        [FIRST|AFTER col_name]
+  | MODIFY [COLUMN] column_definition [FIRST | AFTER col_name]
+  | DROP [COLUMN] col_name
+  | DROP PRIMARY KEY
+  | DROP {INDEX|KEY} index_name
+  | RENAME [TO] new_tbl_name
+  | ORDER BY col_name [, col_name] ...
+  | CONVERT TO CHARACTER SET charset_name [COLLATE collation_name]
+  | [DEFAULT] CHARACTER SET charset_name [COLLATE collation_name]
+
+alter table tovar add column sort_tovar int(1);
+alter table tovar add column sort_tovar int(1) first;
+alter table tovar add column sort_tovar int(1) after price_tovar;
+alter table tovar alter column sort_tovar set default 1;
+alter table tovar alter column sort_tovar drop default;
+alter table tovar change column kol_tovar col_tovar int(11);
+alter table tovar modify column col_tovar int(9);
+alter table tovar drop column sort_tovar;
+
+
+123123 '123123'
+'1.1111' 1.11111 - ? или 1
+'1,22 kjvkfvl' 1
+'1,22'  1.22
+'10E5' 10E5
+
+alter table tovar drop column col_tovar;
+alter table tovar drop primary key;
+alter table tovar drop index имя;
+alter table tovar rename to Tovar;
+alter table tovar order by id_tovar;
+alter table tovar convert to character set cp1251;
+alter table tovar add index [имя индекса] price_tovar,col_tovar;
+alter table tovar add fulltext index [имя индекса] price_tovar,col_tovar;
+alter table tovar drop index имя индекса;
+alter table tovar add primary key  id_tovar;
+alter table tovar drop primary key;
+
+Как написать select для наших клиентов.
+tovar
+otdel
+client
+sdelka
+svaz
+select * from tovar;
+select name_tovar from tovar where id_tovar=3;
+, и INNER JOIN и CROSS JOIN одно и то же
+
+Указать отдел для товаров.
+select id_tovar,name_tovar,name_otdel FROM tovar,otdel; 
+select tovar.id_tovar, tovar.name_tovar, otdel.name_otdel FROM tovar,otdel WHERE tovar.id_otdel=otdel.id_otdel; 
+
+Расположить сделки клиентов по сумме сделок.
+
+select concat(client.first_name," ",client.last_name) as full_name,client.phone_client,client.address_client,
+sdelka.sum_sdelka,sdelka.time_sdelka from client,sdelka where sdelka.id_client=client.id_client
+order by sdelka.sum_sdelka DESC;
+
+Какие клиенты купили какие товары
+
+select sdelka.id_sdelka,sdelka.time_sdelka, concat(client.first_name," ",client.last_name) as full_name,
+tovar.name_tovar,svaz.kol_tovar from sdelka,client,svaz,tovar where sdelka.id_client=client.id_client  and svaz.id_sdelka=sdelka.id_sdelka and svaz.id_tovar=tovar.id_tovar;
+
+
+
+откуда выбирать:
+    table_reference [, table_reference] ...
+
+table_reference:
+    table_factor
+  | join_table
+
+table_factor:
+    tbl_name [[AS] alias] 
+  | ( table_references )
+
+join_table:
+    table_reference [INNER | CROSS] JOIN table_factor [join_condition]
+  | table_reference STRAIGHT_JOIN table_factor
+  | table_reference STRAIGHT_JOIN table_factor ON condition
+  | table_reference LEFT [OUTER] JOIN table_reference join_condition
+  | table_reference NATURAL [LEFT [OUTER]] JOIN table_factor
+  | table_reference RIGHT [OUTER] JOIN table_reference join_condition
+  | table_reference NATURAL [RIGHT [OUTER]] JOIN table_factor
+join_condition:
+    ON conditional_expr
+  | USING (column_list)
+
+select * from tovar as t1;
+select tovar.name_tovar,tovar.price_tovar,otdel.name_otdel from
+tovar join otdel using (id_otdel);
+select tovar.name_tovar,tovar.price_tovar,otdel.name_otdel from
+tovar inner join otdel;
+select tovar.name_tovar,tovar.price_tovar,otdel.name_otdel from
+tovar cross join otdel;
+select tovar.name_tovar,tovar.price_tovar,otdel.name_otdel from
+tovar join otdel on tovar.id_otdel=otdel.id_otdel;
+
+select tovar.name_tovar,tovar.price_tovar,otdel.name_otdel from
+tovar straight_join otdel;
+select tovar.name_tovar,tovar.price_tovar,otdel.name_otdel from
+tovar straight_join otdel on tovar.id_otdel=otdel.id_otdel;
+
+select tovar.name_tovar,tovar.price_tovar,otdel.name_otdel from
+tovar natural left join otdel;
+
+select tovar.name_tovar,tovar.price_tovar,otdel.name_otdel from
+tovar natural right join otdel;
+
+select * from
+tovar natural left join otdel;
+
+select * from
+tovar natural right join otdel;
+
+
+Будем ставить PHP
+Personal Home Page
+PHP Hypertext Preprocessor
+
+test.php
+--------
+<?php
+phpinfo();
+?>
+
+
+<input type="text" name="ima" value="<?php echo "$ima"; ?>">
+<?php
+echo "текст на экран браузера";
+echo $a;
+?>
+
+пуск > выполнить > \\kraft.mipk.ru
+ресурс test - подключить сетевой диск, папка I386
+
+папка php
+там лежит файл архив. его себе скачать на диск C:
+распаковать его в папку C:/PHP
+
+php.net скачать дистрибутив 5.2
+
+c:/Inetpub/wwwroot/test.php
+содержание файла test.php
+------------
+<?php
+phpinfo();
+?>
+
+С:\php\php.ini-recommended его скопировать в C:\windows и там переименовать в php.ini
+
+
+
+<? это short open tag
+<?php а это длинный
+<% asp open tag
+
+http://localhost/test.php
+Убедиться, что появился раздел Mysql
+
+
+ФАЙЛ php.ini:
+542: extention_dir= "c:\php\ext"
+c:\Inetpub\wwwroot\
+http://localhost/myadmin/
+видим ошибку
+
+Переменные
+
+$ - 1  символ
+_ или буква латинского алфавита - 2-й символ
+_ или буква латинская или цифра - 3-й и остальные символы
+
+$__ - нежелательно
+$aa
+$a_
+$a3
+
+ВСЕГО может быть любое число символов.
+$a И $A это разные переменные.
+
+
+boolean
+integer
+float(double)
+string
+
+array
+object
+
+resource
+NULL
+
+$a=NULL;
+gettype($a);
+$a=123;
+echo gettype($a);// integer
+$t= gettype($a); //$t="integer"
+is_string(), is_double(), is_integer()...
+if(is_string($a)) echo "да, это строка";
+else echo "нет, это не строка";
+
+settype($a,"integer");
+
+boolean
+$a=True;
+$a=TRUE;
+$a=true;
+$b=false;
+$b=False;
+$b=FALSE;
+if($a) echo "оказалось, что наше $a истино";
+else echo "оказалось, что наше $a ложно";
+
+Конвертация в булев В FALSE
+integer 0 
+float 0.0
+string "" или "0"
+array массив, содержащий 0 элементов
+object обьект не содержащий переменных
+
+Все остальные превращаются в true
+
+$a=155;
+if($a) echo "a оказалось истиным";
+else echo "а оказалось ложным";
+
+integer
+{...-1,0,1.....}
+$a=1234; //десятичное
+$a=0123;//8-ричное
+$a=0x123;//16-ричное
+$a=0X123;//16-ричное
+ 4 байта
+
+Превращение в целое другие типы  
+булев false в 0, true в 1
+float в целое путем округления к 0
+
+float
+
+$a=1.234;
+$a=1.2e2;
+$a=1.2E-2;
+из булева:
+0.0 из false
+1.0 из true
+из целого 
+1.0 - добавляется точка 0
+
+string
+
+$a='vbvfbgf';
+$a="vbvfbgf";
+heredoc синтаксис
+
+
+$a='не позволяют вставить переменные $b';//так нельзя
+$a='не позволяют вставить переменные '.$b;//так нужно
+
+
+$a="позволяют вставить переменные $b";//так можно
+$a="позволяют вставить переменные ".$b;//так нужно
+
+$a="не позволяют вставить массив $b[abc]";//так не нужно
+$a="не позволяют вставить массив ".$b['abc']." еще текст";//так нужно
+$a="позволяют  вставит массив $b[1]";//так возможно, но не нужно
+$a[1]
+$a['asd']
+
+
+\ экран для спецсимволов (\")
+echo "Хотим кавычку \" использовать \t \n";
+\t табуляция
+\n новая строка
+\v вертикальня табуляция
+\f подача страницы
+
+
+heredoc
+
+$a=<<<EOT
+gjh
+dfdfd
+dfdddgd
+dfgdfgdgd
+EOT; //отдельно на строке и начиная с 0 символа
+
+Как переводятся в строку другие типы:
+
+булев true в "true"
+булев false в "false"
+целое 123 в "123"
+float 1.23 в "1.23"
+
+Из строки в другие типы:
+
+"10.5" во float 10.5
+"-1.3e2" во float -1.3e2
+"str -1.2" в integer 0
+"10 str" в integer 10
+"10.2 str" во float 10.2
+"10,5" во float 10.5
+"10,5 ля-ля" в целое 10
+
+
+unset() уничтожает переменную
+unset($a);
+isset($a); проверяет наличие переменной.
+true - если переменная существует
+false - если не существует
+empty($a) - проверяте пуста ли переменная
+true - не существует, равна 0 или "", NULL ($a=NULL;);
+false - если переменная существует и равна чему-то
+
+index.html так называется файл, а его содержимое:
+--------
+<html><head><title>Пример формы</title></head>
+<body>
+<h1>Заполните форму:</h1>
+<form action="script.php" method="POST">
+<p>ВВедите Ваше имя:</p>
+<input type="text" name="ima">
+<input type="submit" value="надпись на кнопке">
+</form>
+</body>
+</html>
+----------
+script.php так называется файл, а его содержимое:
+----------
+<?php
+echo "Ваше имя: ". $_POST['ima'];   //$_POST[], $_GET[]
+//echo "<br>Наименование товара: ". $_POST['name_tovar'];
+//echo "<br>Цена товара: ". $_POST['price_tovar'];
+?>
+
+$_POST['ima']
+$_GET
+$_COOKIE
+$_SESSION
+
+isset($a)
+if (isset($_POST['check'])) echo "Новый товар";
+else echo "Товар уже есть на складе";
+
+Для тех полей, которые не текстовые:
+
+<option name="sort" value="1" <?php if ($_POST['sort']==1) echo "selected"; ?>> //для радио "checked"
+
+
+файл index.php
+<?php
+if (isset($_POST['ima'])) $ima=$_POST['ima'];//эти 2 строки повторяем по 
+else $ima="";						//числу переменных
+
+if (isset($_POST['s1']) and $_POST['s1']== "в базу") {
+//Тут код добавления в базу
+}
+else {
+?>
+<html><head><title>Пример формы</title></head>
+<body>
+<h1>Заполните форму:</h1>
+<form action="script.php" method="POST">
+<p>ВВедите Ваше имя:</p>
+<input type="text" name="ima" value="<?php echo $ima; ?>">//для всех ваших полей
+<input type="submit" value="надпись на кнопке">
+</form>
+<?php
+}                               
+?> 
+</body>
+</html>
+
+
+
+
+
+
+script.php
+<?php
+echo "Ваше имя: ". $_POST['ima'];
+echo "<form action=\"index.php\" method=\"POST\">";
+echo "<input type=\"hidden\" value=\"".$_POST['ima']."\" name=\"ima\">";//по числу параметров скрипта
+echo "<input type=\"submit\" value=\"в базу\" name=\"s1\">";
+echo "<input type=\"submit\" value=\"исправить\" name=\"s1\">";
+echo "</form>";
+?>
+
+<input type="radio" name="n1" value="1" <?php if($n1==1) echo "checked"; ?> >;
+<input type="radio" name="n1" value="2" <?php if($n1==2) echo "checked"; ?>>;
+<input type="checkbox" name="ch1" <?php if(isset($_POST['ch1'])) echo " checked "; ?>>
+<textarea name="t1">
+<?php echo $_POST['t1']; ?> //или, если уже задали, то echo $t1;
+</textarea>
+<select name=s1>
+<option value=1>кг
+<option value=2>шт
+</select>
+------script.php  $_POST['s1']=1 у нас так получается
+switch($_POST['s1']){
+case 1:
+$s1="кг";
+break;
+case 2:
+$s1="шт";
+break;
+default:
+$s1="";
+}
+echo "Единицы измерения: $s1";
+
+пример
+файл index.php
+<?php
+if (isset($_POST['ima'])) $ima=$_POST['ima'];//эти 2 строки повторяем по 
+else $ima="";						//числу переменных
+if (isset($_POST['s1']) and $_POST['s1']== "в базу") {
+//Тут код добавления в базу
+echo "добавляем в базу";
+
+include('connect.php');
+
+$ins="insert into tovar values (null,'$name_tovar',$price_tovar,$kol_tovar,)";
+if(mysql_query($ins)) echo "товар добавлен.<a href=\"catalog.php\">перейти в каталог</a>";
+else {
+echo "товар не добавлен";
+echo mysql_error();
+}
+ }// до сюда код добавления в базу!!
+else {
+?>
+
+<html><head><title>Пример формы</title></head>
+<body>
+<h1>Заполните форму:</h1>
+<form action="script.php" method="POST">
+<p>ВВедите Ваше имя:</p>
+<input type="text" name="ima" value="<?php echo $ima; ?>">//по числу строк
+<input type="submit" value="надпись на кнопке">
+</form>
+<?php
+}
+?> 
+</body>
+</html>
+
+script.php
+<?php
+echo "Ваше имя: ". $_POST['ima'];
+?>
+Теперь файл script.php
+<?php
+function proverka($z){
+if (empty($z)) return 0; //проверка не прошла
+else return 1;//проверка прошла успешно 
+}
+$err=1;
+echo "Ваше имя: ";
+if (!proverka($_POST['ima'])) {echo "<font color=\"red\">не заполнено обязательное поле</font>";
+$err=0;}
+else echo $_POST['ima'];//повторить по числу полей ввода предыдущие 5 строк
+echo "<form method=\"POST\" action=\"index.php\">"; // сюда подставить свое имя файла с формой ввода товара, заменив расширение на php
+echo "<input type=\"hidden\" name=\"ima\" value=\"".$_POST['ima']."\">";//эта строка будет повторяться столько раз, сколько у вас переменных
+echo "<input type=\"submit\" value=\"исправить\" name=\"s1\">";
+if($err) echo "<input type=\"submit\" value=\"в базу\" name=\"s1\">";
+echo "</form>"; ?>
+
+echo "текст";
+echo ("текст");
+echo $a;
+echo mysql_error();
+$_GET['имя_переменной']
+header('Content-type: text/html; charset=windows-1251');
+<meta Content-type="text/html" charset="win-1251">
+
+
+
+Операторы
++,-,*,/,%
+% остаток от целочисленного деления по модулю
+$a=7;
+$b=3;
+$c=$a%$b; // получилось $c=1
+-
+$a=-$b;
+= присваивание
+$a=($b.....);
+if ($a==5)
+== сравнение (работает в условиях)
+<
+>
+>=
+<=
+!=, <> не равно
+
+&& или and это логическое И
+|| или or это логическое ИЛИ
+! это логическое НЕ
+xor это исключающее или
+if(выр1 xor выр2 xor выр3)
+. конкатенация - склеивание
+$a=8;
+$b=10;
+$c=$a.$b ; //$c=810
+$d=" ";
+$c=$a.$d.$b; //$c="8 10";
+$c=$a." ".$b; //$c="8 10"
+тернарный оператор
+(условие)?(если истино):(если ложно)
+$a=8;
+$b=10;
+$c=($a>$b)?($a*$b):($a+$b); //$c=18
+Инкремент и декремент
+$x++ или ++$x
+$x-- или --$x
+
+$x=10;
+$y=$x++;//$x=11, $y=10
+$x=10;
+$y=++$x;//$x=11,$y=11
+
+оператор подавления ошибки
+@mysql_connect("localhost","php","123");
+$value=@$arr[$key];
+
+Управляющие структуры языка
+
+if(условие){
+команда;
+команда;
+}
+
+if (условие) команда;
+
+if(условие){
+команды;
+}
+else {
+команды;
+}
+
+if(условие){
+команды;
+}
+elseif(условие){
+команды;
+}
+elseif(условие){
+команды;
+}
+else {
+команды;
+}
+
+if (условие):
+команды;
+elseif (условие):
+команды;
+else:
+команды;
+endif;
+
+<?php if (условие) : ?>
+html
+<?php elseif (условие) : ?>
+html
+<?php else: ?>
+html
+<?php endif; ?>
+
+
+if (isset($_POST['check_new']))
+ echo "товар поступил впервые";
+else echo "добавляем существующий на складе товар";
+
+Циклы
+while
+do-while
+for
+
+while(условие){
+команды;
+}
+
+$i=10;
+while($i>0){
+echo "Число пока не достигло 0";
+$i--;
+}
+
+while(условие):
+команды;
+endwhile;
+
+<?php while(условие): ?>
+команды html;
+<?php endwhile;?>
+
+
+do {
+команды;
+} while(условие);
+
+
+for(выр1;выр2;выр3){
+команды;
+}
+
+for(выр1;выр2;выр3):
+команды;
+endfor;
+
+
+for($i=10;$i>0;$i--){
+команды;
+}
+
+$i=10;
+for(;;){
+if($i<0) break;
+команды;
+$i--;}
+
+
+$i=10;
+while(1){
+if($i<0) break;
+команды;
+$i--;}
+
+break - выход из цикла немедленно
+
+for($i=1;$i<10;$i++){
+echo "i равно $i";
+if ($i==5) break;
+}
+
+continue - прекратить текущую итерацию цикла
+
+Всем делать пример!
+<?php
+for ($i=1;$i<100;$i++){
+if($i%3) continue;
+echo "$i<br>";
+}
+?>
+
+switch (выражение) {
+case значение1:
+команды;
+break;
+case значение2:
+команды;
+break;
+.
+.
+case значениеN:
+команды;
+break;
+[default:
+команды;]
+}
+
+<?php 
+$i=2;
+switch($i){
+case 1:
+echo "i равно 1<br>";
+break;
+case 2:
+echo "i равно 2<br>";
+break;
+case 3:
+echo "i равно 3<br>";
+break;
+default:
+echo "i или меньше 1 или больше 3 или вообще не целое число";
+}
+?>
+
+include
+require
+
+include ('file.php');
+include ("file.php");
+include 'file.php';
+include "inc/file.php";
+
+<?php
+include "1.php";
+?>
+................
+<?php
+echo "Подключили файл!";
+?>
+
+config.php
+<?php
+$host="localhost";
+$user="php1";
+$pass="123";
+$link=mysql_connect($host,$user,$pass) or die("ошибка соединения");
+$dbname="shop";
+?>
+
+index.php
+<?php
+include ('config.php');
+echo "Далее выполняется программа";
+?>
+
+
+include_once()
+require_once()
+
+
+Функции
+
+function имя_функции(параметры){
+команды;
+}
+
+
+function cube($x){
+return $x*$x*$x;
+}
+
+$a=12;
+$b=cube($a); // $b=1728
+
+function draw_hr($x){
+for($i=0;$i<$x;$i++) echo "<hr>";
+}
+$a=4;
+draw_hr($a);
+
+function draw_hr($x,$y=1,$col='black'){
+for($i=0;$i<$x;$i++) echo "<hr style=\"height:$y;color:$col\">";
+}
+$a=4;
+$b=2;
+$c="red";
+draw_hr($a,$b,$c);
+draw_hr($a);
+
+function f1($a=1,$b=2,$c=3){
+return $a+$b+$c;
+}
+
+$x=4;
+$y=5;
+$z=6;
+$w=f1($x,$y,$z);//$w=15
+$w=f1($x,$y);//$w=12
+$w=f1($x);//$w=9
+$w=f1();//$w=6
+$w=f1(,,$z);//как делать нельзя
+$w=f1($z);//$z попадет на место $a $w=11
+
+function f1($a=5,$b,$c){  //так нельзя
+return $a+$b+$c;
+}
+function f1($a,$b,$c=3){  //так можно
+return $a+$b+$c;
+}
+
+
+function f2(&$x){
+$x=$x*$x;
+return $x;
+}
+$a=3;
+$b=f2($a);//$b=9,$a=9
+-------------------------------------------
+function f2($x){
+$x=$x*$x;
+return $x;
+}
+$a=3;
+$b=f2($a);//$b=9,$a=3
+
+Область видимости переменных (время жизни переменных)
+
+function f2($x){
+$x=$x*$x;
+echo $x;//9
+return $x;
+}
+$x=3;
+$b=f2($x);//$b=9,$x=3
+echo $x;//3
+
+$x=3;
+function f2($x){
+global $x;
+$x=$x*$x;
+return $x;
+}
+$b=f2($x);//$b=9,$x=9
+//$b=f2($x);//$b=9,$x=3 это если $x не глобальна, это предыдуший пример
+
+// комментарий до конца строки
+/*
+комментарий 
+на несколько
+строк
+*/
+
+Статические переменные.
+--------
+function f3(){
+static $a=0;
+$a++;
+return $a;
+}
+
+for ($i=0;$i<10;$i++){
+$c=f3();
+echo "на итерации $i функция f3 вызывается в $c раз<br>";
+}
+---------
+
+function f1(){
+команды;
+  function f2(){
+  Команды;
+  }
+}
+f2(); //ошибка! вызов несуществующей функции
+f1();
+f2();
+
+Рекурсивная функция
+
+$x$y=$x*$x($y-1)
+$x0=1
+
+function power($x,$y) {
+if ($y) {
+return $x*power($x,$y-1);
+} 
+return 1;
+}
+
+$a=5;
+$b=4;
+$c=power($a,$b);
+echo $c;
+
+$x=2;
+$y=4;
+24=2*23
+         2*22
+             2*21
+                 2*20
+
+n!=1*2*3*......*n
+n!=n*(n-1)!
+1!=1
+
+---------------
+function factorial($n){
+код рекурсивной функции, 
+который вы должны написать.
+}
+
+$x=5;
+$z=factorial($x);
+echo "Факториал числа $x равен $z";
+----------------
+
+присвоение функций переменным
+
+$function="f1";
+
+$function($a); //f1($a)
+
+function f1($z){...}
+function f2($z){...}
+function f3($z){...}
+
+if ($x==125) $func="f1";
+elseif($x==155) $func="f2";
+else $func="f3";
+......
+$func($a);
+
+Используя функции (написать функцию проверки) проверить - заполнены ли все необходимые поля ввода.
+
+function proverka($a){
+if (empty($a)) return 0;
+else return 1;
+}
+
+if(!proverka($_POST['name_tovar'])) echo "<font color=\"red\">не заполнено обязательное поле</font>";
+else echo "Наименование товара:". $_POST['name_tovar'];
+
+В результате проверки, если все поля заполнены, то можем показывать кнопку "в базу", если поля не заполнены, то кнопку не показываем. "исправить" в любом случае показываем.
+
+Массивы
+
+
+Массив - это собрание нескольких переменных под одним именем. Различаются переменные индексом.
+Именование массивов как у переменных.
+$d
+$d[1]
+$d['строка']
+$str="kfhdfjdfdhfj $d[1]";
+$str="kfhdfjdfdhfj ".$d['dddd']; //так делать
+
+$arr=array(индекс=>значение, индекс2=>значение2,....);
+$arr=array(значение1, значение2,....);
+$arr=array(индекс=>значение, значение2,....);
+
+* $arr=array('ru'=>'россия','ua'=>'украина','kz'=>'казахстан');
+$arr['by']='беларусь' ;// индекс 'by'
+$arr[]='киргизия' ;// индекс 0
+*$arr=array('россия','украина','казахстан');
+                       0            1                 2
+$arr[]='беларусь' ;// индекс 3
+$arr=array('ru'=>'россия',1=>'украина','kz'=>'казахстан');
+$arr=array(6=>'россия',25=>'украина','kz'=>'казахстан');
+$arr[]='беларусь' ;// индекс 26
+
+* $arr['ru']='россия';
+* $arr['ua']='украина';
+* $arr['kz']='казахстан';
+$arr['by']='беларусь';
+
+*$arr[]='россия';//0
+*$arr[]='украина';//1
+*$arr[]='казахстан';//2
+
+$arr=array('europe'=>array('ru'=>'россия','ua'=>'украина','by'=>'беларусь'),'n_america'=>array('us'=>'сша','ca'=>'канада'));
+
+$arr['europe']['ru']='россия';
+$arr['europe']['ua']='украина';
+$arr['europe']['by']='беларусь';
+$arr['n_america']['us']='сша';
+$arr['n_america']['ca']='канада';
+
+Обход массива 
+$arr=array('ru','ua','by','kz');
+for ($i=0;$i<count($arr);$i++){
+echo $arr[$i]."<br>";
+}
+
+Обход массива индексированного строками или непоследовательно и не только
+foreach($arr as $value){
+команды;
+}
+foreach($arr as $key => $value){
+команды;
+}
+
+list($key,$value)=each($arr);
+
+while(list($key,$value)=each($arr)){
+команды;
+}
+
+<?php
+echo "Работает foreach<br>";
+$arr=array(10,20,30,40,50);
+foreach($arr as $key=>$value){
+if ($key==2) $arr=55;
+echo "Элемент $key равен $value <br>";
+}
+echo "Работает list-each<br>";
+$arr=array(10,20,30,40,50);
+while(list($key,$value)=each($arr)){
+if ($key==2) $arr=55;
+echo "Элемент $key равен $value <br>";
+}
+?>
+
+Функции для работы с массивами
+reset($arr) перемещает курсор на начало
+count($arr) возвращает число элементов массива
+next($arr) перемещает внутренний курсор на элемент вперед и возвращает значение этого элемента или возвращает false, если достигнут конец массива
+prev($arr) перемещает внутренний курсор на элемент назад и возвращает значение этого элемента или возвращает false, если достигнуто начало массива
+current($arr) возвращает значение текущего элемента
+key($arr) возвращает значение текущего ключа
+end($arr) перемещает внутренний курсор на последний элемент и возвращает значение этого элемента
+
+Cортировка массива
+sort($arr) 0,1,2......
+asort() не меняет индексы
+rsort() и arsort() обратном порядке
+ksort() сортирует по ключу
+krsort() в обратном порядке
+usort ($arr, функция_для_сортировки) сортировка по своей функции
+<?php
+function cmp($a, $b){
+    if ($a == $b) {
+        return 0;
+    }
+    return ($a < $b) ? -1 : 1;
+}
+
+$a = array(3, 2, 5, 6, 1);
+usort($a, "cmp");
+foreach ($a as $key => $value) {
+    echo "$key: $value<br>";
+}
+?>
+
+<?php
+function cmp($a, $b){
+if ($a == $b) {
+return 0;
+}
+return ($a < $b) ? -1 : 1;
+}
+
+$a = array(3, 2, 5, 6, 1);
+usort($a, "cmp");
+foreach ($a as $key => $value) {
+echo "$key: $value<br>";
+}
+?>
+<?php
+function cmp($a, $b){
+if (strlen($a) == strlen($b)) {
+return 0;
+}
+return(strlen($a)<strlen ($b)) ? -1 : 1;
+}
+
+$a=array('aa','a','aaaaaaa','aaa','aaaa');
+usort($a, "cmp");
+foreach ($a as $key => $value) {
+echo "$key: $value<br>";
+}
+?>
+
+
+Cоединение с БД MySQL и функции  для работы с MySQL
+
+$link=mysql_connect(хост:порт, [пользователь],[пароль])
+$link=mysql_connect("localhost","php1","123123");
+
+Создается файл connect.php:
+-----------------------
+$host="localhost";
+$user="php1";
+$pass="123123";
+$db="shop";
+mysql_connect($host,$user,$pass) or die("соединение не удалось");
+mysql_select_db($db);
+-----------------------
+if(@mysql_connect($host,$user,$pass)) echo "соединились с базой";
+else "база не присоединилась";
+
+mysql_connect($host,$user,$pass) or die("текст оповещения");
+mysql_connect($host,$user,$pass) or exit("текст оповещения");
+Далее в скриптах, которые используют соединение с базой.
+include ("connect.php");
+
+mysql_close();
+mysql_close($link);
+
+mysql_select_db("shop"[,$link]);
+$db="shop";
+mysql_select_db($db);
+mysql_create_db(имя_базы[,$link]);
+mysql_drop_db(имя_базы[,$link]);
+mysql_query(команда_mysql);
+$zapros="delete from tovar;delete from client";
+mysql_query($zapros);
+mysql_query("select * from tovar");
+mysql_db_query(база,команда_mysql)
+mysql(база,запрос);//раньше была такая функция, сейчас нет ее уже.
+
+CREATE,ALTER,DROP возвращает TRUE или FALSE
+
+if(mysql_query($z)) echo "запрос успешно выполнен";
+else echo "запрос не выполнен";
+
+DELETE,INSERT,UPDATE возвращает результат, содержащий число обработанных строк
+mysql_query($z);
+$n=mysql_affected_rows();
+
+SELECT возращает результирующий набор, который можно обработать другими функциями.
+
+resource
+$res=mysql_query("select * from tovar");
+$a=mysql_result($res,номер_строки, { номер_столбца | имя_столбца});
+$a=mysql_result($res,0, 'name_tovar');
+$a=mysql_result($res,0, 1);
+0 id_tovar
+1 name_tovar
+2 price_tovar
+3 ed_izm
+4 kol
+0
+яблоко//$a
+65
+кг
+300
+1
+груша
+80
+кг
+100
+2
+банан
+35
+кг
+400
+
+$n=mysql_num_rows($res);
+
+for($i=0;$i<$n;$i++){
+$name_tovar=mysql_result($res,$i,'name_tovar');
+$price_tovar=mysql_result($res,$i,'price_ tovar');
+$kol_tovar=mysql_result($res,$i,'kol_tovar');
+.
+.
+echo "Наименование товара: $name_tovar , цена $price_tovar........<br>"
+}
+
+
+mysql_fetch_array($res[,тип]);
+MYSQL_NUM
+MYSQL_ASSOC
+MYSQL_BOTH по умолчанию именно он
+
+while($arr= mysql_fetch_array($res, MYSQL_ASSOC)){
+echo "Наименование товара: ".$arr['name_tovar']." , цена ".$arr['price_tovar'].".......<br>"
+}
+
+$res =mysql_list_dbs() список баз (читаем mysql_tablename())
+$res =mysql_list_tables(имя_базы) список таблиц в базе  (читаем mysql_tablename($res,$i))
+mysql_tablename($res,Номер_строки)
+$r=mysql_list_fields(база, таблица)
+mysql_num_fields($r) число полей
+mysql_field_len($r,индекс) длина поля
+mysql_field_name($r,индекс) имя поля
+
+mysql_error() выдает текст ошибки
+
+mysql_query(....);
+echo mysql_error();
+
+
+
+<?php
+mysql_connect("localhost","root","пароль") or die("не удалось соединиться");
+$dbs=mysql_list_dbs();
+$ndbs=mysql_num_rows($dbs);
+for($i=0;$i<$ndbs;$i++){
+$db=mysql_tablename($dbs,$i);
+echo "<h1>$db</h1>";
+$tbls=mysql_list_tables($db);
+$ntbls=mysql_num_rows($tbls);
+for($j=0;$j<$ntbls;$j++){
+$tbl=mysql_tablename($tbls,$j);
+echo "<h2>$tbl</h2>";
+$flds=mysql_list_fields($db,$tbl);
+$nflds=mysql_num_fields($flds);
+for($k=0;$k<$nflds;$k++){
+$fld=mysql_field_name($flds,$k);
+echo "$fld<br>";
+}}}?>
+
+
+
+
+
+Каталог - файл catalog.php
+
+<?php
+include('connect.php');
+$sel="select * from tovar";
+$res=mysql_query($sel);
+echo "<h1>Каталог товаров</h1>";
+echo "<table border=\"1\"><tr><td>наименование товара
+</td><td>цена товара</td>...</tr>";//где многоточие дополнить необходимыми полями
+//это такая функция, которая строку результата представляет в виде массива
+while($arr=mysql_fetch_array($res)){
+echo "<tr><td>".$arr['name_tovar']."</td>
+<td>".$arr['price_tovar']."</td>...</tr>";//где многоточие дополнить необх. полями
+}
+echo "</table>";
+?>
+
+
+
+<?php
+include('connect.php');
+$sel="select * from tovar";
+$res=mysql_query($sel);
+echo "<h1>Каталог товаров</h1>";
+echo "<table border=\"1\"><tr><td>наименование товара
+</td><td>цена товара</td>...</tr>";//где многоточие дополнить необходимыми полями
+//это такая функция, которая строку результата представляет в виде массива
+while($arr=mysql_fetch_array($res)){
+echo "<tr><td><a target=\"_blank\" href=\"info.php?id_tovar=".$arr['id_tovar']."\">
+".$arr['name_tovar']."</a></td>
+<td>".$arr['price_tovar']."</td>...</tr>";//где многоточие дополнить необх. полями
+}
+echo "</table>";
+?>
+
+Код для занесения в базу покупок.
+Сначала каталог, в котором можно отметить товар
+<?php
+include('connect.php');
+$sel="select * from tovar";
+$res=mysql_query($sel);
+echo "<h1>Каталог товаров</h1>";
+//делаем форму, в которой будет одно поле ячейкой таблицы, где надо ввести число единиц //товара, который хочет купить клиент
+echo "<form method=\"POST\" action=\"kupit.php\"><table border=\"1\"><tr><td>наименование товара
+</td><td>цена товара</td>...<td>указать количество</td>
+</tr>";//где многоточие дополнить необходимыми полями
+//это такая функция, которая строку выполненного запроса представляет в виде массива
+while($arr=mysql_fetch_array($res)){
+echo "<tr><td><a target=\"_blank\" href=\"info.php?id_tovar=".$arr['id_tovar']."\">".$arr['name_tovar']."</a></td>
+<td>".$arr['price_tovar']."</td>...<td>
+<input type=\"text\" name=\"id[".$arr['id_tovar']."]\" value=\"0\">
+</td></tr>";//где многоточие дополнить необходимыми полями
+}
+echo "</table>";
+//потом выбираем покупателя точно так же, но не в таблицу заносим,а в select
+echo "<select name=\"id_client\">";
+$sel_cl="select * from client";
+$res_cl=mysql_query($sel_cl);
+while($arr_cl=mysql_fetch_array($res_cl)){
+echo "<option value=\"".$arr_cl['id_client']."\">".$arr_cl['name_client']."</option>";
+}
+echo "</select>";
+//тут кнопка отправки и конец формы, переменные, в которых указано число
+ единиц покупаемого товара идут как массив, индексированный своими id_tovar
+echo "<br><input type=\"submit\"></form>";
+?>
+
+//второй файл, который называется kupit.php
+<?php
+include ("connect.php");//тут продолжение как везде
+$id_client=$_POST['id_client'];
+$id=$_POST['id'];
+//не вполне помню структуру таблицы сделка
+$up_sdelka="insert into sdelka values (null,$id_client,null,now()...)";//id_sdelka,id_client,summa,data...
+$res_up_sdelka=mysql_query($up_sdelka);
+$id_sdelka=mysql_insert_id();
+$sum=0;
+foreach ($id as $key => $value){   //исключить нулевые количества из подсчетов, у кого $value равно 0
+if($value){
+$up="update tovar set kol_tovar=kol_tovar-$value where id_tovar=$key";
+$up_svaz="insert into svaz values($id_sdelka,$key,$value
+.....)";//в соответствии с таблицей svaz: id_sdelka,id_tovar,количество товара...
+$sum+=$value*mysql_result(mysql_query("select price_tovar from 
+tovar where id_tovar=$key"),0,0);
+if(mysql_query($up)) echo "количество товара $key обновлено";
+else echo "товар $key не обновился";
+if(mysql_query($up_svaz)) echo " количество товара $key добавлено к сделке <br>";
+else echo " товар $key не добавлен к сделке <br>";
+}
+}
+$up_sdelka="update sdelka set sum_sdelka=$sum where id_sdelka=$id_sdelka";
+if(mysql_query($up_sdelka)) echo "сделка $id_sdelka обновлена на сумму $sum<br>";
+else "Не удалось установить сумму сделки $id_sdelka<br>";
+?>
+
+
+Классы
+
+Пример простого класса
+
+<?php
+class SimpleClass
+{
+    // обьявление членов класса (переменных)
+    public $var = 'a default value';
+
+    // обьявление методов класса (функций)
+    public function displayVar() {
+        echo $this->var;
+    }
+}
+?>
+
+New
+
+<?php
+$instance = new SimpleClass();
+?>
+
+Extends - расширения класса
+<?php
+class ExtendClass extends SimpleClass
+{
+    // переопределение родительского метода
+    function displayVar()
+    {
+        echo "Extending class\n";
+        parent::displayVar();
+    }
+}
+
+$extended = new ExtendClass();
+$extended->displayVar();
+?>
+
+
+Конструктор и деструктор
+
+Конструктор
+
+include_once ('baseclass.php');
+
+<?php
+class BaseClass {
+   function __construct() {
+       print "In BaseClass constructor\n";
+   }
+}
+
+class SubClass extends BaseClass {
+   function __construct() {
+       parent::__construct();
+       print "In SubClass constructor\n";
+   }
+}
+
+$obj  = new BaseClass(); // In BaseClass constructor
+$obj1 = new SubClass();  //  In BaseClass constructor
+			    //  In SubClass constructor
+?>
+
+Деструктор
+
+<?php
+class MyDestructableClass {
+   function __construct() {
+       print "In constructor\n";
+       $this->name = "MyDestructableClass";
+   }
+
+   function __destruct() {
+       print "Destroying " . $this->name . "\n";
+   }
+}
+
+$obj = new MyDestructableClass();
+?>
+
+
+
+Пример видимости членов класса
+
+<?php
+ // Define MyClass
+class MyClass
+{
+    public $public = 'Public';
+    protected $protected = 'Protected';
+    private $private = 'Private';
+
+    function printHello()
+    {
+        echo $this->public;
+        echo $this->protected;
+        echo $this->private;
+    }
+}
+
+$obj = new MyClass();
+echo $obj->public; // Works
+echo $obj->protected; // Fatal Error
+echo $obj->private; // Fatal Error
+$obj->printHello(); // Shows Public, Protected and Private
+
+// Define MyClass2
+ class MyClass2 extends MyClass
+{
+    // Мы можем переобьявить public и protected , но не private
+    protected $protected = 'Protected2';
+
+    function printHello()
+    {
+        echo $this->public;
+        echo $this->protected;
+        echo $this->private;
+    }
+}
+
+$obj2 = new MyClass2();
+echo $obj2->public; // Works
+echo $obj2->private; // Undefined
+echo $obj2->protected; // Fatal Error
+$obj2->printHello(); // Shows Public, Protected2, not Private
+
+?>
+
+Пример видимости методов класса
+
+<?php
+// Define MyClass
+ class MyClass
+{
+    // Конструктор должен быть public
+    public function __construct() { }
+
+    // Обьявление public method
+    public function MyPublic() { }
+
+    // Обьявление protected method
+    protected function MyProtected() { }
+
+    // Обьявление private method
+    private function MyPrivate() { }
+
+    // Это public
+    function Foo()
+    {
+        $this->MyPublic();
+        $this->MyProtected();
+        $this->MyPrivate();
+    }
+}
+
+$myclass = new MyClass;
+$myclass->MyPublic(); // Works
+$myclass->MyProtected(); // Fatal Error
+$myclass->MyPrivate(); // Fatal Error
+$myclass->Foo(); // Public, Protected and Private work
+
+//Define MyClass2
+class MyClass2 extends MyClass
+{
+    // This is public
+    function Foo2()
+    {
+        $this->MyPublic();
+        $this->MyProtected();
+        $this->MyPrivate(); // Fatal Error
+    }
+}
+
+$myclass2 = new MyClass2;
+$myclass2->MyPublic(); // Works
+$myclass2->Foo2(); // Public and Protected work, not Private
+
+class Bar 
+{
+
+    public function testPublic() {
+        echo "Bar::testPublic\n";
+    }
+    
+    private function testPrivate() {
+        echo "Bar::testPrivate\n";
+    }
+
+    public function test() {
+        $this->testPrivate();
+        $this->testPublic();
+    }
+
+}
+
+class Foo extends Bar 
+{
+    public function testPublic() {
+        echo "Foo::testPublic\n";
+    }
+    
+    private function testPrivate() {
+        echo "Foo::testPrivate\n";
+    }
+}
+
+$myFoo = new Foo();
+$myFoo->test(); // Bar::testPrivate 
+                // Foo::testPublic
+?>
+
+
+
+Создадим класс Tovar
+Название файла tovar_class.php
+<?php
+class Tovar
+{
+    //обьявление переменных -членов класса
+    var	$id_tovar;
+    var	$name_tovar;
+    var	$price_tovar;
+    var	$kol_tovar;
+    .
+    .
+    // обьявление методов
+    public function __construct($id_tovar) {
+        $sel="select * from tovar where id_tovar=".$id_tovar;
+        $res=mysql_query($sel);
+	if (!$arr=mysql_fetch_array($res)) return false;
+	else {
+	$this->id_tovar=$arr['id_tovar'];
+	$this->name_tovar=$arr['name_tovar'];
+	.
+	.
+	}
+    }
+    public function get_id_tovar() {
+	return $this->id_tovar;
+    }
+    public function get_name_tovar() {
+	return $this->name_tovar;
+    }
+    .
+    .
+}
+?>
+
+И применим этот класс в программе
+файл info.php
+<?php
+include ('файл, в котором соединение с базой.php'); //connect.php
+include_once ('tovar_class.php');
+if (!empty($_GET['id_tovar'])) {
+if ($tovar=new Tovar($_GET['id_tovar'])){
+echo "<h1>".$tovar->get_name_tovar()."</h1>";
+echo "<p>Цена товара: ".$tovar->get_price_tovar()."</p>";
+echo "<p>Описание товара: ".$tovar->get_desc_tovar()."</p>";
+.//тут надо
+.//добавить
+.//описание
+}
+}
+else echo "<h1>Товар не найден</h1>";
+?>
+
+
+Передача файла на сервер.
+
+Форма для выбора файла
+<html><head>…</head>
+<body>
+<form action="sc.php" method="post"
+ enctype="multipart/form-data">
+<input type="hidden" name="MAX_FILE_SIZE"  value="30000" >
+<p>Выбрать файл: 
+<input type="file" name="userfile">
+<input type=submit>
+</form>
+</body></html>
+
+Действия с файлом - скрипт sc.php:
+<?php
+echo "<p>Настоящее имя файла: ".$_FILES['userfile']['name'];
+....
+$uploadfile = "C:/Inetpub/wwwroot/files/".$_FILES['userfile']['name'];
+if (move_uploaded_file($_FILES['userfile']['tmp_name'], $uploadfile)) {
+    echo "Файл успешно сохранен.";
+} 
+else {
+    echo "Не удалось сохранить файл";
+}
+?>
+
+$_FILES['userfile']['name'] 
+Настоящее имя файла как на клиентской машине 
+$_FILES['userfile']['type'] 
+MIME-тип, который послал браузер (image/gif, plain/text)
+$_FILES['userfile']['size'] 
+Размер файла по представлению браузера 
+$_FILES['userfile']['tmp_name'] 
+Временное имя файла на сервере
+$_FILES['userfile']['error']
+
+UPLOAD_ERR_OK 
+Value: 0; Нет ошибок
+UPLOAD_ERR_INI_SIZE 
+Value: 1; размер файла превышает ограничение
+ php.ini. 
+UPLOAD_ERR_FORM_SIZE 
+Value: 2; размер файла превышает ограничение
+  HTML form. 
+UPLOAD_ERR_PARTIAL 
+Value: 3; Файл загружен частично
+UPLOAD_ERR_NO_FILE 
+Value: 4; Файл не загружен 
+UPLOAD_ERR_NO_TMP_DIR 
+Value: 6; Не найдена временная директория
+ для загрузки файла  
+UPLOAD_ERR_CANT_WRITE 
+Value: 7; ошибка записи на диск
+UPLOAD_ERR_EXTENSION 
+Value: 8; Загрузка файла остановлена из-за дополнительных модулей
+
+ПРимер, переделанный из скрытых input в сеанс.
+
+файл index.php
+<?php
+session_start();
+if (isset($_SESSION['ima'])) $ima=$_SESSION['ima'];//эти 2 строки повторяем по 
+else $ima="";						//числу переменных
+if (isset($_POST['s1']) and $_ POST ['s1']== "в базу") {
+//Тут код добавления в базу
+//echo "добавляем в базу";
+mysql_connect....
+mysql_query("set names utf8");
+mysq_select_db("shop");
+$ins="insert into tovar values (null,'$name_tovar',....)";
+if(mysql_query($ins)) echo "товар добавлен.<a href=\"catalog.php\">перейти в каталог</a>";
+else {
+echo "товар не добавлен";
+echo mysql_error();
+}
+ }// до сюда!!
+else {
+?>
+<html><head><title>Пример формы</title></head>
+<body>
+<h1>Заполните форму:</h1>
+<form action="script.php" method="POST">
+<p>ВВедите Ваше имя:</p>
+<input type="text" name="ima" value="<?php echo $ima; ?>">
+<input type="submit" value="надпись на кнопке">
+</form>
+<?php
+}
+?> 
+</body>
+</html>
+
+Теперь файл script.php
+<?php
+session_start();
+function proverka($z){
+if (empty($z)) return 0; //проверка не прошла
+else return 1;//проверка прошла успешно 
+}
+$err=1;
+echo "Ваше имя: ";
+if (!proverka($_POST['ima'])) {echo "<font color=\"red\">не заполнено обязательное поле</font>";
+$err=0;}
+else {echo $_POST['ima'];
+$_SESSION['ima']= $_POST['ima'];
+}
+echo "<form method=\"POST\" action=\"index.php\">"; // сюда подставить свое имя файла с формой ввода товара, заменив расширение на php
+//!!!! В этом месте стерли скрытые itput
+echo "<input type=\"submit\" value=\"исправить\" name=\"s1\">";
+if($err) echo "<input type=\"submit\" value=\"в базу\" name=\"s1\">";
+echo "</form>"; ?>
+
+
+gr3.php
+<?php
+header("Content-type: image/jpeg");
+$im  = imagecreatetruecolor(300, 300);
+$w   = imagecolorallocate($im, 255, 255, 255);
+$red = imagecolorallocate($im, 255, 0, 0);
+$g=imagecolorallocate($im, 0, 255, 0);
+imagefill($im,0,0,$w);
+imagerectangle($im, 299, 0, 1, 299, $g);
+$arr=array(0,24,28,34,45,56,68,78,103,128,200);
+$y=0;
+for ($j=0;$j<10;$j++){
+
+imageline($im, $y,300-$arr[$j], $y+30, 300-$arr[$j+1], $red);
+$y=$y+30;
+                      }
+
+$tt="C:/windows/TEMP/1.jpg";
+imagejpeg($im,$tt);
+imagedestroy($im);
+?>
+gr4.php
+<?php
+echo "<h3>Это пример внедрения рисунка</h3>";
+include 'gr3.php';
+echo $tt;
+echo "<img src=\"$tt\">";
+
+
+?>                                
+imagecopyresized ( resource dst_image, resource src_image, int dst_x, int dst_y, int src_x, int src_y, int dst_w, int dst_h, int src_w, int src_h )
+
+
+Javascript
+DOM document object model
+
+
+
+<form name="nf1">
+<input name="n1">
+<input type="submit" name="sub1">
+</form>
+
+<form name="nf1">
+<input name="n1">
+<input type="button" onClick="document.Forms['nf1'].submit()">
+<img id="im1" src="file1.jpg" name="nm">
+<input type="button" onClick=" document.getElementById('im1').src='file.jpg'">
+</form>
+
+document.getElementById('im1').src='file.jpg'
+document.getElementByName('nm').src='file.jpg'
+
+
+
+<html><head>...<body><table border="0">
+<tr><td rowspan=3><img src="big.jpg" width="200" id="imbig"></td>
+<td><img src="small.jpg" width="50" onMouseover="document.getElementById('imbig').src='big.jpg'">
+</td></tr>
+<tr><td><img src="small1.jpg" width="50" onMouseover="document.getElementById('imbig').src='big1.jpg'" onClick="document.getElementById('d1').style.display='block'; document.getElementById('imbigdiv').src='big1.jpg' "></td></tr>
+<tr><td><img src="small2.jpg" width="50" onMouseover="document.getElementById('imbig').src='big2.jpg'"></td></tr></table>
+<div style="width:200px;height:200px;display:none;border:1px solid black;padding:10px;" id='d1' onClick="this.style.display='none';"><img src="big.jpg" id='imbigdiv' width="180"></div></body></html>
+
+htmlbook.ru
+
+<div style="width:200px;height:20px;overflow:hidden;background-color:#ff4444;" onMouseover="this.style.overflow='visible';" onMouseOut="..">
+<p>Меню <br>
+<a href="1.html">пункт 1</a></br>
+<a href="2.html">пункт 2</a></br>
+<a href="3.html">пункт 3</a></br>
+</div>
+
+
+<HTML><HEAD><TITLE>Dynamic visibility example</TITLE>
+<META  http-equiv="Content-Script-Type" content="application/x-hypothetical-scripting-language">
+<STYLE type="text/css">
+   #container1 { position: absolute; 
+                 top: 2in; left: 2in; width: 2in }
+   #container2 { position: absolute; 
+                 top: 2in; left: 2in; width: 2in;
+                  }
+</STYLE></HEAD><BODY>
+<P>Choose a suspect:</P>
+<DIV id="container1">
+   <IMG alt="Al Capone" 
+        width="100" height="100" 
+        src="suspect1.jpg">
+   <P>Name: Al Capone</P>
+   <P>Residence: Chicago</P>
+</DIV>
+<DIV id="container2">
+   <IMG alt="Lucky Luciano" 
+        width="100" height="100" 
+        src="suspect2.jpg">
+   <P>Name: Lucky Luciano</P>
+   <P>Residence: New York</P>
+</DIV>
+
+<FORM method="post" 
+      action="http://www.suspect.org/process-bums">
+   <P>
+   <INPUT name="Capone" type="button" 
+          value="Capone" 
+          onclick='document.getElementById("container1").style.visibility="visible";document.getElementById("container2").style.visibility="hidden";'>
+   <INPUT name="Luciano" type="button" 
+          value="Luciano" 
+          onclick='document.getElementById("container2").style.visibility="visible";document.getElementById("container1").style.visibility="hidden";'>
+</FORM>
+</BODY>
+</HTML>
+
+
+
+Куки  Cookie
+$_COOKIE['имя']
+
+setcookie ( name [,  value [,  expire [,  path [,  domain [,  secure [, httponly]]]]]] );
+
+Установка кук строго до любого вывода в браузер.
+$_COOKIE[]
+setcookie('cookiename','привет',time()+60*60*24*30,'/')
+Параметр
+Описание
+Пример
+name
+Имя куки. 
+'cookiename' вызывается как $_COOKIE['cookiename'] 
+value
+Значение куки. 
+Значение хранится тут: $_COOKIE['cookiename'] 
+expire
+Время окончания действия куки. Это Unix timestamp (число секунд с начала эпохи). Можно установить с помощью функции time() плюс число секунд до конца жизни куки. 
+time()+60*60*24*30 кука истечет через 30 дней. Если установить  0 (или вообще опустить), кука умрет при закрытии браузера. 
+path
+Путь на веб-сервере, где кука доступна. 
+При установке '/', кука будет доступна начиная от корня и глубже. Если установить '/dir/', кука будет доступна в /dir/ и ее поддиректориях. Значением по умолчанию является та директория, где кука была установлена. 
+domain
+Домен, где доступна кука. 
+Для всех поддоменов: '.example.com'. Установка www.example.com делает куку доступной только из www поддомена. 
+secure
+показывает, что кука должна быть передана только по  HTTPS. По умолчанию FALSE. 
+TRUE or FALSE 
+httponly
+Если TRUE кука доступна только по HTTP. То есть недоступна разным JavaScript. 
+TRUE or FALSE 
+
+
+<?php
+// установить куки
+setcookie("cookie[three]", "cookiethree");
+setcookie("cookie[two]", "cookietwo");
+setcookie("cookie[one]", "cookieone");
+
+// распечатать куки (после перезагрузки страницы)
+if (isset($_COOKIE['cookie'])) {
+    foreach ($_COOKIE['cookie'] as $name => $value) {
+        echo "$name : $value <br />\n";
+    }
+}
+?>
+
+
+Сеансы.
+
+$_SESSION['переменная_сеанса']
+$_SESSION['user_name']="Петя Иванов";
+unset($_SESSION['user_name']);
+echo $_SESSION['user_name'];
+session_start();
+
+<?php
+session_start();
+if (!isset($_SESSION['count'])) {
+    $_SESSION['count'] = 0;
+} else {
+    $_SESSION['count']++;
+    echo $_SESSION['count'];
+}
+?>
+
+Уничтожить сессию
+
+<?php
+// Начать сессиию
+session_start();
+// Удалить переменные сессии
+$_SESSION = array();
+//нельзя делать unset($_SESSION)
+//убить куки, иначе сеанс возобновится
+if (isset($_COOKIE[session_name()])) {
+    setcookie(session_name(), '', time()-42000, '/');
+   // setcookie(session_name());
+
+}
+// Уничтожить саму сессию.
+session_destroy();
+?>
+
+$_SESSION['PHPSESSID'] - 
+
+
+Регулярные выражения
+^строка  - начало строки.
+^а - строка начинается на а
+"арбуз"
+"амбар"
+"апельсин и груша"
+$ - конец строки
+строка$ - шаблон, означающий конец строки
+в$ - строка заканчивается на в
+"Иванов"
+"Петров"
+"Сидоров"
+^строка$ - ищется в точности такая строка
+^яблоко$
+"яблоко" - подходит
+"вкусное яблоко" - не подходит
+"яблоко красного цвета" - не подходит
+слово - тоже может являться шаблоном
+цветок - шаблон
+"цветок" - подходит
+"красный цветок" - подходит
+"цветок в горшке" - подходит
+"красный цветок в горшке" - подходит
+$sh="цветок";
+ereg($sh, ....)
+ereg("^цветок$", ....)
+
+\t - табуляция
+\n  - новая строка
+\f - form feed - подача страницы
+\r - возврат каретки
+\v - вертикальная табуляция
+\, - запятая
+\. - точка
+\\ - \
+
+Классы символов
+
+[нечто] - класс символов, представляет 1 символ
+[a] - буква а
+[Аа] - буква а маленькая или большая
+[а-я] - ищем маленькую русскую букву
+[А-Яа-я] - ищем русскую букву
+[]a-zA-ZА-Яа-я0-9%<> []
+[^a-zA-Z]
+[а-я][0-9]  - "п99", "чм7", "в5" 
+{x} - ровно х символов
+[а-я]{5} 
+[0-9]{3} 
+{x,} - x и более символов
+[а-я]{4,} - русское слово не короче 4 символов
+{x,y} - ищем не менее х и не более у
+[а-я]{4,5} русское слово из 4 или 5 символов
+{0,1} - ?
+[a-z]? напишем вместо [a-z]{0,1} 
+{0,} - *
+{1,} - + 
+^[-]?[0-9]+$
+
+[[:alpha:]] - буква латинского алфавита [a-zA-Z]
+[[:digit:]] - цифра [0-9]
+[[:punct:]] - любой знак пунктуации 
+.
+.
+.
+| - или
+слово|слово2
+яблоко|груша
+. символ, означающий любой существующий символ
+[.]*
+
+^[а-я]{5,}[0-9]{2,7}[.]*0$
+аааааааа789апваоплвасолва 98430
+выаврыор3477jkdfgjlfdkjgjkfg0
+
+(нечто)@(нечто).(домен)
+
+$sh="[a-zA-Z0-9_]{1,254}@[a-zA-Z_]+\\.[a-z]{2,4}";
+$sh="([a-zA-Z0-9_]{1,254})@([a-zA-Z_]+)\\.([a-z]{2,4})";
+
+$sh="\\\\"; в шаблоне останнется \
+\\
+ereg ( шаблон, строка [, массив] )
+ereg($sh,$_POST['email'],$arr)
+$arr[0] - вся соответствующая строка
+$arr[1] - имя пользователя
+$arr[2] - домен
+$arr[3] - домен верхнего уровня
+
+eregi() игнорирует регистр
+
+ereg_replace(шаблон, на_что_менять, строка_в_которой_менять)
+ereg_replace("Коля", "Петя", $_POST['name']);
+ereg_replace("[ ]","_", $_POST['loginname']);
+
+eregi_replace() игнорирует регистр
+
+$arr=split(шаблон, строка[, число]);
+$arr=split(" ",$_POST['name'],3)
+Иван Иванович Петров инженер
+$arr[0]="Иван";
+$arr[1]="Иванович";
+$arr[2]="Петров";
+spliti() игнорирует регистр
+
+
+<?php
+function proverka($z){
+if (empty($z)) return 0; //проверка не прошла
+else return 1;//проверка прошла успешно 
+}
+$err=1;
+echo "Ваше имя: ";
+if (!proverka($_POST['ima'])) {echo "<font color=\"red\">не заполнено обязательное поле</font>";
+$err=0;}
+else {
+$sh="^[а-яА-Я]{1,20}$";
+if(ereg($sh, $_POST['ima']))  echo $_POST['ima'];
+else {echo "<font color=\"red\">посторонние символы в имени</font>";
+$err=0;
+} }
+echo "<form method=\"POST\" action=\"index.php\">"; // сюда подставить свое имя файла с формой ввода товара, заменив расширение на php
+echo "<input type=\"hidden\" name=\"ima\" value=\"".$_POST['ima']."\">";//эта строка будет повторяться столько раз, сколько у вас переменных
+echo "<input type=\"submit\" value=\"исправить\" name=\"s1\">";
+if($err) echo "<input type=\"submit\" value=\"в базу\" name=\"s1\">";
+echo "</form>"; ?>
+
+
+DIV
+
+<div style="position:absolute;border:1px solid red;">
+содержимое контейнера
+</div>
+
+position: absolute | fixed | relative | static | inherit
+
+left, top, right и bottom: значение | проценты | auto | inherit
+top:20px;
+
+z-index: число | auto | inherit
+
+visibility: visible | hidden | collapse | inherit
+
+overflow: auto | hidden | scroll | visible | inherit
+height: число | процент | auto
+width: число | процент | auto
+
+display: block | inline | inline-block | inline-table | list-item | none | run-in | table | table-caption | table-cell | table-column-group | table-column | table-footer-group | table-header-group | table-row | table-row-group
+
+
+block	Элемент показывается как блочный. Применение этого значения для встроенных элементов, например тега <span>, заставляет его вести подобно блокам — происходит перенос строк в начале и в конце содержимого. 	 	 	 	 	 	 	 	 	 	 
+inline	Элемент отображается как встроенный. Использование блочных тегов, таких как <div> и <p>, автоматически создает перенос и показывает содержимое этих тегов с новой строки. Значение inline отменяет эту особенность, поэтому содержимое блочных элементов начинается с того места, где окончился предыдущий элемент.	 	 	 	 	 	 	 	 	 	 
+inline-block	Это значение генерирует блочный элемент, который обтекается другими элементами веб-страницы подобно встроенному элементу. Фактически такой элемент по своему действию похож на встраиваемые элементы (вроде тега  <img>). При этом его внутренняя часть форматируется как блочный элемент, а сам элемент — как встроенный. 	 	 	 	 	 	 	 	 	 	 
+inline-table	Определяет, что элемент является таблицей как при использовании тега <table>, но при этом таблица является встроенным элементом и происходит ее обтекание другими элементами, например, текстом. 	 	 	 	 	 	 	 	 	 	 
+list-item	Элемент выводится как блочный и добавляется маркер списка. 	 	 	 	 	 	 	 	 	 	 
+none	Временно удаляет элемент из документа. Занимаемое им место не резервируется и веб-страница формируется так, словно элемента и не было. Изменить значение и сделать вновь видимым элемент можно с помощью скриптов, обращаясь к свойствам через объектную модель. В этом случае происходит переформатирование данных на странице с учетом вновь добавленного элемента.	 	 	 	 	 	 	 	 	 	 
+run-in	Устанавливает элемент как блочный или встроенный в зависимости от контекста. 	 	 	 	 	 	 	 	 	 	 
+table	Определяет, что элемент является блочной таблицей подобно использованию тега <table>. 	 	 	 	 	 	 	 	 	 	 
+table-caption	Задает заголовок таблицы подобно применению тега <caption>. 	 	 	 	 	 	 	 	 	 	 
+table-cell	  Указывает, что элемент представляет собой ячейку таблицы (тег <td> или <th>). 	 	 	 	 	 	 	 	 	 	 
+table-column	Назначает элемент колонкой таблицы, словно был добавлен тег  <col>.	 	 	 	 	 	 	 	 	 	 
+table-column-group 	Определяет, что элемент является группой одной или более колонок таблицы, как при использовании тега <colgroup>.	 	 	 	 	 	 	 	 	 	 
+table-footer-group 	Используется для хранения одной или нескольких строк ячеек, которые отображаются в самом низу таблицы. По своему действию сходно с работой тега <tfoot>. 	 	 	 	 	 	 	 	 	 	 
+table-header-group	Элемент предназначен для хранения одной или нескольких строк ячеек, которые представлены вверху таблицы. По своему действию сходно с работой тега <thead>. 	 	 	 	 	 	 	 	 	 	 
+table-row	Элемент отображается как строка таблицы (тег <tr>).	 	 	 	 	 	 	 	 	 	 
+table-row-group	Создает структурный блок, состоящий из нескольких строк таблицы аналогично действию тега <tbody>. 	 	 	 	 	 	 	 	 	 	
+
+
+Сделать пример:
+
+
+
+ SHAPE  \* MERGEFORMAT 
+найти разный стиль для элемента.!!!!!!!!!!!!!!!!!
+
+
+<style>
+.m1 {width:200px;height:20px;overflow:hidden;background-color:#ff4444;}
+.m2 {width:200px;height:20px;overflow:visible;background-color:#ff4444;}
+</style>
+<div class="m1" onMouseover='this.className="m2";'>
+<p>Меню <br>
+<a href="1.html">пункт 1</a></br>
+<a href="2.html">пункт 2</a></br>
+<a href="3.html">пункт 3</a></br>
+</div>
+
+Javascript
+
+Куда вставлять скрипт
+
+<html>….<body>     <h1>Счет</h1> 
+          <script type="text/javascript">
+ <!---<script>, <script language="javascript"> это способы записи открывающего тега --->
+        for(var i=1; i<=3; i++) { 
+            alert("Это "+i+"!") 
+        }     </script>
+         <h1>...Посчитали</h1> </body> </html>
+Конструкция for
+Обычный цикл, по синтаксису аналогичный другим языкам программирования.
+Объявление var i
+Объявление переменной внутри цикла: i - локальная переменная.
+Функция alert
+Выводит сообщение на экран и ждет, пока посетитель не нажмет ОК
+
+Вынос скриптов в заголовок HEAD
+
+
+	<html>
+    <head>
+        <script type="text/javascript">
+            function count_3() {
+                for(var i=1; i<=3; i++) {
+                   // оператор + соединяет строки
+                   alert("Это "+i+"!");
+                }
+            }
+         </script>
+    </head>
+    <body>
+     <input type="button" onClick="count_3();" value="Считать!">
+    </body>
+</html>
+
+
+ 
+Внешние скрипты
+
+подключают отдельный файл со скриптом:
+<script src="/my/script.js"></script>
+
+
+ При этом файл /my/script.js содержит javascript-код, который иначе мог бы находиться внутри тега <script>.
+
+
+Чтобы подключить несколько скриптов - несколько таких тегов:
+<script src="/js/script1.js"></script>
+<script src="/js/script2.js"></script>
+...
+
+При указании атрибута src содержимое тега игнорируется. 
+
+
+То есть одновременно подключить внешний файл и написать что-то внутри тега нельзя. Придется делать два разных тега <script>: первый с src, второй - с командами, которые будут выполнены после выполнения внешнего файла.
+
+
+Конструкции
+Точка с запятой
+
+
+Эти две строки полностью эквивалентны:
+a = 5
+a = 5;
+
+(В javascript перевод строки означает точку с запятой.)
+
+Нельзя:
+var a = "длинная 
+  строка "
+
+
+ 
+
+Блоки
+
+Блоки задаются фигурными скобками. 
+
+Локальные переменные объявляются при помощи var. 
+<script>
+	var i = 0
+	{
+	  var i=5
+	  alert(i) // 5 
+	}
+	alert(i) 
+</script>
+Комментарии
+
+// однострочные комментарии 
+	 
+/* 
+   многострочные
+   комментарии
+*/
+
+Переменные
+
+Переменные в javascript слабо типизированы. 
+
+Переменную не обязательно объявлять. Достаточно ее просто присвоить:
+x = 5
+
+
+ Функции
+
+function Hello(name) {
+    alert("Hello "+name)
+}
+
+<input type="button" onClick="Hello('Вася')">
+
+Директива var при объявлении переменной делает ее локальной, то есть видимой только внутри текущей функции. Все остальные переменные являются глобальными.
+
+Локальная переменная объявляется так:
+var i
+
+
+ При объявлении можно тут же присвоить переменной значение и объявить другие переменные:// то же самое что 3 отдельных объявления c var
+var a=5, b=6, str = "Строка"
+
+
+ a = 1
+function go() {
+    var a = 6
+}
+go()
+alert(a) // => 1
+ А здесь - ключевое слово var опущено, поэтому значение меняется:
+	a = 1
+	function go() {
+	    a = 6
+	}
+	go()
+	alert(a) // => 6
+
+
+ 
+
+
+Основные типы
+Integer Целое число
+a=1
+Float Число с плавающей точкой
+d=1.3
+Строки
+a = 'моя'
+b = "строка"
+
+
+ Для конкатенации строк используется оператор +.
+	a = "моя"
+	b = "строка"
+	alert(a + ' ' + b)
+
+
+ Объекты
+
+Javascript - объектный язык. В нем все является объектами. Строки, числа, функции и массивы - все это объекты со своими методами и свойствами. 
+Методы объектов вызываются через точку. Например, у строки String есть метод toUpperCase, возвращающий строку в верхнем регистре:
+	name = "Vasya"
+	alert( name.toUpperCase() )
+
+
+ Или даже так:
+	alert( "Vasya".toUpperCase() )
+
+
+ Практически всё в javascript делается при помощи вызова методов различных объектов.
+
+Объекты создаются функциями-конструкторами при помощи директивы new.
+
+ Массивы
+
+В javascript есть два основных способа объявить массив.
+
+Для массива с числовыми индексами обычно используется объект типа Array. 
+	arr = new Array("my", "array")
+	alert(arr.length)  // 2
+
+
+ Свойство length содержит длину массива, которая всегда равна последнему индексу (в примере выше - это 1) плюс один.
+
+Обычно используется другая, почти эквивалентная, запись массива, использующая квадратные скобки:
+	arr = [ "my", "array" ]
+	alert(arr[0]) // "my" 
+
+ Новые элементы можно добавить в конец методом push.
+ Для перебора значений используется цикл for.
+	arr = ["первый", "второй"]
+	arr.push("третий")
+	for(var i=0; i<arr.length; i++) {
+	  alert(arr[i]) 
+	}
+
+
+
+
+
+Array 
+
+
+Массив пронумерованных элементов 
+
+/* обычный синтаксис */ 
+var array = [ elem0, elem1, elem2, ... ] 
+var empty = [] 
+/* Синтаксис с new Array() */
+var array = new Array( elem0, elem1, elem2, ...) 
+var empty = new Array() 
+/* Редкий синтаксис: аргумент new Array - одно число. При этом создается массив заданной длины, все значения в котором undefined */ 
+var array = new Array(10) 
+Аргументы: 
+elem0, elem1, ...
+Если ни один из параметров elem0, elem1, ... не указан, то инициализируется пустой массив.
+Если указан лишь один числовой параметр elem0 и массив объявлен через new Array, то будет инициализирован пустой массив длины, равной данному числу. При этом все элементы являются undefined.
+В ином случае создается массив из перечисленных элементов.
+Описание конструктора, примеры создания: 
+
+
+Пример: Создать пустой массив
+var arr = []
+
+Пример: добавить элемент в конец
+arr[arr.length] = 5  /* или arr.push(5) */
+
+Пример: Создать массив из разных элементов
+	
+var arr = [ 4, "test", , false, [3,5] ]
+	alert(arr[0])  // => 4
+alert(arr[1]) // => "test"
+	alert(arr[2]) // => undefined
+	alert(arr[3]) // => false
+	alert(arr[4][1]) // => 5
+
+
+Пример: разреженный массив
+	var arr = []
+	arr[1] = 5
+	arr[999] = 6
+	alert(arr[0]) // => undefined, такого значения нет
+	alert(arr.length) // => 1000 : последний индекс+1
+
+
+String 
+
+Базовый объект для строк. Позволяет управлять текстовыми строками, форматировать их и выполнять поиск подстрок.
+Синтаксис: 
+a = 'my string' 
+b = new String(object) 
+
+Объекты String, как правило, создаются неявно с помощью строковых литералов.
+// кавычки любые - без разницы
+var str = "string literal"
+
+
+
+ Объекты String, заданные через кавычки (и называемые "примитивными" строками), немного отличаются от объектов String, созданных с помощью оператора new. Так, например, типом (typeof) данных объекта, созданного при помощи new, является 'object', а не 'string'. И такому объекту можно напрямую назначать дополнительные свойства и методы. В остальном - интерпретатор автоматически превращает примитивные строки в объекты.
+"12345".length // 5
+
+Доступ к символам
+
+Доступ к символам осуществляется при помощи метода String charAtreturn 
+'cat'.charAt(1); // возвратит "a"
+
+
+ обращение к строке как к массиву:
+var str = 'cat'
+return str[1] // "a"
+
+
+ Для изменения строковой переменной применяется присваивание измененной строки:
+str = "строка"
+str = str.charAt(3) + str.charAt(4) + str.charAt(5) // "ока"
+
+Сравнение строк
+
+Для сравнения строк используются обычные операторы <, >, !=, >=, <= .
+
+Методы
+split
+charCodeAt
+String.fromCharCode
+charAt
+concat
+lastIndexOf
+search
+match
+replace
+toLowerCase
+toUpperCase
+toLocaleLowerCase
+toLocaleUpperCase
+toString
+valueOf
+substring
+slice
+indexOf
+substr
+
+Свойства
+length
+
+
+Date 
+
+Дата измеряется в миллисекундах, начиная от полуночи 01 января 1970 года GMT+0. День содержит 86,400,000 миллисекунд.
+
+Date поддерживает как методы для работы в зоне UTC (GMT+0), так и методы для работы с местным временем.
+ Синтаксис: 
+dateObj = new Date() 
+dateObj = new Date(dateVal) 
+dateObj = new Date(год, месяц, день[, час, минута, секунда, милисекунда] ) 
+Аргументы: 
+dateVal
+Если параметр является числовым, то он интерпретируется как количество миллисекунд от 1- Янв-1970 00:00.
+Если строкой, то она разбирается и интерпретируется как дата по стандартным правилам Date.parse.
+1 Jan 1970 00:00
+year
+Год в формате YYYY.
+month
+Месяц от 0 (Янв) до 11 (Дек).
+date
+День месяца от 1 до 31.
+hours
+Параметр должен быть указан, если указан параметр minutes. Устанавливает кол-во часов от 0 до 23.
+minutes
+Параметр должен быть указан, если указан параметр seconds. Устанавливает количество минут: от 0 до 59.
+seconds
+Параметр должен быть указан, если указан параметр ms. Устанавливает количество секунд: от 0 до 59.
+ms
+Количество миллисекунд: от 0 до 999.
+Описание конструктора, примеры создания: 
+
+Если конструктор запущен без аргументов, то возвращается текущая дата.
+Пример: получить текущую дату
+var today = new Date()
+
+
+ При вызове с одним аргументом - строкой, строка разбирается и интерпретируется как дата, так же, как и в методе Date.parse.
+создать дату из строки
+var date = new Date("07 July 2011 19:12") // используется редко
+
+
+ При объявлении с несколькими аргументами, отсутствующие аргументы автоматически считаются равными 0.
+Пример: объявление даты с несколькими аргументами
+
+	new Date(1)
+// Thu Jan 01 1970 03:00:00 GMT+0300 (Russian Standard Time)
+	new Date(1,2)
+// Fri Mar 01 1901 00:00:00 GMT+0300 (Russian Standard Time)
+	new Date(1,2,3)
+// Sun Mar 03 1901 00:00:00 GMT+0300 (Russian Standard Time)
+	new Date(1,2,3,4)
+// Sun Mar 03 1901 04:00:00 GMT+0300 (Russian Standard Time)
+	new Date(1,2,3,4,5)
+//Sun Mar 03 1901 04:05:00 GMT+0300 (Russian Standard Time)
+	new Date(1,2,3,4,5,6)
+//Sun Mar 03 1901 04:05:06 GMT+0300 (Russian Standard Time)
+
+
+Методы
+
+Date.parse
+toLocaleString
+getDate
+getDay
+getFullYear
+getMilliseconds
+getMinutes
+getSeconds
+getTimezoneOffset
+getUTCDate
+getUTCDay
+getUTCHours
+getHours
+getUTCMilliseconds
+getUTCMinutes
+getUTCSeconds
+setSeconds
+setFullYear
+setMilliseconds
+setTime
+setYear
+setDate
+setUTCDate
+setUTCHours
+setHours
+setUTCMilliseconds
+setUTCMinutes
+setMinutes
+setMonth
+setUTCSeconds
+setUTCFullYear
+setUTCMonth
+toGMTString
+toLocaleFormat
+toLocaleTimeString
+toLocaleDateString
+toString
+toTimeString
+toDateString
+toUTCString
+getUTCFullYear
+getMonth
+Date.UTC
+getUTCMonth
+getTime
+valueOf
+getYear
+
+Math
+document.Write(today.getDate())
+
+
+
+8-903-750-39-60
+tania_pimoshenko@mail.ru
+Кубышина Татьяна
+Интернет программирование 48 часов 12 занятий
+Сетевые базы данных MySQL 24 часа 6 занятий
+Программирование С/С++ 24 часа, 6 занятий не читаем
+
+Язык гипертекстовой разметки
+HyperText Markup Language - HTML
+w3.org Спецификация HTML 5.х
+
+htmlbook.ru
+mysql.com
+php.net
+в первой строке стоит ссылка на офиц. версию
+имя.html или имя.htm
+<!DOCTYPE html>
+<html что-то еще>
+    <head>
+      <title>Заголовок окна</title>
+         <meta.........>
+         <meta.........>
+         <meta.........>
+  скрипты
+   </head>
+ скрипты
+  <body>
+ отображаемое содержимое
+  </body>
+</html>
+
+
+index.html
+http://w3.org
+
+<HTML атрибут="значение" атрибут1="значение1"....>
+DIR = "LTR"|"RTL"
+LANG
+ru
+TITLE
+STYLE
+CLASS
+ID
+события (onClick="script", onMouseOver..)
+
+HEAD
+Артибуты те, что у всех.
+TITLE
+<title>Заголовок окна</title>
+Артибуты те, что у всех.
+
+BODY
+ALINK="#rrggbb" (000000-ffffff)
+LINK="red" (#ff0000)
+VLINK="white" (#ffffff)
+BACKGROUND="image/file.jpg"
+BGCOLOR="#rrggbb"
+BGPROPERTIES="fixed"
+BOTTOMMARGIN="число", "число%"
+TOPMARGIN
+LEFTMARGIN
+RIGHTMARGIN
+SCROLL="Yes"|"No"
+TEXT="#rrggbb"|"black"
+
+Абзац
+P
+<p align=”center”>Отображаемый текст абзаца</p>
+<p>Еще абзац
+align="center"|"left"|"right"
+<center>ggggg</center>
+
+<p>hhh<b>gjhjh</p>
+<p>hkkjkj</b>
+
+b - bold(жирный)
+i - italic (курсив)
+u - underline (подчеркнутый)
+s - stike (перечеркнутый)
+strong - усиленный
+<b><i>Жирный</i></b> <i>курсив</i>
+&nbsp;&nbsp;&nbsp;
+&laquo;&raquo;
+<br> перенос строки
+clear = "all"|"left"|"right"|"none"
+
+H1,H2....H6
+<h1>Заголовок</h1>
+align = "center"|"right"|"left"
+
+FONT
+color ="#rrggbb"|"red"
+face="Arial"
+face=”Times New Roman”
+point-size="число"
+size="число" 1....7
+size="+1"
+size="-2"
+weight="0....9"
+<font size="7" color="red" face="Arial" weight=”9”>Крупный красный текст</font>
+
+big, small
+<big>текст стал покрупнее</big> <small>текст стал помельче</small>
+sub, sup - нижний и верхний индекс
+x<sup>2</sup>   x2
+H<sub>2</sub>O   H2O
+
+HR горизонтальная линия
+<hr>
+color="#rrggbb"|"red"
+width="число"|"число%" длина линии
+size="число" толщина в пикселях
+NOSHADE - одинарная линия
+notepad++
+В текстовом редакторе создать текстовый документ, назвать его имя.html, в нем тренируемся
+Заголовки для каждого упражнения
+Упражнения: 
+1. текст, у которого используется жирный шрифт, курсив....
+2. текст, у которого используется разный шрифт по цвету, по наименованию шрифта, размеру
+3. текст, у которого используется верхний и нижний индекс.
+Еще можно нарисовать линии горизонтальные
+<html>...
+<body>
+<h1> Заголовок первого упражнения</h1>
+<p>текст текст текст <b>жирный текст</b>...
+.
+<hr size=...>
+<h1><font color=...>Заголовок второго упражнения</font></h1>
+.
+.
+</body><html>
+
+htmlbook.ru
+
+Метки и гиперссылки
+anchor
+Элемент A 
+name
+href
+
+<a name="n1"> </a>
+<a name="N1"> </a>
+<a href="#n1">ссылка на метку</a>
+<a href="index.html#n1">ссылка на метку в другом файле</a>
+
+<a href="http://www.yandex.ru">ссылка на Яндекс</a>
+
+http://
+ftp://
+mailto:
+<a href="mailto:vasia@mail.ru">Vasia Pupkin</a>
+<a href="/dir/index.html" accesskey="c">cсылка на главную (нажать alt+C)</a>
+<a href="index.html" accesskey="c"><font ...>C</font>сылка на главную</a>
+<a href="/">ссылка на главную</a>
+"/index.html"
+"/file.html"
+"image/file.jpg"
+"../image/file.html"
+
+accesskey="буква"
+accesskey="c"
+target="имя окна"|"_parent"|"_blank"|"_top"|"_self"
+
+
+Оглавление
+Глава 1
+Глава 2
+Глава 3
+
+Глава 1
+
+много текста
+
+
+Глава 2
+
+много текста
+
+Глава 3
+
+много текста
+
+<a name="a1"> </a>
+<a name="a0"><h1>Оглавление</h1></a>
+<a href="#a1">Глава 1</a><br>
+<a href="#a2">Глава 2</a><br>
+<a href="#a3">Глава 3</a><br>
+
+<a name="a1"><h2>Глава 1</h2></a>
+
+много текста
+<a href="#a0">назад</a>
+<a name="a2"><h2>Глава 2</h2></a>
+
+много текста
+
+<a name="a3"><h2>Глава 3</h2></a>
+много текста
+
+
+
+
+Списки
+Неупорядоченные списки
+Упорядоченные списки
+Списки определений
+
+элемент UL
+UNORDERED LIST
+LI LIST ITEM
+<ul>
+<li>пункт 1
+<li> пункт 2</li>
+<li> пункт 3</li>
+</ul>
+
+
+Пункт 1
+Пункт 2
+Пункт 3 
+
+<ul type=”disc”>
+<li><ul>другой список</ul></li>
+<li> пункт 2</li>
+<li> пункт 3</li>
+</ul>
+
+List item
+
+UL
+type “disc”|”circle”|”square”
+compact
+
+ORDERED LIST
+OL
+
+<ol type="i">
+<li> пункт 1
+<li> пункт 2</li>
+<li> пункт 3</li>
+<li> пункт 4</li>
+</ol>
+
+i. Пункт 1
+ii. Пункт 2
+iii. Пункт 3 
+iv. Пункт 4 
+List item
+OL
+type “1”|”a”|”A”|”i”|”I”
+compact
+a. Пункт 1
+b. Пункт 2
+c. Пункт 3 
+
+A. Пункт 1
+B. Пункт 2
+C. Пункт 3 
+
+i. Пункт 1
+ii. Пункт 2
+iii. Пункт 3 
+iv. Пункт 4
+
+I. Пункт 1
+II. Пункт 2
+III. Пункт 3 
+IV. Пункт 4
+
+start =”число” – с чего начинать список
+
+li
+value=”число”
+
+<ol type=”a”>
+<li>пункт 1</li>
+<li value=”4”> пункт 2</li>
+<li> пункт 3</li>
+<li> пункт 4</li>
+</ol>
+
+a. Пункт1
+d. Пункт 2
+e. Пункт 3 
+f.  Пункт 4
+Списки определений
+Definition list, definition title, definition determinate
+<dl>
+<dt>Наименование термина</dt>
+<dd>Описание термина</dd>
+<dt>Наименование термина 2</dt>
+<dd>Описание термина 2</dd>
+<dt>Наименование термина 3</dt>
+<dd>Описание термина 3</dd>
+</dl>
+Наименование термина 
+	Описание термина
+Наименование термина  2
+	Описание термина 2
+Наименование термина  3
+	Описание термина 3
+
+<dl>
+<dt>Урок математики
+<dd>На уроке рассматриваются квадратные уравнения</dd>
+<dt>Урок физики</dt>
+<dd>На уроке рассматривается закон Ньютона</dd>
+</dl>
+<!--комментарий-->
+Ингредиенты
+100 г муки
+   10 г сахара
+   1 стакан воды
+   2 яйца
+   Соль, перец
+Процедура
+1.Тщательно смешать сухие ингредиенты
+2.Влить жидкие
+3.Смешивать 10 минут
+4.Выпекать в течение часа при температуре 300 градусов
+Примечания
+	Можно добавить изюм
+
+
+notepad++
+Формы
+<form
+ action=”script.php”
+ method=”POST”
+ enctype=”application/x-www-form-urlencoded”
+ target=”_blank”
+ name=”имя формы”>   
+<p> Введите фамилию<br>
+<input type=”text” name=”familia”>
+<input type=”submit”>
+</form>
+method=”POST”|”GET”
+http://www.domain.ru/script.php?familia=asdfg&name=qwer&data=11111
+enctype=”application/x-www-form-urlencoded” default
+enctype=”multipart/form-data” для передачи файлов
+
+Управляющие элементы
+input
+type = “checkbox”|”file”|”hidden”|”image”|”password”|
+
+”radio”|”reset”|”submit”|”text”|”button”
+
+name=”имя переменной”
+value=”Значение переменной”
+On
+name="nn"
+nn_x nn_y
+<input type="image" name="nn" src=”image/file.jpg”>
+
+checked
+<input type="checkbox" name="ch" checked>
+
+<input type="radio" name="r1" checked value="1">
+<input type="radio" name="r1" value="2">
+
+disabled
+readonly
+
+size=”число”
+maxlenght=”число”
+src=”file.jpg”
+alt=”текст вместо картинки”
+tabindex=”число”
+accesskey=”буква”
+
+<tr><td><input tabindex="1" name="n1"><td><input tabindex="10" name="n10"></tr>
+index.html
+<form action=”script.php” method=”POST”>
+<p>Введите имя:
+<input type=”text” name=”ima”>
+<p>Введите ваш пол: <br>
+<input type=”radio” name=”pol” value=”M”>M<br>
+<input type=”radio” name=”pol” value=”F” checked>Ж<br>
+<input type=”submit” value=”отправить”>
+</form>
+
+select
+<select name=”sel1”>
+<option value=”0”>ничего не выбрано</option>
+<option value=”1”>пункт 1</option>
+<option value=”2”>пункт 2</option>
+<option value=”3”>пункт 3</option>
+<option value=”4”>пункт 4</option>
+</select>
+
+<select name=”sel2” multiple>
+<option>выберите пункт</option>
+<option value=”1”   label=”П1”>пункт 1</option>
+<option value=”2” selected>пункт 2</option>
+<option value=”3”>пункт 3</option>
+<option value=”4”>пункт 4</option>
+</select>
+
+name=”имя переменной”
+size=”число”
+multiple
+disabled
+readonly
+tabindex
+
+option
+
+value=”значение переменной”
+disabled
+readonly
+label=”Метка”
+selected
+
+optgroup
+
+
+<select name=”sel1”>
+<optgroup label=”группа 1”>
+<option value=”1” label=”П1”>пункт 1</option>
+<option value=”2”>пункт 2</option>
+</optgroup>
+<optgroup label=”группа 2”>
+<option value=”3”>параграф 1</option>
+<option value=”4”>параграф 2</option>
+</optgroup>
+</select>
+
+<!-- комментарий -->
+<!-- комментарий  может занимать
+несколько строк -->
+
+
+textarea
+
+<textarea rows=”10” cols=”20” name=”text1”>
+Предварительный      текст
+Вторая строка
+</textarea>
+disabled
+readonly
+tabindex
+accesskey
+
+Задание:
+Сделать форму приема нового товара.
+Прием товара
+Наименование товара: (текстовое поле)
+Количество товара:(текстовое поле)
+Цена товара:(текстовое поле)
+Единица измерения:(селект)
+Отдел:(селект)
+Описание товара:(текстовое поле textarea)
+
+
+Сорт товара:(радиокнопки)
+1
+2
+3
+Товар поступил впервые: (чекбокс) очистить   принять (кнопки)
+
+
+
+
+
+
+
+
+img
+изображение на странице.
+<img src="image/file.jpg">
+RGB
+не в CMYK
+width="число"
+height="число%"
+border="число"
+alt="надпись вместо картинки"
+title="название элемента"
+align="right"|"left"|"none"
+
+skv2003@yandex.ru прислать Светлане.
+
+Фреймы
+<frameset cols="20%,80%" rows="30%,70%">
+<frame src="1.html">
+<frame src="2.html">
+<frame src="3.html">
+<frame src="4.html">
+</frameset>
+
+cols="100,200"
+cols="1*,250,3*"
+
+<frameset cols="20%,80%">
+<frame src="1.html" name="f1">
+<frameset rows="30%,70%">
+<frame src="2.html" name="f2">
+<frame src="3.html" name="f3">
+</frameset>
+<noframes>
+<p>На этой странице фреймы:
+<ul>
+<li><a href="1.html">первый</a>
+<li><a href="2.html">второй</a>
+<li><a href="3.html">третий</a>
+</ul>
+</noframes>
+</frameset>
+
+1.html:
+<h1>Меню</h1>
+<a href="tovar.html" target="f3">Прием товара</a><br>
+<a href="client.html" target="f3">Новый клиент</a><br>
+<a href="sale.html" target="f3">Продажа товара</a><br>
+<a href="catalog.html" target="f3">Каталог товаров</a><br>
+
+<a href="catalog.html" target="_top">убрать фреймы</a>
+
+catalog.html:
+<h1>Каталого товаров</h1>
+<p>Раздел в разработке
+
+атрибуты frameset
+border="число"
+bordercolor="#ffffff"
+frameborder="yes"|"no"|"1"|"0"
+
+атрибуты frame:
+bordercolor="#ffffff"
+frameborder="yes"|"no"|"1"|"0"
+marginheight="число"
+marginwidth="число"
+scrolling="auto"|"yes"|"no"
+noresize
+
+<center>dhfdkdgj</center>
+
+Таблицы
+Ячейка 1
+Ячейка 2
+Ячейка 3
+Ячейка 4
+
+<table border=”1”>
+<tr><td>ячейка 1</td>
+<td>ячейка 2</td></tr>
+<tr><td>ячейка 3</td>
+<td>ячейка 4</td></tr>
+</table>
+tablе
+width=”число”|”число%”
+border=”число”
+frame=”void”|”above”|”below”|”hsides”|”vsides”|
+“lhs”|”rhs”|”box”|”border”
+rules=”none”|”groups”|”rows”|”cols”|”all”
+cellpadding=”число”
+cellspacing=”число”
+align=”center”|”left”|”right”
+bgcolor=”#xxxxxx”
+background=”file.jpg”
+bordercolor=”#ffffff”
+valign=”top”|”bottom”|”middle”
+
+tr
+bgcolor=”#xxxxxx”
+align=”center”|”right”|”left”|”justify”
+nowrap
+height=”число”|”число%”
+
+td
+width=”число”|”число%”
+height=”число”|”число%”
+align=”center”|”left”|”right”|”justify”
+bgcolor=”#xxxxxx”
+background=”file.jpg”
+valign=”top”|”bottom”|”middle”
+nowrap
+colspan=”число”
+rowspan=”число”
+
+th (table header)
+
+Ячейка1
+Ячейка 2
+Ячейка3
+Ячейка4
+Ячейка5
+Ячейка6
+Ячейка7
+
+
+8
+9
+10
+<table border=”1” width=”400”>
+<tr><th colspan=”2” width=”200”>ячейка1</th>
+<th width=”100”> ячейка2</th>
+<th width=”100”> ячейка3</th></tr>
+<tr><td width=”100”> ячейка4</td>
+<td colspan=”2” rowspan=”2” width=”200”> ячейка5</td>
+<td rowspan=”2”> ячейка6</td></tr>
+<tr><td width=”100”>ячейка7</td></tr>
+<tr height=”1”><td width=”100”> </td><td width=”100”> </td>
+<td width=”100”> </td><td width=”100”> </td></tr>
+</table>
+
+<table border=”1”>
+<caption align=”top”>Заголовок</caption>
+<tr><th colspan=”2” width=”150”>ячейка1</th>
+<th width=”50”> ячейка2</th>
+<th> ячейка3</th></tr>
+<tr><td width=”50”> ячейка4</td>
+<td colspan=”2” rowspan=”2” width=”150”> ячейка5</td>
+<td rowspan=”2”> ячейка6</td></tr>
+<tr><td width=”50”>ячейка7</td></tr></table>
+
+caption
+align=”top”|”bottom”|”left”|”right”
+
+&nbsp;
+
+Группы строк
+<thead>….</thead>
+<tfoot>….</tfoot>
+<tbody>….</tbody>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table  rules=”groups” border=”0”>
+<caption>Заголовок</caption>
+<thead><tr><td>ячейка 1</td>
+<td>ячейка 2</td></tr></thead>
+<tfoot><tr><td>ячейка 7</td>
+<td>ячейка 8</td></tr></tfoot>
+<tbody>
+<tr><td>ячейка 3</td>
+<td>ячейка 4</td></tr>
+<tr><td>ячейка 5</td>
+<td>ячейка 6</td></tr>
+</tbody></table>
+
+
+
+<table  rules=”groups”>
+<caption>Заголовок</caption>
+<colgroup>
+<col span=”1” width=”140”>
+<col span=”1” width=”100”>
+</colgroup>
+<thead><tr><td>ячейка 1</td>
+<td>ячейка 2</td></tr></thead>
+<tfoot><tr><td>ячейка 7</td>
+<td>ячейка 8</td></tr></tfoot>
+<tbody>
+<tr><td>ячейка 3</td>
+<td>ячейка 4</td></tr>
+<tr><td>ячейка 5</td>
+<td>ячейка 6</td></tr></tbody></table>
+
+<colgroup span=”число” width=”число”></colgroup>
+
+<colgroup span=”3” width=”100”></colgroup>
+<colgroup span=”2” width=”50”></colgroup>
+<tr>......
+
+<colgroup>
+<col span=”2” width=”140”>
+<col span=”1” width=”180”>
+</colgroup>
+<colgroup span=”2” width=”50”></colgroup>
+<tr>...
+
+
+
+
+
+
+
+dfdfdg
+dgfdg
+dfgfdg
+
+
+fdg
+fdg
+
+fdgdfg
+fdgfdg
+fg
+dfg
+
+dsfdsfdsf
+
+fdg
+fg
+
+
+
+fgfdggfdgdfg
+dgdfg
+dfgdfg
+
+
+dsgdsg
+
+dfgdfgfdg
+fgfdgfdg
+dfgdfg
+fdgfdg
+
+
+dg
+fdgdfg
+dfgdsg
+
+
+fdgdfgd
+fdgdfg
+dfgdfg
+
+
+dfgdfg
+dfgdf
+dsfdsfdsfsdf
+fdgdfgd
+dfsgsdg
+dsfdsfdsf
+
+
+dfgdg
+fdgdfg
+
+
+
+
+CSS Cascading Style Sheets
+Таблицы каскадных стилей
+w3.org 
+спецификация CSS2
+CSS3 пока можно не рассматривать, по желанию.
+
+Селектор
+Селектор {свойство1:значение1;свойство2:значение2; свойство3:значение3;}
+H1{color:red;font-size:20pt;font-weight:bold;}
+
+В HTML:
+<H1>Это жирный красный заголовок</H1>
+
+Классовый селектор
+
+Атрибут Class элементов HTML
+Селектор.класс{ свойство1:значение1; свойство2:значение2;}
+H1.blue{color:blue;}
+
+<h1 class=”blue”>Это синий заголовок</h1>
+
+.класс{ свойство1:значение1; свойство2:значение2;}
+.nonbold {font-weight:normal;}
+p {font-weight:bold;}
+<h1 class=”nonbold”>Это не жирный заголовок</h1>
+<p class=”nonbold”>Это нежирный текст</p>
+
+ID-селекторы
+ID атрибут HTML
+
+#id{ свойство1:значение1; свойство2:значение2;}
+#boldunderline{font-weight:bold;text-decoration:underline;}
+Body{свойство:значение;…..}
+<p id=”boldunderline” class=”blue”>Это жирный подчеркнутый абзац</p>
+
+Контекстуальные селекторы -
+Зависящие от контекста
+
+td p{свойство:значение;………} 
+td p{color:red;margin-top:20px;}
+th p{color:black;margin-top:20px;font-weight:bold;}
+
+<table><tr><td><p>Это абзац внутри ячейки – он красный</td>
+</tr></table>
+<p>А этот не красный – он не в ячейке</p>
+
+div.big p{font-size:18pt;}
+div.big p.small{font-size:8pt;}
+.big p.small{font-size:18pt;}
+.big .small{font-size:18pt;} 
+tfoot td{font-weight:bold;}
+
+h1,h2,h3,p.big{color:blue;font-size:18pt;}
+h1{color:red;}
+h1{font-size:10pt;}
+
+
+Псевдоклассы и псевдоэлементы
+
+Селектор:псевдокласс{}
+Селектор.класс:псевдокласс{}
+Селектор:псевдоэлемент{}
+Селектор.класс:псевдоэлемент{}
+
+<a href=”….>
+link
+active
+visited
+hover
+
+a:link,a:visited{color:red;font-weight:bold;text-decoration:none;}
+a:hover,a:active{text-decoration:underline;}
+
+first-line
+first-letter
+p:first-line{color:red;font-size:20pt;}
+h1:first-letter{font-size:32pt;}
+
+Внедрение таблиц стилей в документ
+
+Внутренние
+Глобальные
+Связанные
+
+Внутренние
+style – атрибут HTML
+
+<font color=”blue” size=”3” face=”Arial”>Это пример HTML</font><br>
+<font style=”color:blue;font-size:12pt;font-family:Arial;”>Это пример CSS</font><br>
+
+<font style=”color:blue;font-size:12pt;font-family:Arial;border-top:1px dotted red;”>Это пример CSS</font><br>
+
+Глобальные
+<html>
+<head><title>Пример глобальных стилей</title>
+</head>
+<style type="text/css">
+H1{color:red;font-size:20pt;}
+.blue {color:blue}
+#boldunderline{font-weight:bold;text-decoration:underline;}
+</style>
+<body>
+<!--Это комментарий он может много строк занимать-->
+<h1>Это заголовок большой и красный</h1>
+Это слово <font class="blue">синее</font>, а это <font id="boldunderline">жирное-подчеркнутое</font>
+</body>
+</html>
+
+
+Связанные
+Файл.css
+styles.css Имя файла нашего, 
+А это его содержимое:
+
+<style type=”text/css”>
+H1{color:red;font-size:20pt;}
+H1{color:red;font-size:20pt;}
+.blue {color:blue}
+#boldunderline{font-weight:bold;text-decoration:underline;}
+</style>
+_____________________
+А это содержимое файла index.html:
+<html>
+<head><title>Пример связанных таблиц</title></head>
+<link rel=”stylesheet” type=”text/css” href=”styles.css”>
+<body><h1>Это заголовок большой и красный</h1>
+Это слово <font class=”blue”>синее</font>, а это <font id=”boldunderline”>жирное-подчеркнутое</font>
+</body></html>
+
+Свойства Font
+font-family:имя шрифта
+
+font-family:Arial Black URL('file.ttf');
+
+@font-face {font-family: 'PT Sans Narrow';
+	src: url('/ptn57f_w.eot');
+	src: local('PT Sans Narrow'), url('/PTN57F_W.woff') format('woff'),url('/PTN57F_W.ttf') format('truetype'), url('/PTN57F_W.svg#PTSans-Narrow') format('svg');}
+
+@font-face{
+font-family: PT DIN Condensed;
+src: url('/DINConC.ttf') format('truetype');
+
+}
+
+font-style:normal|italic
+
+font-style:italic;
+<i>текст</i>
+
+font-variant:normal|small-caps
+
+font-weight:normal | bold | bolder | lighter | число от 100 до 900
+
+font-size: размер | xx-small | x-small | small | medium | large 
+                 x-large | xx-large | smaller | larger
+
+font-size:12pt;
+
+font: italic bold Arial 12pt;
+
+текст
+
+word-spacing:размер | normal
+text-decoration: none | underline | overline | line-through | blink
+
+letter-spacing: размер | normal
+
+vertical-align: baseline | sub | super | top-text | top | middle |
+                       bottom | bottom-text | процент (число%)
+
+vertical-align:50%
+
+text-transform: none | Capitalize | UPPERCASE | lowercase
+
+td { text-transform: Capitalize; }
+
+text-align: left | right | center | justify
+
+line-height:normal | число% | размер
+
+line-height:2.2em;
+
+Color&Background
+
+color: цвет | #xxxxxx;
+backgroung-color:цвет|#xxxxxx;
+background-image:none | URL('image/file.jpg')
+
+background-image:URL('file.jpg');
+
+background-repeat: repeat | repeat-x | repeat-y | no-repeat
+background-attachment:fixed | scroll
+background-position: процент_ширины процент_высоты |
+                                   Top | middle | bottom
+                                    Left | right |center
+Расстояние_от_левого_края Расстояние_от_верхнего_края														
+background-position: top left;
+background-position:50% 50%;
+background-position:100px 200px;
+
+background: #c235aa URL(‘dd.gif’) fixed 50% 50% no-repeat;
+
+Margin&Padding
+
+margin-top:размер | процент% | auto
+margin-bottom:
+margin-left:
+margin-right:
+
+margin:10px;
+margin:10px 20px;
+margin:10px 20px 5px 0px;
+
+padding-top:размер | процент% | auto
+padding-bottom:
+padding-left:
+padding-right:
+
+padding: 10px;
+padding: 10px 20px;
+padding: 10px 20px 30px 40px;
+
+Рамки
+
+border
+border-top-width:число| thin| thick |medium
+border-bottom-width:
+border-left-width:
+border-right-width:
+border-width: 1px 2px 1px 3px;
+border-color:цвет;
+border-top-color:...
+border-style:dotted|dashed|solid|double|groove|ridge|inset|outset
+
+border-top:1px solid black;
+border:2px dashed red;
+
+widht: число|процент%
+height: число|процент%
+
+float:left|right|none
+
+img{float:right;}
+
+<img src="file.jpg"> Текст, который там обтекает картинку
+
+Меры длины
+
+px пиксели
+in дюймы
+cm сатниметр
+mm миллиметр
+pt поинт - точка 1pt=1/72in
+pc пики - picas (1pc=12pt)
+
+число%
+
+Цвета
+red
+orange
+#rrggbb  - #00cc00
+rgb(x,x,x) -  rgb(0,200,0) 
+#rgb  -  #0c0
+rgb(x% x%x%) - rgb(0%80%0%)
+
+input{width:200px;}
+
+
+td.red {color:#ffffff;background-color:#ff0000;}   CSS
+
+<td class="red">ячейка 1</td>  HTML
+
+Реляционные базы данных
+Кодд автор реляционной модели
+Реляционная модель:
+Информация должна быть представлена в виде таблиц
+Поддерживать логическую структуру независимо от физического представления
+Поддерживать язык SQL
+Поддерживать основные реляционные операции (выбор, проектирование, обьединение)
+Поддерживать виртуальные таблицы
+Различать NULL
+Обеспечивать механизм поддержания целостности, авторизации и восстановления.
+
+Проектирование базы данных
+Выбор: 
+1. таблиц, 
+2. столбцов в таблице
+3.  взаимосвязей.
+ Нормальные формы
+1.Первая нормальная форма
+2. Вторая нормальная форма
+Неключевой столбец должен зависеть от полного первичного ключа.
+3.Третья нормальная форма.
+Любой неключевой столбец не может зависеть от другого неключевого столбца.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Синтаксис языка SQL
+
+DDL
+DML
+CREATE DATABASE
+INSERT
+CREATE TABLE
+DELETE
+DROP DATABASE
+UPDATE
+DROP TABLE
+SELECT
+ALTER TABLE…….
+
+Data Definition Language		Data Manipulation Language
+
+CREATE DATABASE имя_базы [ [DEFAULT] CHARACTER SET имя_кодировки | [DEFAULT] COLLATE имя_collation];
+utf8
+utf8_general_ci
+
+mysql -u root -p
+
+
+сreate database shop;
+
+………../data/shop/db.opt
+
+show databases;
+
+
+DROP DATABASE имя_базы;
+drop database shop1;
+
+shop.tovar
+
+use имя_базы;
+use имя_базы
+use shop;
+
+CREATE TABLE имя_таблицы
+ (имя_поля1 тип_поля1 параметры,
+имя_поля2 тип_поля2 параметры,
+имя_поля3 тип_поля3 параметры,……) дополнительные опции таблицы;
+
+ТИПЫ ДАННЫХ
+
+Числовые типы
+Целые числа
+
+BIT[(M)] битовый тип (возможно хранить 1 бит)
+BIT == BIT(1) 
+BIT
+BIT(2)
+BIT(64) максимальное значение
+
+TINYINT[(M)] крошечное целое, 1 байт,  -128…127
+TINYINT[(M)] UNSIGNED 				0….255
+TINYINT(2) -99....99
+TINYINT(1) -9....9
+
+BOOL, BOOLEAN булевый тип – синоним типа TINYINT(1)
+
+0 – false
+1,2,3…. – true
+
+SMALLINT [(M)] маленькое целое, 2 байта, -32768…32767
+SMALLINT [(M)] UNSIGNED 				0….65535
+
+MEDIUMINT [(M)] среднее целое, 3 байта, -8388608..8388607
+MEDIUMINT [(M)] UNSIGNED 				0….16777215
+
+INT [(M)] целое, 4 байта, 
+INT [(M)] UNSIGNED 				0….4294967295
+INTEGER[(M)] синоним INT
+
+int(5) 99999 3 байт
+smallint(5) 32767 2 байт
+
+BIGINT [(M)] большое целое, 8 байт, 
+BIGINT [(M)] UNSIGNED 		0….18446744073709551615
+SERIAL псевдоним для:
+BIGINT UNSIGNED NOT NULL AUTO_INCREMENT UNIQUE
+
+INT(5) ZEROFILL 
+7     00007
+  12	   00012
+
+Числа с плавающей точкой
+
+FLOAT[(M,D)] [UNSIGNED] [ZEROFILL] 4байта,
+-3.402823466Е+38…-1.175494351Е-38
+1.175494351Е-38…3.402823466Е+38 точность примерно 7 десятичных знаков
+
+DOUBLE[(M,D)] [UNSIGNED] [ZEROFILL] 8 байта,
+Точность 15 десятичных знаков.
+DOUBLE PRECISION[(M,D)]
+REAL[(M,D)]
+
+Числа с фиксированной точкой
+
+DECIMAL[(M [,D])] «точное» число с фиксированной точкой.
+12349.33312345
+M если не задано, то 30
+D если не задано, то 10
+DEC, NUMERIC, FIXED псевдонимы
+9 цифр = 4 байта
+1 - 1 байт
+2 - 1 байт
+3 - 2 байта
+4 - 2 байта
+5 - 3 байта
+6 - 3 байта
+7 - 4 байта
+8 - 4 байта
+
+56 символов занимают 6X4+1=25байт
+
+Время и дата
+date, datetime, timestamp, time, year
+
+DATE ‘1000-01-01’ … ‘9999-12-31’  выводит ‘YYYY-MM-DD’
+ Вводить ‘YYYYMMDD’ ‘YYMMDD’ ‘YYYY-MM-DD’
+3 байта
+
+DATETIME ‘1000-01-01 00:00:00’ ‘9999-12-31 23-59-59’
+Выводится ‘YYYY-MM-DD HH:MM:SS’
+Вводить ‘YYYY-MM-DD HH:MM:SS’
+‘YYYYMMDDHHMMSS’
+‘YYMMDDHHMMSS’
+‘YY.MM.DD HH/MM/SS’ разделитель любой 
+‘YYYY\MM\DD HH-MM-SS’ разделитель любой 
+8байт
+00-69  - 2000-2069 
+70-99 - 1970-1999
+
+TIMESTAMP ‘YYYY-MM-DD HH:MM:SS’
+'1970-01-01 00:00:01' - 'около 2038'
+
+..Имя_поля TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+DEFAULT NOW()
+..Имя_поля TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
+4 байт
+
+ 
+TIME  ‘-838:59:59’ … ‘838:59:59’
+
+‘HH:MM:SS’
+‘D HH:MM:SS’
+‘HH:MM’
+‘D HH:MM’
+‘SS’
+‘HHMMSS’
+3 байта
+
+YEAR
+‘YYYY’
+‘YY’
+‘1901’ … ‘2155’
+‘00’ … ‘69’  - ‘2000’ … ‘2069’
+‘70’… ‘99’ – ‘1970’…’1999’
+1 байт
+
+Строки
+
+CHAR(M)  занимает М байт , от 1 до 255 
+CHAR(1) символ либо число 0 до 255 или -128...127
+CHAR(6) занимает 6 байт
+
+VARCHAR(M) поле переменной длины  до 65535 символов (с 5.0.3)
+значение
+CHAR(4)
+обьем
+varchar(4)
+обьем
+''
+'    '
+4байта
+''
+1байт
+'ab'
+'ab  '
+4байта
+'ab'
+3байта
+'abcd'
+'abcd'
+4байта
+'abcd'
+5байта
+'abcdefg'
+'abcd'
+4байта
+'abcd'
+5байта
+
+
+BINARY(M)
+VARBINARY(M)
+
+TINYTEXT 0… 255 СИМВОЛОВ
+TINYBLOB 0…255 символов
+
+TEXT[(M)] … 65535 символов 
+BLOB[(M)] …65535 символов
+
+MEDIUMBLOB 224-1
+MEDIUMTEXT 224-1 для хранения число символов плюс 3
+
+LONGBLOB 232-1
+LONGTEXT 232-1 для хранения требуется "число символов" плюс 4
+
+ENUM('ONE','TWO','THREE')
+ENUM('1','2','3')
+ENUM('Yes','No')
+До 255 штук – 1 байт
+Более 255 штук до 65535 – 2 байта
+
+Значение
+Индекс
+NULL
+NULL
+''
+0
+'ONE'
+1
+'TWO'
+2
+'THREE'
+3
+
+SET('ONE','TWO','THREE')
+64 штуки элементов в наборе
+1,2,3,4,8 байт
+SET('a','b','c','d')
+
+Create table t (pole_set set(‘a’,’b’,’c’,’d’));
+Insert into t values (‘a,b,c,d’); //‘a,b,c,d’
+Insert into t values (‘b,a,d,c’); //‘a,b,c,d’
+Insert into t values (‘a,a,a,a’); //’a’
+Insert into t values (‘a,b,a,b’);// ‘a,b’
+
+Элемент набора
+Двоичное представление
+‘a’
+0001
+‘b’
+0010
+‘c’
+0100
+‘d’
+1000
+‘a,b’
+0011
+‘a,b,c,d’
+1111
+
+\\kraft.mipk.ru
+
+mysql -u root -p
+
+show databases;
+
+
+create database shop;
+
+create table база.таблица...
+use имя_базы;
+create table таблица...
+use shop;
+
+Дополнительные параметры полей
+NULL | NOT NULL
+
+Create table t (name_t varchar(20) null);
+
+DEFAULT 'значение по умолчанию'
+DEFAULT NULL
+DEFAULT 'abcd'
+
+AUTO_INCREMENT
+
+Create table t (id_t int(3) auto_increment, name_t varchar(20) null);
+Insert into t values (null,’hdfkjhdkj’);//1, hdfkjhdkj
+Insert into t values (null,’hdfkjhdkj’);//2, hdfkjhdkj
+Insert into t values (5,’hdfkjhdkj’);//5, hdfkjhdkj
+Insert into t values (null,’hdfkjhdkj’);//6, hdfkjhdkj
+Delete from t where id_t=6;
+Insert into t values (null,’hdfkjhdkj’);//7, hdfkjhdkj
+
+PRIMARY KEY первичный ключ
+
+Create table t (id_t int(3) auto_increment primary key, name_t varchar(20) null)опции таблицы;
+
+Опции таблицы
+
+ENGINE MyISAM
+AUTO_INCREMENT=число
+DATA DIRECTORY [=] 'абсолютный путь к папке с данными'
+MAX_ROWS [=] число
+COLLATE имя_collation
+
+Create table tovar (id_tovar int(5) not null primary key auto_increment,
+name_tovar varchar(200) not null,
+price_tovar float(9.2),
+kol_tovar int(10),
+ed_izm varchar(20),
+id_otdel int(2) NOT NULL,
+sort varchar(15),
+desc_tovar varchar(500));
+
+\u shop
+use shop
+use shop;
+describe имя_таблицы;
+desc имя_таблицы;
+desc tovar;
+show tables; //список таблиц в базе
+show databases; //список баз на сервере
+drop table имя_таблицы;
+alter
+
+DML – data manipulation language
+
+insert
+delete
+update
+select
+
+
+
+insert [into] имя_таблицы [(имя_поля1, имя_поля2, имя_поля3,....)] values (значение1,значени2,значение3,...)[,(1,2,3...),...];
+
+insert [into] имя_таблицы set имя_поля1=значение1, имя_поля2=значение2, имя_поля3=значение3,......;
+
+insert into tovar values(null,'яблоко',50.00,50,'кг',1,'высший','очень вкусные яблоки');
+
+select  *  from tovar;
+
+set names utf8;
+
+delete from  имя_таблицы [where условия] 
+[order by ...]
+[limit число_строк];
+
+delete from tovar;
+delete from имя_таблицы; //очищает таблицу
+
+order by поле [ASC|DESC] [,поле2 ASC|DESC, поле3 ASC|DESC....]
+
+order by name_tovar  DESC
+
+ASC ascended восходящий поиск
+DESC descended нисходящий поиск
+
+delete from tovar order by price_tovar DESC limit 1;
+
+delete from tovar;
+
+Конструкция where
+
+where первичный_ключ=значение
+delete from tovar where id_tovar=2;
+delete from tovar where price_tovar>100.00;
+>,<,>=,<=,=,!= или <>
+
++,-,*,/
+
+AND или &&, OR или || , NOT или !,  XOR
+
+where id_tovar>10 AND price_tovar>100.00
+where id_tovar>10 AND price_tovar*1.1>100.00
+where (id_tovar>10 OR id_tovar<100) AND price_tovar*1.1>100.00
+
+LIKE
+% - любое число любых символов
+_ - 1 любой символ
+delete from tovar where name_tovar  LIKE 'a%'
+
+Id_tovar
+наименование
+цена
+1
+apple
+100.00
+2
+orange
+150.00
+3
+banana
+40.00
+результат:
+Id_tovar
+наименование
+цена
+2
+orange
+150.00
+3
+banana
+40.00
+
+NOT LIKE
+BETWEEN ..... AND ....
+where price_tovar BETWEEN 100.00 AND 200.00
+
+IN (значение1, значение2,......)
+where name_tovar IN ('apple','orange','peach')
+NOT IN (перечисление)
+
+IS NULL
+name_tovar=NULL нельзя так написать
+... where name_tovar IS NULL
+NOT IS NULL
+ISNULL()
+where ISNULL(price_tovar)
+where price_tovar IS NULL
+
+UPDATE
+
+update имя_таблицы SET имя_поля=значение [, имя_поля2=значение2,....]
+[where условия]
+[order by...]
+[limit число_строк]
+
+update tovar set price_tovar=price_tovar*1.2 where price_tovar>100.00;
+
+update tovar set price_tovar=price_tovar*1.2;
+
+update tovar set id_tovar=id_tovar-1 where id_tovar>5;
+
+id_tovar
+наименование
+цена
+1
+apple
+100.00
+2
+banana
+40.00
+3
+orange
+150.00
+4
+apple
+75.00
+6
+orange
+120.00
+7
+banana
+50.00
+8
+lemon
+140.00
+
+SELECT
+
+select [ALL|DISTINCT]
+что_выбирать [AS псевдоним]
+[from откуда_выбирать] 
+[where условия]
+[group by поле_для_группировки [ASC|DESC],поле2 [ASC|DESC,...]
+[having условия]]
+[order by ...]
+[limit {[отступ,] число_строк | число_строк OFFSET отступ}]
+
+что выбирать:
+1.* (select * from tovar;)
+2.поле1,поле2,поле3 (имена полей одной таблицы или нескольких таблиц, если эти имена не совпали)
+3.таблица.поле1, таблица.поле2, .....
+база.таблица.поле1, база.таблица.поле2, .....
+4.функция(поле), ...
+5.калькулятор (select 25*13;)
+select 1+1, поле1 from ...;
+from dummy
+select cos(1);
+select 1 xor 1;
+select 1 xor 0;
+select 1 xor 1 xor 0;
+
+откуда выбирать:
+1.таблица (from tovar)
+2.таблица1,таблица2,...(from tovar, client)
+3.база.таблица1,база.таблица2,....
+4. from dummy
+
+
+
+
+select all name_tovar from tovar;
+apple
+banana
+orange
+apple
+peach
+apple
+banana
+
+select distinct name_tovar from tovar;
+apple
+banana
+orange
+peach
+
+select tovar.name_tovar AS nazvanie from tovar;
+
+use shop;
+create table client1 (id_client int(4) not null primary key auto_increment,
+first_name varchar(100),
+last_name varchar(100),
+phone varchar(20),
+email varchar(255));
+
+insert into client1 values (null,'Ivan','Petrov','1212121212','petrov@mail.ru');
+select * from client;
+
+select concat(first_name," ",last_name) AS full_name from client1;
+select concat(first_name," ",last_name) from client1;
+
+
+select name_tovar, price_tovar from tovar;
+select name_tovar AS nazvanie, price_tovar AS cena  from tovar;
+
+
+FROM база.таблица1 [,база.таблица2......]
+
+create table otdel (id_otdel int not null primary key auto_increment,
+name_otdel varchar(100),
+desc_otdel varchar(250));
+
+insert into otdel values (null,'ovoshi','ovoshi i frukty');
+
+select tovar.name_tovar,otdel.name_otdel,tovar.price_tovar from tovar,otdel where otdel.id_otdel=tovar.id_otdel;
+
+group by поле_для_группировки [ASC|DESC] [, поле для группировки2 [ASC|DESC],....]
+group by date(created)
+
+select name_tovar, price_tovar from tovar group by name_tovar;
+apple 
+75.00
+apple
+80.00
+banana
+35.00
+banana
+25.00
+orange
+40.00
+peach
+100.00
+
+select name_tovar, avg(price_tovar) from tovar group by name_tovar;
+apple 
+77.50
+banana
+30.00
+orange
+40.00
+peach
+100.00
+
+
+max() - максимальное значение в группе
+min() - минимальное значение в группе
+count() - общее количество строк в группе
+avg() - среднее значение по группе
+group_concat() - склеенные в строку значения из группы
+sum() - сумма значений в группе
+
+having 
+
+select name_tovar, avg(price_tovar) from tovar group by name_tovar having avg(price_tovar)>50.00;
+
+apple 
+77.50
+peach
+100.00
+select name_tovar, avg(price_tovar) from tovar group by name_tovar having name_tovar like 'a%';
+
+apple 
+77.50
+
+
+LIMIT 10
+
+LIMIT [OFFSET,] число
+LIMIT 5, 10
+LIMIT число [OFFSET отступ]
+LIMIT 10
+LIMIT 10 OFFSET 5
+$sel="select * from tovar limit 10 offset ".$_GET['st'];
+
+Утилиты администрирования
+cmd
+mysqladmin [опции] команда [аргументы команды] [команда [аргументы команды]........]
+-u пользователь
+-p ввести пароль
+команды
+mysqladmin  -u root -p extended-status
+
+mysqladmin -u root -p create shop2
+
+mysqladmin  -u root -p drop shop2
+
+
+create имя_базы
+debug – писать отладочную информацию в errorlog
+drop имя_базы
+extended-status
+flush-logs
+flush-privileges (= reload)
+flush-status
+flush-tables
+flush-threads
+kill id_процесса[,id_процесса2....]
+processlist
+mysqladmin -u root -p processlist
+mysqladmin -u root -p kill 2
+password "новый_пароль"
+mysqladmin -u root -p password "123456"
+ping
+mysqladmin -u root -p ping
+shutdown
+status
+mysqladmin -u root -p status
+version версия сервера
+mysqladmin -u root -p version
+
+Опции
+mysqladmin --help
+mysqladmin -?
+mysqladmin
+
+--help   или -?  вывод страницы справки
+--character-sets-dir=папка_с_чарсетами
+--default-character-set=имя_чарсета
+--host=имя_хоста  или -h имя_хоста
+(--host=localhost  или  -h localhost
+ --host=192.168.5.10 или --host=vasia.com)
+--port=номер порта или -P номер порта (--port=3306 -P 3306)
+--user=имя_пользователя или -u имя_пользователя
+--password=пароль или -p[пароль]
+
+Утилита mysqlshow
+mysqlshow [опции] [имя_базы [имя_таблицы [имя_поля]]]
+mysqlshow -u root -p     - список баз
+mysqlshow -u root -p  shop    - список таблиц в конкретной базе
+mysqlshow -u root -p  shop tovar       - список полей указанной таблицы
+mysqlshow -u root -p  shop tovar name_tovar     - описание указанного поля
+
+--help   или -?  вывод страницы справки
+--default-character-set=имя_чарсета
+--host=имя_хоста  или –h имя_хоста
+--port=номер порта или –P номер порта
+--user=имя_пользователя или –u имя_пользователя
+--password=пароль или –p[пароль]
+--count показывает число строк в таблице
+--keys, -k показывает индексы имеющиеся
+--status, -i показывает дополнительную информацию о таблице
+mysqlshow -u root -p --status shop tovar
+--show-table-type, -t показывает тип таблицы  
+mysqlshow -u root -p -t shop tovar
+
+
+perror число
+perror 13
+
+mysqldump самая полезная
+1.mysqldump [опции] имя_базы [таблица1 таблица2...]
+2.mysqldump [опции] --databases имя_базы1 [имя_базы2....]
+3.mysqldump [опции] --all-databases
+
+mysqldump [опции] имя_базы
+mysqldump -u root -p shop
+mysqldump -u root -p shop >shop.sql
+
+ 
+--add-drop-database перед CREATE DATABASE
+добавляет DROP DATABASE
+
+--add-drop-table перед CREATE TABLE
+добавляет DROP TABLE
+
+--add-locks  LOCK TABLES и UNLOCK TABLES
+
+--all-databases  или -A
+
+--allow-keywords  `table`
+
+--character-sets-dir=путь
+mysqldump --character-sets-dir="c:/program files/mysql...." 
+--default-character-set=utf8 -u root -p shop>shop.sql
+
+--comments или -i сохранять комментарии к таблицам (чтобы убрать --skip-comments)
+--complete-insert или -c  
+
+--default-character-set=имя_чарсета
+--host
+--ignore-table=база.таблица
+--ignore-table=база.таблица1
+
+--no-create-db или -n  Отключает CREATE DATABASE в варианте запуска, который читает несколько баз
+
+--no-data или -d  создает только структуру, без INSERT-ов
+--no-create-info или -t  структуру не создает. только INSERT-ы
+
+--opt  вкючено по умолчанию. включает --add-drop-table --add-locks --disable-keys --extended-insert --quick --set-charset 
+--skip-opt чтобы отключить установки по умолчанию
+--skip-add-drop-table чтобы пропустить опцию
+--order-by-primary 
+--where='условия выборки', -w 'условия выборки'
+--where="условия выборки", -w "условия выборки"
+--where="tovar.price_tovar>100.00"
+--where="name_tovar='яблоко'"
+
+set names=utf8;
+
+shop.sql
+
+C:\document....>mysql -u root -p имя_базы < shop.sql
+mysql -u root -p shop < shop.sql
+
+mysql>use shop;
+\. c:\shop.sql
+
+
+------------------------
+
+
+Система привилегий Mysql
+use mysql;
+show tables;
+user
+db
+host
+tables_priv
+columns_priv
+
+desc user;
+
+файл 1.sql содержит:
+--------
+select * from user;
+--------
+cmd
+mysql -u root -p -E mysql<1.sql>1.txt
+mysql -u root -p mysql<1.sql>11.txt
+
+mysql -u root -p -E -e "use mysql;select * from user">1.txt
+
+desc user;
+% _
+'имя_хоста'
+'localhost'
+'%.domain.ru'
+vasia.domain.ru, petia.domain.ru....
+'vasia.%.ru'
+vasia.ddd.ru, vasia.gg.ru
+'%'
+'192.168.1.12'
+
+desc db;
+
+
+desc host;
+desc tables_priv;
+desc columns_priv;
+
+select name_tovar from shop.tovar;
+
+
+[client]
+user=root
+host=localhost
+password=12345
+
+password('123456')
+
+Создание пользователя mysql
+
+1.CREATE USER Имя_пользователя [IDENTIFIED BY [PASSWORD] 'пароль'];
+'php'@'localhost'
+
+create user 'php1'@'localhost' IDENTIFIED BY '123123';
+
+create user 'php1'@'localhost' IDENTIFIED BY PASSWORD '*1232b748347c2384e72384876a4d82f23445455a';
+
+2.INSERT INTO USER VALUES ('localhost','php2',password('123123'),
+'N', 'N', 'N', 'N', 'N', 'N', 'N', 'N', 'N', 'N', 'N', 'N', 'N', 'N', 'N', 'N', 'N', 'N', 'N', 'N', 'N', 'N', 'N', 'N', 'N', 'N', 'N', 'N','','','','',0,0,0,0);
+
+1.GRANT [сюда поля] Тип_привилегий[,тип_привилегий2,...]|ALL ON
+{имя_базы | * | *.* | база.таблица|,база.*}
+TO пользователь [IDENTIFIED BY [PASSWORD] 'пароль'];
+
+GRANT SELECT,INSERT,DELETE,UPDATE,CREATE,
+DROP ON shop.* TO 'php1'@'localhost';
+
+2.INSERT INTO db VALUES ('localhost','shop','php2','Y',
+'Y', 'Y', 'Y', 'Y', 'Y',
+'N', 'N', 'N', 'N', 'N', 'N', 'N', 'N', 'N', 'N', 'N', 'N', 'N'); 
+
+
+1.mysql -u php1 -p
+2.mysql -u php2 -p
+Обоим дать эту команду:
+show databases;
+
+mysqladmin -u root -p reload
+mysqladmin -u root -p flush-privileges
+
+RENAME USER старое_имя TO новое_имя;
+
+REVOKE  Тип_привилегий[,тип_привилегий2,...] ON
+{имя_таблицы | * | *.* | база.таблица}
+FROM пользователь;
+
+update db set select_priv='N' where user='php1' and host='localhost';
+
+1.DROP USER имя_пользователя;
+2.DELETE FROM USER where user='пользователь' 
+AND host='Хост';
+
+Установить пароль пользователю.
+
+SET PASSWORD [FOR пользователь] = password('123');
+
+ALTER TABLE команда DDL
+
+ALTER TABLE tbl_name
+    alter_specification [, alter_specification] ...
+alter_specification:
+   table_option ...
+  | ADD [COLUMN] column_definition [FIRST | AFTER col_name ]
+  | ADD [COLUMN] (column_definition,...)
+  | ALTER [COLUMN] col_name {SET DEFAULT literal | DROP DEFAULT}
+  | CHANGE [COLUMN] old_col_name column_definition
+        [FIRST|AFTER col_name]
+  | MODIFY [COLUMN] column_definition [FIRST | AFTER col_name]
+  | DROP [COLUMN] col_name
+  | DROP PRIMARY KEY
+  | DROP {INDEX|KEY} index_name
+  | RENAME [TO] new_tbl_name
+  | ORDER BY col_name [, col_name] ...
+  | CONVERT TO CHARACTER SET charset_name [COLLATE collation_name]
+  | [DEFAULT] CHARACTER SET charset_name [COLLATE collation_name]
+
+alter table tovar add column sort_tovar int(1);
+alter table tovar add column sort_tovar int(1) first;
+alter table tovar add column sort_tovar int(1) after price_tovar;
+alter table tovar alter column sort_tovar set default 1;
+alter table tovar alter column sort_tovar drop default;
+alter table tovar change column kol_tovar col_tovar int(11);
+alter table tovar modify column col_tovar int(9);
+alter table tovar drop column sort_tovar;
+
+
+123123 '123123'
+'1.1111' 1.11111 - ? или 1
+'1,22 kjvkfvl' 1
+'1,22'  1.22
+'10E5' 10E5
+
+alter table tovar drop column col_tovar;
+alter table tovar drop primary key;
+alter table tovar drop index имя;
+alter table tovar rename to Tovar;
+alter table tovar order by id_tovar;
+alter table tovar convert to character set cp1251;
+alter table tovar add index [имя индекса] price_tovar,col_tovar;
+alter table tovar add fulltext index [имя индекса] price_tovar,col_tovar;
+alter table tovar drop index имя индекса;
+alter table tovar add primary key  id_tovar;
+alter table tovar drop primary key;
+
+Как написать select для наших клиентов.
+tovar
+otdel
+client
+sdelka
+svaz
+select * from tovar;
+select name_tovar from tovar where id_tovar=3;
+, и INNER JOIN и CROSS JOIN одно и то же
+
+Указать отдел для товаров.
+select id_tovar,name_tovar,name_otdel FROM tovar,otdel; 
+select tovar.id_tovar, tovar.name_tovar, otdel.name_otdel FROM tovar,otdel WHERE tovar.id_otdel=otdel.id_otdel; 
+
+Расположить сделки клиентов по сумме сделок.
+
+select concat(client.first_name," ",client.last_name) as full_name,client.phone_client,client.address_client,
+sdelka.sum_sdelka,sdelka.time_sdelka from client,sdelka where sdelka.id_client=client.id_client
+order by sdelka.sum_sdelka DESC;
+
+Какие клиенты купили какие товары
+
+select sdelka.id_sdelka,sdelka.time_sdelka, concat(client.first_name," ",client.last_name) as full_name,
+tovar.name_tovar,svaz.kol_tovar from sdelka,client,svaz,tovar where sdelka.id_client=client.id_client  and svaz.id_sdelka=sdelka.id_sdelka and svaz.id_tovar=tovar.id_tovar;
+
+
+
+откуда выбирать:
+    table_reference [, table_reference] ...
+
+table_reference:
+    table_factor
+  | join_table
+
+table_factor:
+    tbl_name [[AS] alias] 
+  | ( table_references )
+
+join_table:
+    table_reference [INNER | CROSS] JOIN table_factor [join_condition]
+  | table_reference STRAIGHT_JOIN table_factor
+  | table_reference STRAIGHT_JOIN table_factor ON condition
+  | table_reference LEFT [OUTER] JOIN table_reference join_condition
+  | table_reference NATURAL [LEFT [OUTER]] JOIN table_factor
+  | table_reference RIGHT [OUTER] JOIN table_reference join_condition
+  | table_reference NATURAL [RIGHT [OUTER]] JOIN table_factor
+join_condition:
+    ON conditional_expr
+  | USING (column_list)
+
+select * from tovar as t1;
+select tovar.name_tovar,tovar.price_tovar,otdel.name_otdel from
+tovar join otdel using (id_otdel);
+select tovar.name_tovar,tovar.price_tovar,otdel.name_otdel from
+tovar inner join otdel;
+select tovar.name_tovar,tovar.price_tovar,otdel.name_otdel from
+tovar cross join otdel;
+select tovar.name_tovar,tovar.price_tovar,otdel.name_otdel from
+tovar join otdel on tovar.id_otdel=otdel.id_otdel;
+
+select tovar.name_tovar,tovar.price_tovar,otdel.name_otdel from
+tovar straight_join otdel;
+select tovar.name_tovar,tovar.price_tovar,otdel.name_otdel from
+tovar straight_join otdel on tovar.id_otdel=otdel.id_otdel;
+
+select tovar.name_tovar,tovar.price_tovar,otdel.name_otdel from
+tovar natural left join otdel;
+
+select tovar.name_tovar,tovar.price_tovar,otdel.name_otdel from
+tovar natural right join otdel;
+
+select * from
+tovar natural left join otdel;
+
+select * from
+tovar natural right join otdel;
+
+
+Будем ставить PHP
+Personal Home Page
+PHP Hypertext Preprocessor
+
+test.php
+--------
+<?php
+phpinfo();
+?>
+
+
+<input type="text" name="ima" value="<?php echo "$ima"; ?>">
+<?php
+echo "текст на экран браузера";
+echo $a;
+?>
+
+пуск > выполнить > \\kraft.mipk.ru
+ресурс test - подключить сетевой диск, папка I386
+
+папка php
+там лежит файл архив. его себе скачать на диск C:
+распаковать его в папку C:/PHP
+
+php.net скачать дистрибутив 5.2
+
+c:/Inetpub/wwwroot/test.php
+содержание файла test.php
+------------
+<?php
+phpinfo();
+?>
+
+С:\php\php.ini-recommended его скопировать в C:\windows и там переименовать в php.ini
+
+
+
+<? это short open tag
+<?php а это длинный
+<% asp open tag
+
+http://localhost/test.php
+Убедиться, что появился раздел Mysql
+
+
+ФАЙЛ php.ini:
+542: extention_dir= "c:\php\ext"
+c:\Inetpub\wwwroot\
+http://localhost/myadmin/
+видим ошибку
+
+Переменные
+
+$ - 1  символ
+_ или буква латинского алфавита - 2-й символ
+_ или буква латинская или цифра - 3-й и остальные символы
+
+$__ - нежелательно
+$aa
+$a_
+$a3
+
+ВСЕГО может быть любое число символов.
+$a И $A это разные переменные.
+
+
+boolean
+integer
+float(double)
+string
+
+array
+object
+
+resource
+NULL
+
+$a=NULL;
+gettype($a);
+$a=123;
+echo gettype($a);// integer
+$t= gettype($a); //$t="integer"
+is_string(), is_double(), is_integer()...
+if(is_string($a)) echo "да, это строка";
+else echo "нет, это не строка";
+
+settype($a,"integer");
+
+boolean
+$a=True;
+$a=TRUE;
+$a=true;
+$b=false;
+$b=False;
+$b=FALSE;
+if($a) echo "оказалось, что наше $a истино";
+else echo "оказалось, что наше $a ложно";
+
+Конвертация в булев В FALSE
+integer 0 
+float 0.0
+string "" или "0"
+array массив, содержащий 0 элементов
+object обьект не содержащий переменных
+
+Все остальные превращаются в true
+
+$a=155;
+if($a) echo "a оказалось истиным";
+else echo "а оказалось ложным";
+
+integer
+{...-1,0,1.....}
+$a=1234; //десятичное
+$a=0123;//8-ричное
+$a=0x123;//16-ричное
+$a=0X123;//16-ричное
+ 4 байта
+
+Превращение в целое другие типы  
+булев false в 0, true в 1
+float в целое путем округления к 0
+
+float
+
+$a=1.234;
+$a=1.2e2;
+$a=1.2E-2;
+из булева:
+0.0 из false
+1.0 из true
+из целого 
+1.0 - добавляется точка 0
+
+string
+
+$a='vbvfbgf';
+$a="vbvfbgf";
+heredoc синтаксис
+
+
+$a='не позволяют вставить переменные $b';//так нельзя
+$a='не позволяют вставить переменные '.$b;//так нужно
+
+
+$a="позволяют вставить переменные $b";//так можно
+$a="позволяют вставить переменные ".$b;//так нужно
+
+$a="не позволяют вставить массив $b[abc]";//так не нужно
+$a="не позволяют вставить массив ".$b['abc']." еще текст";//так нужно
+$a="позволяют  вставит массив $b[1]";//так возможно, но не нужно
+$a[1]
+$a['asd']
+
+
+\ экран для спецсимволов (\")
+echo "Хотим кавычку \" использовать \t \n";
+\t табуляция
+\n новая строка
+\v вертикальня табуляция
+\f подача страницы
+
+
+heredoc
+
+$a=<<<EOT
+gjh
+dfdfd
+dfdddgd
+dfgdfgdgd
+EOT; //отдельно на строке и начиная с 0 символа
+
+Как переводятся в строку другие типы:
+
+булев true в "true"
+булев false в "false"
+целое 123 в "123"
+float 1.23 в "1.23"
+
+Из строки в другие типы:
+
+"10.5" во float 10.5
+"-1.3e2" во float -1.3e2
+"str -1.2" в integer 0
+"10 str" в integer 10
+"10.2 str" во float 10.2
+"10,5" во float 10.5
+"10,5 ля-ля" в целое 10
+
+
+unset() уничтожает переменную
+unset($a);
+isset($a); проверяет наличие переменной.
+true - если переменная существует
+false - если не существует
+empty($a) - проверяте пуста ли переменная
+true - не существует, равна 0 или "", NULL ($a=NULL;);
+false - если переменная существует и равна чему-то
+
+index.html так называется файл, а его содержимое:
+--------
+<html><head><title>Пример формы</title></head>
+<body>
+<h1>Заполните форму:</h1>
+<form action="script.php" method="POST">
+<p>ВВедите Ваше имя:</p>
+<input type="text" name="ima">
+<input type="submit" value="надпись на кнопке">
+</form>
+</body>
+</html>
+----------
+script.php так называется файл, а его содержимое:
+----------
+<?php
+echo "Ваше имя: ". $_POST['ima'];   //$_POST[], $_GET[]
+//echo "<br>Наименование товара: ". $_POST['name_tovar'];
+//echo "<br>Цена товара: ". $_POST['price_tovar'];
+?>
+
+$_POST['ima']
+$_GET
+$_COOKIE
+$_SESSION
+
+isset($a)
+if (isset($_POST['check'])) echo "Новый товар";
+else echo "Товар уже есть на складе";
+
+Для тех полей, которые не текстовые:
+
+<option name="sort" value="1" <?php if ($_POST['sort']==1) echo "selected"; ?>> //для радио "checked"
+
+
+файл index.php
+<?php
+if (isset($_POST['ima'])) $ima=$_POST['ima'];//эти 2 строки повторяем по 
+else $ima="";						//числу переменных
+
+if (isset($_POST['s1']) and $_POST['s1']== "в базу") {
+//Тут код добавления в базу
+}
+else {
+?>
+<html><head><title>Пример формы</title></head>
+<body>
+<h1>Заполните форму:</h1>
+<form action="script.php" method="POST">
+<p>ВВедите Ваше имя:</p>
+<input type="text" name="ima" value="<?php echo $ima; ?>">//для всех ваших полей
+<input type="submit" value="надпись на кнопке">
+</form>
+<?php
+}                               
+?> 
+</body>
+</html>
+
+
+
+
+
+
+script.php
+<?php
+echo "Ваше имя: ". $_POST['ima'];
+echo "<form action=\"index.php\" method=\"POST\">";
+echo "<input type=\"hidden\" value=\"".$_POST['ima']."\" name=\"ima\">";//по числу параметров скрипта
+echo "<input type=\"submit\" value=\"в базу\" name=\"s1\">";
+echo "<input type=\"submit\" value=\"исправить\" name=\"s1\">";
+echo "</form>";
+?>
+
+<input type="radio" name="n1" value="1" <?php if($n1==1) echo "checked"; ?> >;
+<input type="radio" name="n1" value="2" <?php if($n1==2) echo "checked"; ?>>;
+<input type="checkbox" name="ch1" <?php if(isset($_POST['ch1'])) echo " checked "; ?>>
+<textarea name="t1">
+<?php echo $_POST['t1']; ?> //или, если уже задали, то echo $t1;
+</textarea>
+<select name=s1>
+<option value=1>кг
+<option value=2>шт
+</select>
+------script.php  $_POST['s1']=1 у нас так получается
+switch($_POST['s1']){
+case 1:
+$s1="кг";
+break;
+case 2:
+$s1="шт";
+break;
+default:
+$s1="";
+}
+echo "Единицы измерения: $s1";
+
+пример
+файл index.php
+<?php
+if (isset($_POST['ima'])) $ima=$_POST['ima'];//эти 2 строки повторяем по 
+else $ima="";						//числу переменных
+if (isset($_POST['s1']) and $_POST['s1']== "в базу") {
+//Тут код добавления в базу
+echo "добавляем в базу";
+
+include('connect.php');
+
+$ins="insert into tovar values (null,'$name_tovar',$price_tovar,$kol_tovar,)";
+if(mysql_query($ins)) echo "товар добавлен.<a href=\"catalog.php\">перейти в каталог</a>";
+else {
+echo "товар не добавлен";
+echo mysql_error();
+}
+ }// до сюда код добавления в базу!!
+else {
+?>
+
+<html><head><title>Пример формы</title></head>
+<body>
+<h1>Заполните форму:</h1>
+<form action="script.php" method="POST">
+<p>ВВедите Ваше имя:</p>
+<input type="text" name="ima" value="<?php echo $ima; ?>">//по числу строк
+<input type="submit" value="надпись на кнопке">
+</form>
+<?php
+}
+?> 
+</body>
+</html>
+
+script.php
+<?php
+echo "Ваше имя: ". $_POST['ima'];
+?>
+Теперь файл script.php
+<?php
+function proverka($z){
+if (empty($z)) return 0; //проверка не прошла
+else return 1;//проверка прошла успешно 
+}
+$err=1;
+echo "Ваше имя: ";
+if (!proverka($_POST['ima'])) {echo "<font color=\"red\">не заполнено обязательное поле</font>";
+$err=0;}
+else echo $_POST['ima'];//повторить по числу полей ввода предыдущие 5 строк
+echo "<form method=\"POST\" action=\"index.php\">"; // сюда подставить свое имя файла с формой ввода товара, заменив расширение на php
+echo "<input type=\"hidden\" name=\"ima\" value=\"".$_POST['ima']."\">";//эта строка будет повторяться столько раз, сколько у вас переменных
+echo "<input type=\"submit\" value=\"исправить\" name=\"s1\">";
+if($err) echo "<input type=\"submit\" value=\"в базу\" name=\"s1\">";
+echo "</form>"; ?>
+
+echo "текст";
+echo ("текст");
+echo $a;
+echo mysql_error();
+$_GET['имя_переменной']
+header('Content-type: text/html; charset=windows-1251');
+<meta Content-type="text/html" charset="win-1251">
+
+
+
+Операторы
++,-,*,/,%
+% остаток от целочисленного деления по модулю
+$a=7;
+$b=3;
+$c=$a%$b; // получилось $c=1
+-
+$a=-$b;
+= присваивание
+$a=($b.....);
+if ($a==5)
+== сравнение (работает в условиях)
+<
+>
+>=
+<=
+!=, <> не равно
+
+&& или and это логическое И
+|| или or это логическое ИЛИ
+! это логическое НЕ
+xor это исключающее или
+if(выр1 xor выр2 xor выр3)
+. конкатенация - склеивание
+$a=8;
+$b=10;
+$c=$a.$b ; //$c=810
+$d=" ";
+$c=$a.$d.$b; //$c="8 10";
+$c=$a." ".$b; //$c="8 10"
+тернарный оператор
+(условие)?(если истино):(если ложно)
+$a=8;
+$b=10;
+$c=($a>$b)?($a*$b):($a+$b); //$c=18
+Инкремент и декремент
+$x++ или ++$x
+$x-- или --$x
+
+$x=10;
+$y=$x++;//$x=11, $y=10
+$x=10;
+$y=++$x;//$x=11,$y=11
+
+оператор подавления ошибки
+@mysql_connect("localhost","php","123");
+$value=@$arr[$key];
+
+Управляющие структуры языка
+
+if(условие){
+команда;
+команда;
+}
+
+if (условие) команда;
+
+if(условие){
+команды;
+}
+else {
+команды;
+}
+
+if(условие){
+команды;
+}
+elseif(условие){
+команды;
+}
+elseif(условие){
+команды;
+}
+else {
+команды;
+}
+
+if (условие):
+команды;
+elseif (условие):
+команды;
+else:
+команды;
+endif;
+
+<?php if (условие) : ?>
+html
+<?php elseif (условие) : ?>
+html
+<?php else: ?>
+html
+<?php endif; ?>
+
+
+if (isset($_POST['check_new']))
+ echo "товар поступил впервые";
+else echo "добавляем существующий на складе товар";
+
+Циклы
+while
+do-while
+for
+
+while(условие){
+команды;
+}
+
+$i=10;
+while($i>0){
+echo "Число пока не достигло 0";
+$i--;
+}
+
+while(условие):
+команды;
+endwhile;
+
+<?php while(условие): ?>
+команды html;
+<?php endwhile;?>
+
+
+do {
+команды;
+} while(условие);
+
+
+for(выр1;выр2;выр3){
+команды;
+}
+
+for(выр1;выр2;выр3):
+команды;
+endfor;
+
+
+for($i=10;$i>0;$i--){
+команды;
+}
+
+$i=10;
+for(;;){
+if($i<0) break;
+команды;
+$i--;}
+
+
+$i=10;
+while(1){
+if($i<0) break;
+команды;
+$i--;}
+
+break - выход из цикла немедленно
+
+for($i=1;$i<10;$i++){
+echo "i равно $i";
+if ($i==5) break;
+}
+
+continue - прекратить текущую итерацию цикла
+
+Всем делать пример!
+<?php
+for ($i=1;$i<100;$i++){
+if($i%3) continue;
+echo "$i<br>";
+}
+?>
+
+switch (выражение) {
+case значение1:
+команды;
+break;
+case значение2:
+команды;
+break;
+.
+.
+case значениеN:
+команды;
+break;
+[default:
+команды;]
+}
+
+<?php 
+$i=2;
+switch($i){
+case 1:
+echo "i равно 1<br>";
+break;
+case 2:
+echo "i равно 2<br>";
+break;
+case 3:
+echo "i равно 3<br>";
+break;
+default:
+echo "i или меньше 1 или больше 3 или вообще не целое число";
+}
+?>
+
+include
+require
+
+include ('file.php');
+include ("file.php");
+include 'file.php';
+include "inc/file.php";
+
+<?php
+include "1.php";
+?>
+................
+<?php
+echo "Подключили файл!";
+?>
+
+config.php
+<?php
+$host="localhost";
+$user="php1";
+$pass="123";
+$link=mysql_connect($host,$user,$pass) or die("ошибка соединения");
+$dbname="shop";
+?>
+
+index.php
+<?php
+include ('config.php');
+echo "Далее выполняется программа";
+?>
+
+
+include_once()
+require_once()
+
+
+Функции
+
+function имя_функции(параметры){
+команды;
+}
+
+
+function cube($x){
+return $x*$x*$x;
+}
+
+$a=12;
+$b=cube($a); // $b=1728
+
+function draw_hr($x){
+for($i=0;$i<$x;$i++) echo "<hr>";
+}
+$a=4;
+draw_hr($a);
+
+function draw_hr($x,$y=1,$col='black'){
+for($i=0;$i<$x;$i++) echo "<hr style=\"height:$y;color:$col\">";
+}
+$a=4;
+$b=2;
+$c="red";
+draw_hr($a,$b,$c);
+draw_hr($a);
+
+function f1($a=1,$b=2,$c=3){
+return $a+$b+$c;
+}
+
+$x=4;
+$y=5;
+$z=6;
+$w=f1($x,$y,$z);//$w=15
+$w=f1($x,$y);//$w=12
+$w=f1($x);//$w=9
+$w=f1();//$w=6
+$w=f1(,,$z);//как делать нельзя
+$w=f1($z);//$z попадет на место $a $w=11
+
+function f1($a=5,$b,$c){  //так нельзя
+return $a+$b+$c;
+}
+function f1($a,$b,$c=3){  //так можно
+return $a+$b+$c;
+}
+
+
+function f2(&$x){
+$x=$x*$x;
+return $x;
+}
+$a=3;
+$b=f2($a);//$b=9,$a=9
+-------------------------------------------
+function f2($x){
+$x=$x*$x;
+return $x;
+}
+$a=3;
+$b=f2($a);//$b=9,$a=3
+
+Область видимости переменных (время жизни переменных)
+
+function f2($x){
+$x=$x*$x;
+echo $x;//9
+return $x;
+}
+$x=3;
+$b=f2($x);//$b=9,$x=3
+echo $x;//3
+
+$x=3;
+function f2($x){
+global $x;
+$x=$x*$x;
+return $x;
+}
+$b=f2($x);//$b=9,$x=9
+//$b=f2($x);//$b=9,$x=3 это если $x не глобальна, это предыдуший пример
+
+// комментарий до конца строки
+/*
+комментарий 
+на несколько
+строк
+*/
+
+Статические переменные.
+--------
+function f3(){
+static $a=0;
+$a++;
+return $a;
+}
+
+for ($i=0;$i<10;$i++){
+$c=f3();
+echo "на итерации $i функция f3 вызывается в $c раз<br>";
+}
+---------
+
+function f1(){
+команды;
+  function f2(){
+  Команды;
+  }
+}
+f2(); //ошибка! вызов несуществующей функции
+f1();
+f2();
+
+Рекурсивная функция
+
+$x$y=$x*$x($y-1)
+$x0=1
+
+function power($x,$y) {
+if ($y) {
+return $x*power($x,$y-1);
+} 
+return 1;
+}
+
+$a=5;
+$b=4;
+$c=power($a,$b);
+echo $c;
+
+$x=2;
+$y=4;
+24=2*23
+         2*22
+             2*21
+                 2*20
+
+n!=1*2*3*......*n
+n!=n*(n-1)!
+1!=1
+
+---------------
+function factorial($n){
+код рекурсивной функции, 
+который вы должны написать.
+}
+
+$x=5;
+$z=factorial($x);
+echo "Факториал числа $x равен $z";
+----------------
+
+присвоение функций переменным
+
+$function="f1";
+
+$function($a); //f1($a)
+
+function f1($z){...}
+function f2($z){...}
+function f3($z){...}
+
+if ($x==125) $func="f1";
+elseif($x==155) $func="f2";
+else $func="f3";
+......
+$func($a);
+
+Используя функции (написать функцию проверки) проверить - заполнены ли все необходимые поля ввода.
+
+function proverka($a){
+if (empty($a)) return 0;
+else return 1;
+}
+
+if(!proverka($_POST['name_tovar'])) echo "<font color=\"red\">не заполнено обязательное поле</font>";
+else echo "Наименование товара:". $_POST['name_tovar'];
+
+В результате проверки, если все поля заполнены, то можем показывать кнопку "в базу", если поля не заполнены, то кнопку не показываем. "исправить" в любом случае показываем.
+
+Массивы
+
+
+Массив - это собрание нескольких переменных под одним именем. Различаются переменные индексом.
+Именование массивов как у переменных.
+$d
+$d[1]
+$d['строка']
+$str="kfhdfjdfdhfj $d[1]";
+$str="kfhdfjdfdhfj ".$d['dddd']; //так делать
+
+$arr=array(индекс=>значение, индекс2=>значение2,....);
+$arr=array(значение1, значение2,....);
+$arr=array(индекс=>значение, значение2,....);
+
+* $arr=array('ru'=>'россия','ua'=>'украина','kz'=>'казахстан');
+$arr['by']='беларусь' ;// индекс 'by'
+$arr[]='киргизия' ;// индекс 0
+*$arr=array('россия','украина','казахстан');
+                       0            1                 2
+$arr[]='беларусь' ;// индекс 3
+$arr=array('ru'=>'россия',1=>'украина','kz'=>'казахстан');
+$arr=array(6=>'россия',25=>'украина','kz'=>'казахстан');
+$arr[]='беларусь' ;// индекс 26
+
+* $arr['ru']='россия';
+* $arr['ua']='украина';
+* $arr['kz']='казахстан';
+$arr['by']='беларусь';
+
+*$arr[]='россия';//0
+*$arr[]='украина';//1
+*$arr[]='казахстан';//2
+
+$arr=array('europe'=>array('ru'=>'россия','ua'=>'украина','by'=>'беларусь'),'n_america'=>array('us'=>'сша','ca'=>'канада'));
+
+$arr['europe']['ru']='россия';
+$arr['europe']['ua']='украина';
+$arr['europe']['by']='беларусь';
+$arr['n_america']['us']='сша';
+$arr['n_america']['ca']='канада';
+
+Обход массива 
+$arr=array('ru','ua','by','kz');
+for ($i=0;$i<count($arr);$i++){
+echo $arr[$i]."<br>";
+}
+
+Обход массива индексированного строками или непоследовательно и не только
+foreach($arr as $value){
+команды;
+}
+foreach($arr as $key => $value){
+команды;
+}
+
+list($key,$value)=each($arr);
+
+while(list($key,$value)=each($arr)){
+команды;
+}
+
+<?php
+echo "Работает foreach<br>";
+$arr=array(10,20,30,40,50);
+foreach($arr as $key=>$value){
+if ($key==2) $arr=55;
+echo "Элемент $key равен $value <br>";
+}
+echo "Работает list-each<br>";
+$arr=array(10,20,30,40,50);
+while(list($key,$value)=each($arr)){
+if ($key==2) $arr=55;
+echo "Элемент $key равен $value <br>";
+}
+?>
+
+Функции для работы с массивами
+reset($arr) перемещает курсор на начало
+count($arr) возвращает число элементов массива
+next($arr) перемещает внутренний курсор на элемент вперед и возвращает значение этого элемента или возвращает false, если достигнут конец массива
+prev($arr) перемещает внутренний курсор на элемент назад и возвращает значение этого элемента или возвращает false, если достигнуто начало массива
+current($arr) возвращает значение текущего элемента
+key($arr) возвращает значение текущего ключа
+end($arr) перемещает внутренний курсор на последний элемент и возвращает значение этого элемента
+
+Cортировка массива
+sort($arr) 0,1,2......
+asort() не меняет индексы
+rsort() и arsort() обратном порядке
+ksort() сортирует по ключу
+krsort() в обратном порядке
+usort ($arr, функция_для_сортировки) сортировка по своей функции
+<?php
+function cmp($a, $b){
+    if ($a == $b) {
+        return 0;
+    }
+    return ($a < $b) ? -1 : 1;
+}
+
+$a = array(3, 2, 5, 6, 1);
+usort($a, "cmp");
+foreach ($a as $key => $value) {
+    echo "$key: $value<br>";
+}
+?>
+
+<?php
+function cmp($a, $b){
+if ($a == $b) {
+return 0;
+}
+return ($a < $b) ? -1 : 1;
+}
+
+$a = array(3, 2, 5, 6, 1);
+usort($a, "cmp");
+foreach ($a as $key => $value) {
+echo "$key: $value<br>";
+}
+?>
+<?php
+function cmp($a, $b){
+if (strlen($a) == strlen($b)) {
+return 0;
+}
+return(strlen($a)<strlen ($b)) ? -1 : 1;
+}
+
+$a=array('aa','a','aaaaaaa','aaa','aaaa');
+usort($a, "cmp");
+foreach ($a as $key => $value) {
+echo "$key: $value<br>";
+}
+?>
+
+
+Cоединение с БД MySQL и функции  для работы с MySQL
+
+$link=mysql_connect(хост:порт, [пользователь],[пароль])
+$link=mysql_connect("localhost","php1","123123");
+
+Создается файл connect.php:
+-----------------------
+$host="localhost";
+$user="php1";
+$pass="123123";
+$db="shop";
+mysql_connect($host,$user,$pass) or die("соединение не удалось");
+mysql_select_db($db);
+-----------------------
+if(@mysql_connect($host,$user,$pass)) echo "соединились с базой";
+else "база не присоединилась";
+
+mysql_connect($host,$user,$pass) or die("текст оповещения");
+mysql_connect($host,$user,$pass) or exit("текст оповещения");
+Далее в скриптах, которые используют соединение с базой.
+include ("connect.php");
+
+mysql_close();
+mysql_close($link);
+
+mysql_select_db("shop"[,$link]);
+$db="shop";
+mysql_select_db($db);
+mysql_create_db(имя_базы[,$link]);
+mysql_drop_db(имя_базы[,$link]);
+mysql_query(команда_mysql);
+$zapros="delete from tovar;delete from client";
+mysql_query($zapros);
+mysql_query("select * from tovar");
+mysql_db_query(база,команда_mysql)
+mysql(база,запрос);//раньше была такая функция, сейчас нет ее уже.
+
+CREATE,ALTER,DROP возвращает TRUE или FALSE
+
+if(mysql_query($z)) echo "запрос успешно выполнен";
+else echo "запрос не выполнен";
+
+DELETE,INSERT,UPDATE возвращает результат, содержащий число обработанных строк
+mysql_query($z);
+$n=mysql_affected_rows();
+
+SELECT возращает результирующий набор, который можно обработать другими функциями.
+
+resource
+$res=mysql_query("select * from tovar");
+$a=mysql_result($res,номер_строки, { номер_столбца | имя_столбца});
+$a=mysql_result($res,0, 'name_tovar');
+$a=mysql_result($res,0, 1);
+0 id_tovar
+1 name_tovar
+2 price_tovar
+3 ed_izm
+4 kol
+0
+яблоко//$a
+65
+кг
+300
+1
+груша
+80
+кг
+100
+2
+банан
+35
+кг
+400
+
+$n=mysql_num_rows($res);
+
+for($i=0;$i<$n;$i++){
+$name_tovar=mysql_result($res,$i,'name_tovar');
+$price_tovar=mysql_result($res,$i,'price_ tovar');
+$kol_tovar=mysql_result($res,$i,'kol_tovar');
+.
+.
+echo "Наименование товара: $name_tovar , цена $price_tovar........<br>"
+}
+
+
+mysql_fetch_array($res[,тип]);
+MYSQL_NUM
+MYSQL_ASSOC
+MYSQL_BOTH по умолчанию именно он
+
+while($arr= mysql_fetch_array($res, MYSQL_ASSOC)){
+echo "Наименование товара: ".$arr['name_tovar']." , цена ".$arr['price_tovar'].".......<br>"
+}
+
+$res =mysql_list_dbs() список баз (читаем mysql_tablename())
+$res =mysql_list_tables(имя_базы) список таблиц в базе  (читаем mysql_tablename($res,$i))
+mysql_tablename($res,Номер_строки)
+$r=mysql_list_fields(база, таблица)
+mysql_num_fields($r) число полей
+mysql_field_len($r,индекс) длина поля
+mysql_field_name($r,индекс) имя поля
+
+mysql_error() выдает текст ошибки
+
+mysql_query(....);
+echo mysql_error();
+
+
+
+<?php
+mysql_connect("localhost","root","пароль") or die("не удалось соединиться");
+$dbs=mysql_list_dbs();
+$ndbs=mysql_num_rows($dbs);
+for($i=0;$i<$ndbs;$i++){
+$db=mysql_tablename($dbs,$i);
+echo "<h1>$db</h1>";
+$tbls=mysql_list_tables($db);
+$ntbls=mysql_num_rows($tbls);
+for($j=0;$j<$ntbls;$j++){
+$tbl=mysql_tablename($tbls,$j);
+echo "<h2>$tbl</h2>";
+$flds=mysql_list_fields($db,$tbl);
+$nflds=mysql_num_fields($flds);
+for($k=0;$k<$nflds;$k++){
+$fld=mysql_field_name($flds,$k);
+echo "$fld<br>";
+}}}?>
+
+
+
+
+
+Каталог - файл catalog.php
+
+<?php
+include('connect.php');
+$sel="select * from tovar";
+$res=mysql_query($sel);
+echo "<h1>Каталог товаров</h1>";
+echo "<table border=\"1\"><tr><td>наименование товара
+</td><td>цена товара</td>...</tr>";//где многоточие дополнить необходимыми полями
+//это такая функция, которая строку результата представляет в виде массива
+while($arr=mysql_fetch_array($res)){
+echo "<tr><td>".$arr['name_tovar']."</td>
+<td>".$arr['price_tovar']."</td>...</tr>";//где многоточие дополнить необх. полями
+}
+echo "</table>";
+?>
+
+
+
+<?php
+include('connect.php');
+$sel="select * from tovar";
+$res=mysql_query($sel);
+echo "<h1>Каталог товаров</h1>";
+echo "<table border=\"1\"><tr><td>наименование товара
+</td><td>цена товара</td>...</tr>";//где многоточие дополнить необходимыми полями
+//это такая функция, которая строку результата представляет в виде массива
+while($arr=mysql_fetch_array($res)){
+echo "<tr><td><a target=\"_blank\" href=\"info.php?id_tovar=".$arr['id_tovar']."\">
+".$arr['name_tovar']."</a></td>
+<td>".$arr['price_tovar']."</td>...</tr>";//где многоточие дополнить необх. полями
+}
+echo "</table>";
+?>
+
+Код для занесения в базу покупок.
+Сначала каталог, в котором можно отметить товар
+<?php
+include('connect.php');
+$sel="select * from tovar";
+$res=mysql_query($sel);
+echo "<h1>Каталог товаров</h1>";
+//делаем форму, в которой будет одно поле ячейкой таблицы, где надо ввести число единиц //товара, который хочет купить клиент
+echo "<form method=\"POST\" action=\"kupit.php\"><table border=\"1\"><tr><td>наименование товара
+</td><td>цена товара</td>...<td>указать количество</td>
+</tr>";//где многоточие дополнить необходимыми полями
+//это такая функция, которая строку выполненного запроса представляет в виде массива
+while($arr=mysql_fetch_array($res)){
+echo "<tr><td><a target=\"_blank\" href=\"info.php?id_tovar=".$arr['id_tovar']."\">".$arr['name_tovar']."</a></td>
+<td>".$arr['price_tovar']."</td>...<td>
+<input type=\"text\" name=\"id[".$arr['id_tovar']."]\" value=\"0\">
+</td></tr>";//где многоточие дополнить необходимыми полями
+}
+echo "</table>";
+//потом выбираем покупателя точно так же, но не в таблицу заносим,а в select
+echo "<select name=\"id_client\">";
+$sel_cl="select * from client";
+$res_cl=mysql_query($sel_cl);
+while($arr_cl=mysql_fetch_array($res_cl)){
+echo "<option value=\"".$arr_cl['id_client']."\">".$arr_cl['name_client']."</option>";
+}
+echo "</select>";
+//тут кнопка отправки и конец формы, переменные, в которых указано число
+ единиц покупаемого товара идут как массив, индексированный своими id_tovar
+echo "<br><input type=\"submit\"></form>";
+?>
+
+//второй файл, который называется kupit.php
+<?php
+include ("connect.php");//тут продолжение как везде
+$id_client=$_POST['id_client'];
+$id=$_POST['id'];
+//не вполне помню структуру таблицы сделка
+$up_sdelka="insert into sdelka values (null,$id_client,null,now()...)";//id_sdelka,id_client,summa,data...
+$res_up_sdelka=mysql_query($up_sdelka);
+$id_sdelka=mysql_insert_id();
+$sum=0;
+foreach ($id as $key => $value){   //исключить нулевые количества из подсчетов, у кого $value равно 0
+if($value){
+$up="update tovar set kol_tovar=kol_tovar-$value where id_tovar=$key";
+$up_svaz="insert into svaz values($id_sdelka,$key,$value
+.....)";//в соответствии с таблицей svaz: id_sdelka,id_tovar,количество товара...
+$sum+=$value*mysql_result(mysql_query("select price_tovar from 
+tovar where id_tovar=$key"),0,0);
+if(mysql_query($up)) echo "количество товара $key обновлено";
+else echo "товар $key не обновился";
+if(mysql_query($up_svaz)) echo " количество товара $key добавлено к сделке <br>";
+else echo " товар $key не добавлен к сделке <br>";
+}
+}
+$up_sdelka="update sdelka set sum_sdelka=$sum where id_sdelka=$id_sdelka";
+if(mysql_query($up_sdelka)) echo "сделка $id_sdelka обновлена на сумму $sum<br>";
+else "Не удалось установить сумму сделки $id_sdelka<br>";
+?>
+
+
+Классы
+
+Пример простого класса
+
+<?php
+class SimpleClass
+{
+    // обьявление членов класса (переменных)
+    public $var = 'a default value';
+
+    // обьявление методов класса (функций)
+    public function displayVar() {
+        echo $this->var;
+    }
+}
+?>
+
+New
+
+<?php
+$instance = new SimpleClass();
+?>
+
+Extends - расширения класса
+<?php
+class ExtendClass extends SimpleClass
+{
+    // переопределение родительского метода
+    function displayVar()
+    {
+        echo "Extending class\n";
+        parent::displayVar();
+    }
+}
+
+$extended = new ExtendClass();
+$extended->displayVar();
+?>
+
+
+Конструктор и деструктор
+
+Конструктор
+
+include_once ('baseclass.php');
+
+<?php
+class BaseClass {
+   function __construct() {
+       print "In BaseClass constructor\n";
+   }
+}
+
+class SubClass extends BaseClass {
+   function __construct() {
+       parent::__construct();
+       print "In SubClass constructor\n";
+   }
+}
+
+$obj  = new BaseClass(); // In BaseClass constructor
+$obj1 = new SubClass();  //  In BaseClass constructor
+			    //  In SubClass constructor
+?>
+
+Деструктор
+
+<?php
+class MyDestructableClass {
+   function __construct() {
+       print "In constructor\n";
+       $this->name = "MyDestructableClass";
+   }
+
+   function __destruct() {
+       print "Destroying " . $this->name . "\n";
+   }
+}
+
+$obj = new MyDestructableClass();
+?>
+
+
+
+Пример видимости членов класса
+
+<?php
+ // Define MyClass
+class MyClass
+{
+    public $public = 'Public';
+    protected $protected = 'Protected';
+    private $private = 'Private';
+
+    function printHello()
+    {
+        echo $this->public;
+        echo $this->protected;
+        echo $this->private;
+    }
+}
+
+$obj = new MyClass();
+echo $obj->public; // Works
+echo $obj->protected; // Fatal Error
+echo $obj->private; // Fatal Error
+$obj->printHello(); // Shows Public, Protected and Private
+
+// Define MyClass2
+ class MyClass2 extends MyClass
+{
+    // Мы можем переобьявить public и protected , но не private
+    protected $protected = 'Protected2';
+
+    function printHello()
+    {
+        echo $this->public;
+        echo $this->protected;
+        echo $this->private;
+    }
+}
+
+$obj2 = new MyClass2();
+echo $obj2->public; // Works
+echo $obj2->private; // Undefined
+echo $obj2->protected; // Fatal Error
+$obj2->printHello(); // Shows Public, Protected2, not Private
+
+?>
+
+Пример видимости методов класса
+
+<?php
+// Define MyClass
+ class MyClass
+{
+    // Конструктор должен быть public
+    public function __construct() { }
+
+    // Обьявление public method
+    public function MyPublic() { }
+
+    // Обьявление protected method
+    protected function MyProtected() { }
+
+    // Обьявление private method
+    private function MyPrivate() { }
+
+    // Это public
+    function Foo()
+    {
+        $this->MyPublic();
+        $this->MyProtected();
+        $this->MyPrivate();
+    }
+}
+
+$myclass = new MyClass;
+$myclass->MyPublic(); // Works
+$myclass->MyProtected(); // Fatal Error
+$myclass->MyPrivate(); // Fatal Error
+$myclass->Foo(); // Public, Protected and Private work
+
+//Define MyClass2
+class MyClass2 extends MyClass
+{
+    // This is public
+    function Foo2()
+    {
+        $this->MyPublic();
+        $this->MyProtected();
+        $this->MyPrivate(); // Fatal Error
+    }
+}
+
+$myclass2 = new MyClass2;
+$myclass2->MyPublic(); // Works
+$myclass2->Foo2(); // Public and Protected work, not Private
+
+class Bar 
+{
+
+    public function testPublic() {
+        echo "Bar::testPublic\n";
+    }
+    
+    private function testPrivate() {
+        echo "Bar::testPrivate\n";
+    }
+
+    public function test() {
+        $this->testPrivate();
+        $this->testPublic();
+    }
+
+}
+
+class Foo extends Bar 
+{
+    public function testPublic() {
+        echo "Foo::testPublic\n";
+    }
+    
+    private function testPrivate() {
+        echo "Foo::testPrivate\n";
+    }
+}
+
+$myFoo = new Foo();
+$myFoo->test(); // Bar::testPrivate 
+                // Foo::testPublic
+?>
+
+
+
+Создадим класс Tovar
+Название файла tovar_class.php
+<?php
+class Tovar
+{
+    //обьявление переменных -членов класса
+    var	$id_tovar;
+    var	$name_tovar;
+    var	$price_tovar;
+    var	$kol_tovar;
+    .
+    .
+    // обьявление методов
+    public function __construct($id_tovar) {
+        $sel="select * from tovar where id_tovar=".$id_tovar;
+        $res=mysql_query($sel);
+	if (!$arr=mysql_fetch_array($res)) return false;
+	else {
+	$this->id_tovar=$arr['id_tovar'];
+	$this->name_tovar=$arr['name_tovar'];
+	.
+	.
+	}
+    }
+    public function get_id_tovar() {
+	return $this->id_tovar;
+    }
+    public function get_name_tovar() {
+	return $this->name_tovar;
+    }
+    .
+    .
+}
+?>
+
+И применим этот класс в программе
+файл info.php
+<?php
+include ('файл, в котором соединение с базой.php'); //connect.php
+include_once ('tovar_class.php');
+if (!empty($_GET['id_tovar'])) {
+if ($tovar=new Tovar($_GET['id_tovar'])){
+echo "<h1>".$tovar->get_name_tovar()."</h1>";
+echo "<p>Цена товара: ".$tovar->get_price_tovar()."</p>";
+echo "<p>Описание товара: ".$tovar->get_desc_tovar()."</p>";
+.//тут надо
+.//добавить
+.//описание
+}
+}
+else echo "<h1>Товар не найден</h1>";
+?>
+
+
+Передача файла на сервер.
+
+Форма для выбора файла
+<html><head>…</head>
+<body>
+<form action="sc.php" method="post"
+ enctype="multipart/form-data">
+<input type="hidden" name="MAX_FILE_SIZE"  value="30000" >
+<p>Выбрать файл: 
+<input type="file" name="userfile">
+<input type=submit>
+</form>
+</body></html>
+
+Действия с файлом - скрипт sc.php:
+<?php
+echo "<p>Настоящее имя файла: ".$_FILES['userfile']['name'];
+....
+$uploadfile = "C:/Inetpub/wwwroot/files/".$_FILES['userfile']['name'];
+if (move_uploaded_file($_FILES['userfile']['tmp_name'], $uploadfile)) {
+    echo "Файл успешно сохранен.";
+} 
+else {
+    echo "Не удалось сохранить файл";
+}
+?>
+
+$_FILES['userfile']['name'] 
+Настоящее имя файла как на клиентской машине 
+$_FILES['userfile']['type'] 
+MIME-тип, который послал браузер (image/gif, plain/text)
+$_FILES['userfile']['size'] 
+Размер файла по представлению браузера 
+$_FILES['userfile']['tmp_name'] 
+Временное имя файла на сервере
+$_FILES['userfile']['error']
+
+UPLOAD_ERR_OK 
+Value: 0; Нет ошибок
+UPLOAD_ERR_INI_SIZE 
+Value: 1; размер файла превышает ограничение
+ php.ini. 
+UPLOAD_ERR_FORM_SIZE 
+Value: 2; размер файла превышает ограничение
+  HTML form. 
+UPLOAD_ERR_PARTIAL 
+Value: 3; Файл загружен частично
+UPLOAD_ERR_NO_FILE 
+Value: 4; Файл не загружен 
+UPLOAD_ERR_NO_TMP_DIR 
+Value: 6; Не найдена временная директория
+ для загрузки файла  
+UPLOAD_ERR_CANT_WRITE 
+Value: 7; ошибка записи на диск
+UPLOAD_ERR_EXTENSION 
+Value: 8; Загрузка файла остановлена из-за дополнительных модулей
+
+ПРимер, переделанный из скрытых input в сеанс.
+
+файл index.php
+<?php
+session_start();
+if (isset($_SESSION['ima'])) $ima=$_SESSION['ima'];//эти 2 строки повторяем по 
+else $ima="";						//числу переменных
+if (isset($_POST['s1']) and $_ POST ['s1']== "в базу") {
+//Тут код добавления в базу
+//echo "добавляем в базу";
+mysql_connect....
+mysql_query("set names utf8");
+mysq_select_db("shop");
+$ins="insert into tovar values (null,'$name_tovar',....)";
+if(mysql_query($ins)) echo "товар добавлен.<a href=\"catalog.php\">перейти в каталог</a>";
+else {
+echo "товар не добавлен";
+echo mysql_error();
+}
+ }// до сюда!!
+else {
+?>
+<html><head><title>Пример формы</title></head>
+<body>
+<h1>Заполните форму:</h1>
+<form action="script.php" method="POST">
+<p>ВВедите Ваше имя:</p>
+<input type="text" name="ima" value="<?php echo $ima; ?>">
+<input type="submit" value="надпись на кнопке">
+</form>
+<?php
+}
+?> 
+</body>
+</html>
+
+Теперь файл script.php
+<?php
+session_start();
+function proverka($z){
+if (empty($z)) return 0; //проверка не прошла
+else return 1;//проверка прошла успешно 
+}
+$err=1;
+echo "Ваше имя: ";
+if (!proverka($_POST['ima'])) {echo "<font color=\"red\">не заполнено обязательное поле</font>";
+$err=0;}
+else {echo $_POST['ima'];
+$_SESSION['ima']= $_POST['ima'];
+}
+echo "<form method=\"POST\" action=\"index.php\">"; // сюда подставить свое имя файла с формой ввода товара, заменив расширение на php
+//!!!! В этом месте стерли скрытые itput
+echo "<input type=\"submit\" value=\"исправить\" name=\"s1\">";
+if($err) echo "<input type=\"submit\" value=\"в базу\" name=\"s1\">";
+echo "</form>"; ?>
+
+
+gr3.php
+<?php
+header("Content-type: image/jpeg");
+$im  = imagecreatetruecolor(300, 300);
+$w   = imagecolorallocate($im, 255, 255, 255);
+$red = imagecolorallocate($im, 255, 0, 0);
+$g=imagecolorallocate($im, 0, 255, 0);
+imagefill($im,0,0,$w);
+imagerectangle($im, 299, 0, 1, 299, $g);
+$arr=array(0,24,28,34,45,56,68,78,103,128,200);
+$y=0;
+for ($j=0;$j<10;$j++){
+
+imageline($im, $y,300-$arr[$j], $y+30, 300-$arr[$j+1], $red);
+$y=$y+30;
+                      }
+
+$tt="C:/windows/TEMP/1.jpg";
+imagejpeg($im,$tt);
+imagedestroy($im);
+?>
+gr4.php
+<?php
+echo "<h3>Это пример внедрения рисунка</h3>";
+include 'gr3.php';
+echo $tt;
+echo "<img src=\"$tt\">";
+
+
+?>                                
+imagecopyresized ( resource dst_image, resource src_image, int dst_x, int dst_y, int src_x, int src_y, int dst_w, int dst_h, int src_w, int src_h )
+
+
+Javascript
+DOM document object model
+
+
+
+<form name="nf1">
+<input name="n1">
+<input type="submit" name="sub1">
+</form>
+
+<form name="nf1">
+<input name="n1">
+<input type="button" onClick="document.Forms['nf1'].submit()">
+<img id="im1" src="file1.jpg" name="nm">
+<input type="button" onClick=" document.getElementById('im1').src='file.jpg'">
+</form>
+
+document.getElementById('im1').src='file.jpg'
+document.getElementByName('nm').src='file.jpg'
+
+
+
+<html><head>...<body><table border="0">
+<tr><td rowspan=3><img src="big.jpg" width="200" id="imbig"></td>
+<td><img src="small.jpg" width="50" onMouseover="document.getElementById('imbig').src='big.jpg'">
+</td></tr>
+<tr><td><img src="small1.jpg" width="50" onMouseover="document.getElementById('imbig').src='big1.jpg'" onClick="document.getElementById('d1').style.display='block'; document.getElementById('imbigdiv').src='big1.jpg' "></td></tr>
+<tr><td><img src="small2.jpg" width="50" onMouseover="document.getElementById('imbig').src='big2.jpg'"></td></tr></table>
+<div style="width:200px;height:200px;display:none;border:1px solid black;padding:10px;" id='d1' onClick="this.style.display='none';"><img src="big.jpg" id='imbigdiv' width="180"></div></body></html>
+
+htmlbook.ru
+
+<div style="width:200px;height:20px;overflow:hidden;background-color:#ff4444;" onMouseover="this.style.overflow='visible';" onMouseOut="..">
+<p>Меню <br>
+<a href="1.html">пункт 1</a></br>
+<a href="2.html">пункт 2</a></br>
+<a href="3.html">пункт 3</a></br>
+</div>
+
+
+<HTML><HEAD><TITLE>Dynamic visibility example</TITLE>
+<META  http-equiv="Content-Script-Type" content="application/x-hypothetical-scripting-language">
+<STYLE type="text/css">
+   #container1 { position: absolute; 
+                 top: 2in; left: 2in; width: 2in }
+   #container2 { position: absolute; 
+                 top: 2in; left: 2in; width: 2in;
+                  }
+</STYLE></HEAD><BODY>
+<P>Choose a suspect:</P>
+<DIV id="container1">
+   <IMG alt="Al Capone" 
+        width="100" height="100" 
+        src="suspect1.jpg">
+   <P>Name: Al Capone</P>
+   <P>Residence: Chicago</P>
+</DIV>
+<DIV id="container2">
+   <IMG alt="Lucky Luciano" 
+        width="100" height="100" 
+        src="suspect2.jpg">
+   <P>Name: Lucky Luciano</P>
+   <P>Residence: New York</P>
+</DIV>
+
+<FORM method="post" 
+      action="http://www.suspect.org/process-bums">
+   <P>
+   <INPUT name="Capone" type="button" 
+          value="Capone" 
+          onclick='document.getElementById("container1").style.visibility="visible";document.getElementById("container2").style.visibility="hidden";'>
+   <INPUT name="Luciano" type="button" 
+          value="Luciano" 
+          onclick='document.getElementById("container2").style.visibility="visible";document.getElementById("container1").style.visibility="hidden";'>
+</FORM>
+</BODY>
+</HTML>
+
+
+
+Куки  Cookie
+$_COOKIE['имя']
+
+setcookie ( name [,  value [,  expire [,  path [,  domain [,  secure [, httponly]]]]]] );
+
+Установка кук строго до любого вывода в браузер.
+$_COOKIE[]
+setcookie('cookiename','привет',time()+60*60*24*30,'/')
+Параметр
+Описание
+Пример
+name
+Имя куки. 
+'cookiename' вызывается как $_COOKIE['cookiename'] 
+value
+Значение куки. 
+Значение хранится тут: $_COOKIE['cookiename'] 
+expire
+Время окончания действия куки. Это Unix timestamp (число секунд с начала эпохи). Можно установить с помощью функции time() плюс число секунд до конца жизни куки. 
+time()+60*60*24*30 кука истечет через 30 дней. Если установить  0 (или вообще опустить), кука умрет при закрытии браузера. 
+path
+Путь на веб-сервере, где кука доступна. 
+При установке '/', кука будет доступна начиная от корня и глубже. Если установить '/dir/', кука будет доступна в /dir/ и ее поддиректориях. Значением по умолчанию является та директория, где кука была установлена. 
+domain
+Домен, где доступна кука. 
+Для всех поддоменов: '.example.com'. Установка www.example.com делает куку доступной только из www поддомена. 
+secure
+показывает, что кука должна быть передана только по  HTTPS. По умолчанию FALSE. 
+TRUE or FALSE 
+httponly
+Если TRUE кука доступна только по HTTP. То есть недоступна разным JavaScript. 
+TRUE or FALSE 
+
+
+<?php
+// установить куки
+setcookie("cookie[three]", "cookiethree");
+setcookie("cookie[two]", "cookietwo");
+setcookie("cookie[one]", "cookieone");
+
+// распечатать куки (после перезагрузки страницы)
+if (isset($_COOKIE['cookie'])) {
+    foreach ($_COOKIE['cookie'] as $name => $value) {
+        echo "$name : $value <br />\n";
+    }
+}
+?>
+
+
+Сеансы.
+
+$_SESSION['переменная_сеанса']
+$_SESSION['user_name']="Петя Иванов";
+unset($_SESSION['user_name']);
+echo $_SESSION['user_name'];
+session_start();
+
+<?php
+session_start();
+if (!isset($_SESSION['count'])) {
+    $_SESSION['count'] = 0;
+} else {
+    $_SESSION['count']++;
+    echo $_SESSION['count'];
+}
+?>
+
+Уничтожить сессию
+
+<?php
+// Начать сессиию
+session_start();
+// Удалить переменные сессии
+$_SESSION = array();
+//нельзя делать unset($_SESSION)
+//убить куки, иначе сеанс возобновится
+if (isset($_COOKIE[session_name()])) {
+    setcookie(session_name(), '', time()-42000, '/');
+   // setcookie(session_name());
+
+}
+// Уничтожить саму сессию.
+session_destroy();
+?>
+
+$_SESSION['PHPSESSID'] - 
+
+
+Регулярные выражения
+^строка  - начало строки.
+^а - строка начинается на а
+"арбуз"
+"амбар"
+"апельсин и груша"
+$ - конец строки
+строка$ - шаблон, означающий конец строки
+в$ - строка заканчивается на в
+"Иванов"
+"Петров"
+"Сидоров"
+^строка$ - ищется в точности такая строка
+^яблоко$
+"яблоко" - подходит
+"вкусное яблоко" - не подходит
+"яблоко красного цвета" - не подходит
+слово - тоже может являться шаблоном
+цветок - шаблон
+"цветок" - подходит
+"красный цветок" - подходит
+"цветок в горшке" - подходит
+"красный цветок в горшке" - подходит
+$sh="цветок";
+ereg($sh, ....)
+ereg("^цветок$", ....)
+
+\t - табуляция
+\n  - новая строка
+\f - form feed - подача страницы
+\r - возврат каретки
+\v - вертикальная табуляция
+\, - запятая
+\. - точка
+\\ - \
+
+Классы символов
+
+[нечто] - класс символов, представляет 1 символ
+[a] - буква а
+[Аа] - буква а маленькая или большая
+[а-я] - ищем маленькую русскую букву
+[А-Яа-я] - ищем русскую букву
+[]a-zA-ZА-Яа-я0-9%<> []
+[^a-zA-Z]
+[а-я][0-9]  - "п99", "чм7", "в5" 
+{x} - ровно х символов
+[а-я]{5} 
+[0-9]{3} 
+{x,} - x и более символов
+[а-я]{4,} - русское слово не короче 4 символов
+{x,y} - ищем не менее х и не более у
+[а-я]{4,5} русское слово из 4 или 5 символов
+{0,1} - ?
+[a-z]? напишем вместо [a-z]{0,1} 
+{0,} - *
+{1,} - + 
+^[-]?[0-9]+$
+
+[[:alpha:]] - буква латинского алфавита [a-zA-Z]
+[[:digit:]] - цифра [0-9]
+[[:punct:]] - любой знак пунктуации 
+.
+.
+.
+| - или
+слово|слово2
+яблоко|груша
+. символ, означающий любой существующий символ
+[.]*
+
+^[а-я]{5,}[0-9]{2,7}[.]*0$
+аааааааа789апваоплвасолва 98430
+выаврыор3477jkdfgjlfdkjgjkfg0
+
+(нечто)@(нечто).(домен)
+
+$sh="[a-zA-Z0-9_]{1,254}@[a-zA-Z_]+\\.[a-z]{2,4}";
+$sh="([a-zA-Z0-9_]{1,254})@([a-zA-Z_]+)\\.([a-z]{2,4})";
+
+$sh="\\\\"; в шаблоне останнется \
+\\
+ereg ( шаблон, строка [, массив] )
+ereg($sh,$_POST['email'],$arr)
+$arr[0] - вся соответствующая строка
+$arr[1] - имя пользователя
+$arr[2] - домен
+$arr[3] - домен верхнего уровня
+
+eregi() игнорирует регистр
+
+ereg_replace(шаблон, на_что_менять, строка_в_которой_менять)
+ereg_replace("Коля", "Петя", $_POST['name']);
+ereg_replace("[ ]","_", $_POST['loginname']);
+
+eregi_replace() игнорирует регистр
+
+$arr=split(шаблон, строка[, число]);
+$arr=split(" ",$_POST['name'],3)
+Иван Иванович Петров инженер
+$arr[0]="Иван";
+$arr[1]="Иванович";
+$arr[2]="Петров";
+spliti() игнорирует регистр
+
+
+<?php
+function proverka($z){
+if (empty($z)) return 0; //проверка не прошла
+else return 1;//проверка прошла успешно 
+}
+$err=1;
+echo "Ваше имя: ";
+if (!proverka($_POST['ima'])) {echo "<font color=\"red\">не заполнено обязательное поле</font>";
+$err=0;}
+else {
+$sh="^[а-яА-Я]{1,20}$";
+if(ereg($sh, $_POST['ima']))  echo $_POST['ima'];
+else {echo "<font color=\"red\">посторонние символы в имени</font>";
+$err=0;
+} }
+echo "<form method=\"POST\" action=\"index.php\">"; // сюда подставить свое имя файла с формой ввода товара, заменив расширение на php
+echo "<input type=\"hidden\" name=\"ima\" value=\"".$_POST['ima']."\">";//эта строка будет повторяться столько раз, сколько у вас переменных
+echo "<input type=\"submit\" value=\"исправить\" name=\"s1\">";
+if($err) echo "<input type=\"submit\" value=\"в базу\" name=\"s1\">";
+echo "</form>"; ?>
+
+
+DIV
+
+<div style="position:absolute;border:1px solid red;">
+содержимое контейнера
+</div>
+
+position: absolute | fixed | relative | static | inherit
+
+left, top, right и bottom: значение | проценты | auto | inherit
+top:20px;
+
+z-index: число | auto | inherit
+
+visibility: visible | hidden | collapse | inherit
+
+overflow: auto | hidden | scroll | visible | inherit
+height: число | процент | auto
+width: число | процент | auto
+
+display: block | inline | inline-block | inline-table | list-item | none | run-in | table | table-caption | table-cell | table-column-group | table-column | table-footer-group | table-header-group | table-row | table-row-group
+
+
+block	Элемент показывается как блочный. Применение этого значения для встроенных элементов, например тега <span>, заставляет его вести подобно блокам — происходит перенос строк в начале и в конце содержимого. 	 	 	 	 	 	 	 	 	 	 
+inline	Элемент отображается как встроенный. Использование блочных тегов, таких как <div> и <p>, автоматически создает перенос и показывает содержимое этих тегов с новой строки. Значение inline отменяет эту особенность, поэтому содержимое блочных элементов начинается с того места, где окончился предыдущий элемент.	 	 	 	 	 	 	 	 	 	 
+inline-block	Это значение генерирует блочный элемент, который обтекается другими элементами веб-страницы подобно встроенному элементу. Фактически такой элемент по своему действию похож на встраиваемые элементы (вроде тега  <img>). При этом его внутренняя часть форматируется как блочный элемент, а сам элемент — как встроенный. 	 	 	 	 	 	 	 	 	 	 
+inline-table	Определяет, что элемент является таблицей как при использовании тега <table>, но при этом таблица является встроенным элементом и происходит ее обтекание другими элементами, например, текстом. 	 	 	 	 	 	 	 	 	 	 
+list-item	Элемент выводится как блочный и добавляется маркер списка. 	 	 	 	 	 	 	 	 	 	 
+none	Временно удаляет элемент из документа. Занимаемое им место не резервируется и веб-страница формируется так, словно элемента и не было. Изменить значение и сделать вновь видимым элемент можно с помощью скриптов, обращаясь к свойствам через объектную модель. В этом случае происходит переформатирование данных на странице с учетом вновь добавленного элемента.	 	 	 	 	 	 	 	 	 	 
+run-in	Устанавливает элемент как блочный или встроенный в зависимости от контекста. 	 	 	 	 	 	 	 	 	 	 
+table	Определяет, что элемент является блочной таблицей подобно использованию тега <table>. 	 	 	 	 	 	 	 	 	 	 
+table-caption	Задает заголовок таблицы подобно применению тега <caption>. 	 	 	 	 	 	 	 	 	 	 
+table-cell	  Указывает, что элемент представляет собой ячейку таблицы (тег <td> или <th>). 	 	 	 	 	 	 	 	 	 	 
+table-column	Назначает элемент колонкой таблицы, словно был добавлен тег  <col>.	 	 	 	 	 	 	 	 	 	 
+table-column-group 	Определяет, что элемент является группой одной или более колонок таблицы, как при использовании тега <colgroup>.	 	 	 	 	 	 	 	 	 	 
+table-footer-group 	Используется для хранения одной или нескольких строк ячеек, которые отображаются в самом низу таблицы. По своему действию сходно с работой тега <tfoot>. 	 	 	 	 	 	 	 	 	 	 
+table-header-group	Элемент предназначен для хранения одной или нескольких строк ячеек, которые представлены вверху таблицы. По своему действию сходно с работой тега <thead>. 	 	 	 	 	 	 	 	 	 	 
+table-row	Элемент отображается как строка таблицы (тег <tr>).	 	 	 	 	 	 	 	 	 	 
+table-row-group	Создает структурный блок, состоящий из нескольких строк таблицы аналогично действию тега <tbody>. 	 	 	 	 	 	 	 	 	 	
+
+
+Сделать пример:
+
+
+
+ SHAPE  \* MERGEFORMAT 
+найти разный стиль для элемента.!!!!!!!!!!!!!!!!!
+
+
+<style>
+.m1 {width:200px;height:20px;overflow:hidden;background-color:#ff4444;}
+.m2 {width:200px;height:20px;overflow:visible;background-color:#ff4444;}
+</style>
+<div class="m1" onMouseover='this.className="m2";'>
+<p>Меню <br>
+<a href="1.html">пункт 1</a></br>
+<a href="2.html">пункт 2</a></br>
+<a href="3.html">пункт 3</a></br>
+</div>
+
+Javascript
+
+Куда вставлять скрипт
+
+<html>….<body>     <h1>Счет</h1> 
+          <script type="text/javascript">
+ <!---<script>, <script language="javascript"> это способы записи открывающего тега --->
+        for(var i=1; i<=3; i++) { 
+            alert("Это "+i+"!") 
+        }     </script>
+         <h1>...Посчитали</h1> </body> </html>
+Конструкция for
+Обычный цикл, по синтаксису аналогичный другим языкам программирования.
+Объявление var i
+Объявление переменной внутри цикла: i - локальная переменная.
+Функция alert
+Выводит сообщение на экран и ждет, пока посетитель не нажмет ОК
+
+Вынос скриптов в заголовок HEAD
+
+
+	<html>
+    <head>
+        <script type="text/javascript">
+            function count_3() {
+                for(var i=1; i<=3; i++) {
+                   // оператор + соединяет строки
+                   alert("Это "+i+"!");
+                }
+            }
+         </script>
+    </head>
+    <body>
+     <input type="button" onClick="count_3();" value="Считать!">
+    </body>
+</html>
+
+
+ 
+Внешние скрипты
+
+подключают отдельный файл со скриптом:
+<script src="/my/script.js"></script>
+
+
+ При этом файл /my/script.js содержит javascript-код, который иначе мог бы находиться внутри тега <script>.
+
+
+Чтобы подключить несколько скриптов - несколько таких тегов:
+<script src="/js/script1.js"></script>
+<script src="/js/script2.js"></script>
+...
+
+При указании атрибута src содержимое тега игнорируется. 
+
+
+То есть одновременно подключить внешний файл и написать что-то внутри тега нельзя. Придется делать два разных тега <script>: первый с src, второй - с командами, которые будут выполнены после выполнения внешнего файла.
+
+
+Конструкции
+Точка с запятой
+
+
+Эти две строки полностью эквивалентны:
+a = 5
+a = 5;
+
+(В javascript перевод строки означает точку с запятой.)
+
+Нельзя:
+var a = "длинная 
+  строка "
+
+
+ 
+
+Блоки
+
+Блоки задаются фигурными скобками. 
+
+Локальные переменные объявляются при помощи var. 
+<script>
+	var i = 0
+	{
+	  var i=5
+	  alert(i) // 5 
+	}
+	alert(i) 
+</script>
+Комментарии
+
+// однострочные комментарии 
+	 
+/* 
+   многострочные
+   комментарии
+*/
+
+Переменные
+
+Переменные в javascript слабо типизированы. 
+
+Переменную не обязательно объявлять. Достаточно ее просто присвоить:
+x = 5
+
+
+ Функции
+
+function Hello(name) {
+    alert("Hello "+name)
+}
+
+<input type="button" onClick="Hello('Вася')">
+
+Директива var при объявлении переменной делает ее локальной, то есть видимой только внутри текущей функции. Все остальные переменные являются глобальными.
+
+Локальная переменная объявляется так:
+var i
+
+
+ При объявлении можно тут же присвоить переменной значение и объявить другие переменные:// то же самое что 3 отдельных объявления c var
+var a=5, b=6, str = "Строка"
+
+
+ a = 1
+function go() {
+    var a = 6
+}
+go()
+alert(a) // => 1
+ А здесь - ключевое слово var опущено, поэтому значение меняется:
+	a = 1
+	function go() {
+	    a = 6
+	}
+	go()
+	alert(a) // => 6
+
+
+ 
+
+
+Основные типы
+Integer Целое число
+a=1
+Float Число с плавающей точкой
+d=1.3
+Строки
+a = 'моя'
+b = "строка"
+
+
+ Для конкатенации строк используется оператор +.
+	a = "моя"
+	b = "строка"
+	alert(a + ' ' + b)
+
+
+ Объекты
+
+Javascript - объектный язык. В нем все является объектами. Строки, числа, функции и массивы - все это объекты со своими методами и свойствами. 
+Методы объектов вызываются через точку. Например, у строки String есть метод toUpperCase, возвращающий строку в верхнем регистре:
+	name = "Vasya"
+	alert( name.toUpperCase() )
+
+
+ Или даже так:
+	alert( "Vasya".toUpperCase() )
+
+
+ Практически всё в javascript делается при помощи вызова методов различных объектов.
+
+Объекты создаются функциями-конструкторами при помощи директивы new.
+
+ Массивы
+
+В javascript есть два основных способа объявить массив.
+
+Для массива с числовыми индексами обычно используется объект типа Array. 
+	arr = new Array("my", "array")
+	alert(arr.length)  // 2
+
+
+ Свойство length содержит длину массива, которая всегда равна последнему индексу (в примере выше - это 1) плюс один.
+
+Обычно используется другая, почти эквивалентная, запись массива, использующая квадратные скобки:
+	arr = [ "my", "array" ]
+	alert(arr[0]) // "my" 
+
+ Новые элементы можно добавить в конец методом push.
+ Для перебора значений используется цикл for.
+	arr = ["первый", "второй"]
+	arr.push("третий")
+	for(var i=0; i<arr.length; i++) {
+	  alert(arr[i]) 
+	}
+
+
+
+
+
+Array 
+
+
+Массив пронумерованных элементов 
+
+/* обычный синтаксис */ 
+var array = [ elem0, elem1, elem2, ... ] 
+var empty = [] 
+/* Синтаксис с new Array() */
+var array = new Array( elem0, elem1, elem2, ...) 
+var empty = new Array() 
+/* Редкий синтаксис: аргумент new Array - одно число. При этом создается массив заданной длины, все значения в котором undefined */ 
+var array = new Array(10) 
+Аргументы: 
+elem0, elem1, ...
+Если ни один из параметров elem0, elem1, ... не указан, то инициализируется пустой массив.
+Если указан лишь один числовой параметр elem0 и массив объявлен через new Array, то будет инициализирован пустой массив длины, равной данному числу. При этом все элементы являются undefined.
+В ином случае создается массив из перечисленных элементов.
+Описание конструктора, примеры создания: 
+
+
+Пример: Создать пустой массив
+var arr = []
+
+Пример: добавить элемент в конец
+arr[arr.length] = 5  /* или arr.push(5) */
+
+Пример: Создать массив из разных элементов
+	
+var arr = [ 4, "test", , false, [3,5] ]
+	alert(arr[0])  // => 4
+alert(arr[1]) // => "test"
+	alert(arr[2]) // => undefined
+	alert(arr[3]) // => false
+	alert(arr[4][1]) // => 5
+
+
+Пример: разреженный массив
+	var arr = []
+	arr[1] = 5
+	arr[999] = 6
+	alert(arr[0]) // => undefined, такого значения нет
+	alert(arr.length) // => 1000 : последний индекс+1
+
+
+String 
+
+Базовый объект для строк. Позволяет управлять текстовыми строками, форматировать их и выполнять поиск подстрок.
+Синтаксис: 
+a = 'my string' 
+b = new String(object) 
+
+Объекты String, как правило, создаются неявно с помощью строковых литералов.
+// кавычки любые - без разницы
+var str = "string literal"
+
+
+
+ Объекты String, заданные через кавычки (и называемые "примитивными" строками), немного отличаются от объектов String, созданных с помощью оператора new. Так, например, типом (typeof) данных объекта, созданного при помощи new, является 'object', а не 'string'. И такому объекту можно напрямую назначать дополнительные свойства и методы. В остальном - интерпретатор автоматически превращает примитивные строки в объекты.
+"12345".length // 5
+
+Доступ к символам
+
+Доступ к символам осуществляется при помощи метода String charAtreturn 
+'cat'.charAt(1); // возвратит "a"
+
+
+ обращение к строке как к массиву:
+var str = 'cat'
+return str[1] // "a"
+
+
+ Для изменения строковой переменной применяется присваивание измененной строки:
+str = "строка"
+str = str.charAt(3) + str.charAt(4) + str.charAt(5) // "ока"
+
+Сравнение строк
+
+Для сравнения строк используются обычные операторы <, >, !=, >=, <= .
+
+Методы
+split
+charCodeAt
+String.fromCharCode
+charAt
+concat
+lastIndexOf
+search
+match
+replace
+toLowerCase
+toUpperCase
+toLocaleLowerCase
+toLocaleUpperCase
+toString
+valueOf
+substring
+slice
+indexOf
+substr
+
+Свойства
+length
+
+
+Date 
+
+Дата измеряется в миллисекундах, начиная от полуночи 01 января 1970 года GMT+0. День содержит 86,400,000 миллисекунд.
+
+Date поддерживает как методы для работы в зоне UTC (GMT+0), так и методы для работы с местным временем.
+ Синтаксис: 
+dateObj = new Date() 
+dateObj = new Date(dateVal) 
+dateObj = new Date(год, месяц, день[, час, минута, секунда, милисекунда] ) 
+Аргументы: 
+dateVal
+Если параметр является числовым, то он интерпретируется как количество миллисекунд от 1- Янв-1970 00:00.
+Если строкой, то она разбирается и интерпретируется как дата по стандартным правилам Date.parse.
+1 Jan 1970 00:00
+year
+Год в формате YYYY.
+month
+Месяц от 0 (Янв) до 11 (Дек).
+date
+День месяца от 1 до 31.
+hours
+Параметр должен быть указан, если указан параметр minutes. Устанавливает кол-во часов от 0 до 23.
+minutes
+Параметр должен быть указан, если указан параметр seconds. Устанавливает количество минут: от 0 до 59.
+seconds
+Параметр должен быть указан, если указан параметр ms. Устанавливает количество секунд: от 0 до 59.
+ms
+Количество миллисекунд: от 0 до 999.
+Описание конструктора, примеры создания: 
+
+Если конструктор запущен без аргументов, то возвращается текущая дата.
+Пример: получить текущую дату
+var today = new Date()
+
+
+ При вызове с одним аргументом - строкой, строка разбирается и интерпретируется как дата, так же, как и в методе Date.parse.
+создать дату из строки
+var date = new Date("07 July 2011 19:12") // используется редко
+
+
+ При объявлении с несколькими аргументами, отсутствующие аргументы автоматически считаются равными 0.
+Пример: объявление даты с несколькими аргументами
+
+	new Date(1)
+// Thu Jan 01 1970 03:00:00 GMT+0300 (Russian Standard Time)
+	new Date(1,2)
+// Fri Mar 01 1901 00:00:00 GMT+0300 (Russian Standard Time)
+	new Date(1,2,3)
+// Sun Mar 03 1901 00:00:00 GMT+0300 (Russian Standard Time)
+	new Date(1,2,3,4)
+// Sun Mar 03 1901 04:00:00 GMT+0300 (Russian Standard Time)
+	new Date(1,2,3,4,5)
+//Sun Mar 03 1901 04:05:00 GMT+0300 (Russian Standard Time)
+	new Date(1,2,3,4,5,6)
+//Sun Mar 03 1901 04:05:06 GMT+0300 (Russian Standard Time)
+
+
+Методы
+
+Date.parse
+toLocaleString
+getDate
+getDay
+getFullYear
+getMilliseconds
+getMinutes
+getSeconds
+getTimezoneOffset
+getUTCDate
+getUTCDay
+getUTCHours
+getHours
+getUTCMilliseconds
+getUTCMinutes
+getUTCSeconds
+setSeconds
+setFullYear
+setMilliseconds
+setTime
+setYear
+setDate
+setUTCDate
+setUTCHours
+setHours
+setUTCMilliseconds
+setUTCMinutes
+setMinutes
+setMonth
+setUTCSeconds
+setUTCFullYear
+setUTCMonth
+toGMTString
+toLocaleFormat
+toLocaleTimeString
+toLocaleDateString
+toString
+toTimeString
+toDateString
+toUTCString
+getUTCFullYear
+getMonth
+Date.UTC
+getUTCMonth
+getTime
+valueOf
+getYear
+
+Math
+document.Write(today.getDate())
+
+
+
+
