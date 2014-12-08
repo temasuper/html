@@ -5,14 +5,24 @@
   <title>Тег FORM</title>
 </head>
 <body>
-
-  <form action="handler.php">
-    <p><b>Как по вашему мнению расшифровывается аббревиатура &quot;ОС&quot;?</b></p>
-    <p><input type="radio" name="answer" value="a1">Офицерский состав<Br>
-      <input type="radio" name="answer" value="a2">Операционная система<Br>
-        <input type="radio" name="answer" value="a3">Большой полосатый мух</p>
-        <p><input type="submit"></p>
-      </form>
-
-    </body>
-    </html>
+  <P> <H3 ALIGN=CENTER> Анкета пользователя </H3>
+  <P> Ответьте, пожалуйста, на вопросы:
+  <FORM METHOD="POST" ACTION="">
+  <P> Ваше имя: <INPUT NAME="name" SIZE="48">
+  <P> Мужчина <INPUT NAME="gender" TYPE=RADIO VALUE="male">
+  <P> Женщина <INPUT NAME="gender" TYPE=RADIO VALUE="female">
+  <P> Детей <INPUT NAME="family" TYPE=TEXT>
+  <P> Страна	<INPUT NAME="family" TYPE=TEXT>
+  <UL>
+  <LI> Украина	<INPUT NAME="country" TYPE="checkbox" VALUE="Ukraine">
+  <LI> Россия	<INPUT NAME="country" TYPE="checkbox" VALUE="Russian">
+  <LI> Другая	<TEXTAREA NAME="other" COLS=48 ROWS=3></TEXTAREA>
+  </UL>
+  <P> Электронный адрес: <INPUT NAME="email" SIZE="42">
+  <P> Для подтверждения ввода нажмите на кнопку SUBMIT.
+  <P> Для сброса введенных данных нажмите на кнопку RESET.
+  <P>
+  <INPUT TYPE=SUBMIT><INPUT TYPE=RESET>
+  </FORM>
+</body>
+</html>
